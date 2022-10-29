@@ -3,5 +3,7 @@
   "get-started": "Get Started",
   "features": "Features",
   "themes": "Themes",
-  "advanced": "Advanced"
+  "advanced": "Advanced",
+  "create": "Create an UI Color Palette",
+  "edit": "Edit an UI Color Palette"
 }
