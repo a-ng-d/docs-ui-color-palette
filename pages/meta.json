@@ -1,7 +1,6 @@
 {
   "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "get-started": "Getting started",
+  "create": "Creating an UI Color Palette",
+  "edit": "Editing an UI Color Palette"
 }
