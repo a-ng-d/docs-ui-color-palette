@@ -4,9 +4,10 @@ export default {
   titleSuffix: ' – Documentation',
   logo: (
     <>
+      <img src="/plugin-icon.svg" width="32" alt="UI Color Palette icon" className="mr-2" />
       <span className="mr-2 font-extrabold hidden md:inline">UI Color Palette on Figma</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        Docs
+        Documentation
       </span>
     </>
   ),
