@@ -1,12 +1,12 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  github: 'https://github.com/inVoltag/figma-ui-color-palette',
+  docsRepositoryBase: 'https://github.com/inVoltag/figma-ui-color-palette-docs',
+  titleSuffix: ' – Documentation',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">UI Color Palette on Figma</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        Docs
       </span>
     </>
   ),
@@ -16,15 +16,15 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="UI Color Palette on Figma: Documentation for creating and deploying accessible UI Color Palettes on Figma" />
+      <meta name="og:description" content="UI Color Palette on Figma: Documentation for creating and deploying accessible UI Color Palettes on Figma" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:image" content="https://ui-color-palette.vercel.app/og.png" />
+      <meta name="twitter:site:domain" content="ui-color-palette.vercel.app" />
+      <meta name="twitter:url" content="https://ui-color-palette.vercel.app" />
+      <meta name="og:title" content="UI Color Palette on Figma: Documentation for creating and deploying accessible UI Color Palettes on Figma" />
+      <meta name="og:image" content="https://ui-color-palette.vercel.app/og.png" />
+      <meta name="apple-mobile-web-app-title" content="UI Color Palette on Figma" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -62,6 +62,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} CC-BY Aurélien Grimaud.</>,
   unstable_faviconGlyph: '👋',
 }
