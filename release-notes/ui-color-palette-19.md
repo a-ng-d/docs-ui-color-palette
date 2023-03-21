@@ -1,5 +1,5 @@
 ---
-description: Get your palette closer to your starting colors
+description: Get your palette closer to your source colors
 layout: landing
 ---
 
