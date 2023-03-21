@@ -25,3 +25,5 @@
 ***
 
 * [Troubleshooting](troubleshooting.md)
+* [Release notes](release-notes/README.md)
+  * [UI Color Palette 19](release-notes/ui-color-palette-19.md)
