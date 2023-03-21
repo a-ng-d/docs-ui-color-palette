@@ -7,6 +7,10 @@ Performance might be impacted if:
 * The properties are displayed
 {% endhint %}
 
+{% hint style="info" %}
+An acknowledgment appoints if the color shade is close to the source color
+{% endhint %}
+
 ## Change the current stops
 
 <figure><img src="../.gitbook/assets/edit_palette-tweak-1.gif" alt=""><figcaption></figcaption></figure>

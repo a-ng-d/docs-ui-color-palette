@@ -15,5 +15,5 @@ A preset contains a list of stops named from an established nomenclature. These 
 Or make your own from 2 to 24 stops via the `Custom` preset.
 
 {% hint style="warning" %}
-Manage more than 15 stops could complicate the color system. It also depends of the number of the `Starting colors`.
+Manage more than 15 stops could complicate the color system. It also depends of the number of the `Source colors`.
 {% endhint %}

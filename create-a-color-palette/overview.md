@@ -4,7 +4,7 @@ description: A quick glance at the controller
 
 # Overview
 
-<figure><img src="../.gitbook/assets/create_palette-overview" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/create_palette-overview.png" alt=""><figcaption></figcaption></figure>
 
 1. Lobby screen
 2. Browse the inspector:

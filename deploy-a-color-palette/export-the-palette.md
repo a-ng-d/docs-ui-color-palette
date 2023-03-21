@@ -10,7 +10,7 @@ You can export every color shade to JSON on your local machine, according to thi
 
 ```json
 {
-  "Starting color 1": {
+  "Source color 1": {
     "minStopName": {
       "rgb": {
         "r": 207,
@@ -42,7 +42,7 @@ You can export every color shade to JSON on your local machine, according to thi
     },
   },
   …
-  "Starting color N": {
+  "Source color N": {
     "minStopName": {
       "rgb": {
         "r": 255,
@@ -82,14 +82,14 @@ You can export every color shade to CSS on your local machine, according to this
 
 ```css
 :root {
-  --starting-color-1-min-stop-name: rgb(207, 205, 255);
+  --source-color-1-min-stop-name: rgb(207, 205, 255);
   …
-  --starting-color-1-max-stop-name: rgb(0, 16, 150);
+  --source-color-1-max-stop-name: rgb(0, 16, 150);
   
   …
   
-  --starting-color-N-min-stop-name: rgb(255, 178, 89);
+  --source-color-N-min-stop-name: rgb(255, 178, 89);
   …
-  --starting-color-N-min-stop-name: rgb(95, 0, 0);
+  --source-color-N-min-stop-name: rgb(95, 0, 0);
 }
 ```

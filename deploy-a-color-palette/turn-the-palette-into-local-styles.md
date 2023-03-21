@@ -7,7 +7,8 @@ Once the palette is ready, click on the `Create local styles` button to add ever
 {% hint style="info" %}
 The shades are added according to this model:
 
-* `startingColorName`
+* `sourceColorName`
+  * `source`
   * `minStopName`
   * …
   * `maxStopName`
@@ -16,6 +17,7 @@ The shades are added according to this model:
 For example:
 
 * Primary
+  * source
   * 50
   * 100
   * 200

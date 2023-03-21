@@ -1,10 +1,14 @@
-# Change the starting colors
+# Change the source colors
 
 {% hint style="warning" %}
 Performance might be impacted if:
 
 * The palette contains more than 16 stops and 8 colors
 * The properties are displayed
+{% endhint %}
+
+{% hint style="info" %}
+An acknowledgment appoints if the color shade is close to the source color
 {% endhint %}
 
 ## Change a color's parameters
@@ -35,7 +39,7 @@ The reorder copycats the Figma one
 
 <figure><img src="../.gitbook/assets/edit_palette-add_remove_color.gif" alt=""><figcaption></figcaption></figure>
 
-Click on the Plus icon to add a new color in the `Starting colors`. There is a Minus icon at each color to remove it definitively from the palette (but it can be redo on the canvas).
+Click on the Plus icon to add a new color in the `Source colors`. There is a Minus icon at each color to remove it definitively from the palette (but it can be redo on the canvas).
 
 {% hint style="info" %}
 The default name of a new color is `New UI Color`
