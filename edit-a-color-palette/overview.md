@@ -4,7 +4,7 @@ description: A quick glance at the controller
 
 # Overview
 
-<figure><img src="../.gitbook/assets/edit_palette-overview.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/edit_palette-overview" alt=""><figcaption></figcaption></figure>
 
 1. Browse the inspector:
    1. `Scale`: `Lightness scale` configuration

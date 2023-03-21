@@ -6,7 +6,7 @@
 ## Create a color palette
 
 * [Overview](create-a-color-palette/overview.md)
-* [Select the source colors](create-a-color-palette/select-the-source-colors.md)
+* [Select the source colors](create-a-color-palette/select-the-starting-colors.md)
 * [Choose a lightness scale preset](create-a-color-palette/choose-a-lightness-scale-preset.md)
 * [Set the lightness scale stops](create-a-color-palette/set-the-lightness-scale-stops.md)
 * [Generate the color palette](create-a-color-palette/generate-the-color-palette.md)
@@ -15,7 +15,7 @@
 
 * [Overview](edit-a-color-palette/overview.md)
 * [Tweak the lightness stops](edit-a-color-palette/tweak-the-lightness-stops.md)
-* [Change the source colors](edit-a-color-palette/change-the-source-colors.md)
+* [Change the source colors](edit-a-color-palette/change-the-starting-colors.md)
 
 ## Deploy a color palette
 

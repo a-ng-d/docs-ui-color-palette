@@ -1,4 +1,4 @@
-# Select the starting colors
+# Select the source colors
 
 <figure><img src="../.gitbook/assets/create_palette-select_colors.gif" alt=""><figcaption></figcaption></figure>
 
