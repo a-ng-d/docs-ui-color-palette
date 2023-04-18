@@ -4,7 +4,7 @@ description: A quick glance at the controller
 
 # Overview
 
-<figure><img src="../.gitbook/assets/edit_palette-overview" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/edit_palette-overview.png" alt=""><figcaption></figcaption></figure>
 
 1. Browse the inspector:
    1. `Scale`: `Lightness scale` configuration
@@ -28,3 +28,4 @@ description: A quick glance at the controller
 8. Export `Preview`
 9. Export the palette to the local machine
 10. Change the `Palette name`
+11. Generate color shades with new algorithm

@@ -16,6 +16,7 @@
 * [Overview](edit-a-color-palette/overview.md)
 * [Tweak the lightness stops](edit-a-color-palette/tweak-the-lightness-stops.md)
 * [Change the source colors](edit-a-color-palette/change-the-starting-colors.md)
+* [Configure globally the palette](edit-a-color-palette/configure-globally-the-palette.md)
 
 ## Deploy a color palette
 
@@ -27,3 +28,4 @@
 * [Troubleshooting](troubleshooting.md)
 * [Release notes](release-notes/README.md)
   * [UI Color Palette 19](release-notes/ui-color-palette-19.md)
+  * [UI Color Palette 20](release-notes/ui-color-palette-20.md)

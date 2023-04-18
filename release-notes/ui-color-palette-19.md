@@ -5,7 +5,7 @@ layout: landing
 
 # UI Color Palette 19
 
-## Key feature
+## Key Feature
 
 ### Watch the closest shade to the source color
 
@@ -27,7 +27,7 @@ Automatically include the source color in the document's local styles under the 
 
 Stay informed of updates through the plugin, where you can read about the most important highlight of each upgrade. This makes it easier to follow the evolution of the tool and find new features that better meet your needs.
 
-## Minor changes
+## Minor Changes
 
 ### Source colors is the new Starting colors
 
