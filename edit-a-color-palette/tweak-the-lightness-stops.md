@@ -1,10 +1,7 @@
 # Tweak the lightness stops
 
 {% hint style="warning" %}
-Performance might be impacted if:
-
-* The palette contains more than 16 stops and 8 colors
-* The properties are displayed
+Better performance has been brought by hiding the properties when changing the lightness scale in real time
 {% endhint %}
 
 {% hint style="info" %}
