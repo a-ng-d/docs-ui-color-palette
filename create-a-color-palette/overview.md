@@ -4,7 +4,7 @@ description: A quick glance at the controller
 
 # Overview
 
-<figure><img src="../.gitbook/assets/create_palette-overview" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/create_palette-overview.png" alt=""><figcaption></figcaption></figure>
 
 1. Lobby screen
 2. Browse the inspector:
@@ -17,3 +17,4 @@ description: A quick glance at the controller
 6. Generate the palette according to both the `Lightness scale` and the `Base information`
 7. Display every color shade's properties
 8. Change the `Palette name`
+9. Edit the `Text light color` and `Text dark color` to tweak the contrast score

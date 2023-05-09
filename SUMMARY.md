@@ -29,3 +29,4 @@
 * [Release notes](release-notes/README.md)
   * [UI Color Palette 19](release-notes/ui-color-palette-19.md)
   * [UI Color Palette 20](release-notes/ui-color-palette-20.md)
+  * [UI Color Palette 21](release-notes/ui-color-palette-21.md)
