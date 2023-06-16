@@ -1,5 +1,6 @@
 ---
 description: Let's extend UI Color Palette to Figjam
+layout: landing
 ---
 
 # UI Color Palette 22
