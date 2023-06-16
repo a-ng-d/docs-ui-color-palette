@@ -1,6 +1,6 @@
 # Choose a lightness scale preset
 
-<figure><img src="../.gitbook/assets/create_palette-presets.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1ar3BigcoJ3vR6TtgOXJWM7qz0tUHRl9n/view?usp=sharing" %}
 
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color system:
 

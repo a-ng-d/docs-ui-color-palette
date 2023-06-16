@@ -2,18 +2,22 @@
 
 ## Change the palette name
 
-<figure><img src="../.gitbook/assets/edit_palette-rename_palette.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1H-5nCxlZPl_MnkFidf7Rea3dUStFlyCw/view?usp=sharing" %}
 
 You can personalize your palette by changing its name in the `Settings`. The name can be up to 64 characters long, including spaces.
 
 ## Edit the text light and dark color
 
-<figure><img src="../.gitbook/assets/release_note-edit_text_colors.gif" alt=""><figcaption></figcaption></figure>
+{% hint style="warning" %}
+To display the accessibility scores in real time, the properties must be shown. However, keep in mind that the more shades used, the lower the performance.
+{% endhint %}
+
+{% embed url="https://drive.google.com/file/d/1feurzY6uLhRFlifgkiJVUy8XDZFyh6c2/view?usp=sharing" %}
 
 You have the option to customize the text colors used for simulating contrast between the color shade and accompanying text. This allows you to compare contrast using colors that are more relevant to your brand guidelines. While pure black `#000` and white `#FFF` are the default colors, you can now tailor them to better suit your needs.
 
-## Enable the improved color shades generation
+## Enable the improved color shades creation
 
-<figure><img src="../.gitbook/assets/release_note-new_algorithm.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1pZr3penGKkKOXMAYVN1d-Mo-dia36EWv/view?usp=sharing" %}
 
-When you create a new palette, the improved color shade generation process is automatically used to generate every color shade from your source color. However, you'll need to manually enable this improved process for your existing palettes because it may significantly change the color shades. The improved process aims to harmonize the chroma and create a more consistent palette with slightly desaturated colors.
+When you create a new palette, the improved color shade creation process is automatically used to create every color shade from your source color. However, you'll need to manually enable this improved process for your existing palettes because it may significantly change the color shades. The improved process aims to harmonize the chroma and create a more consistent palette with slightly desaturated colors.

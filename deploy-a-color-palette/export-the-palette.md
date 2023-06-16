@@ -6,74 +6,108 @@
 The JSON file format is ideal for design tokens because it can be handled with ease.
 {% endhint %}
 
-You can export every color shade to a JSON file on your local machine, according to this model:
+You can export every color shade (including the source color) to a JSON file on your local machine, according to this model:
 
 {% code overflow="wrap" %}
 ```json
 {
-  "Source color 1": {
-    "minStopName": {
+  "Source color 1": [
+    {
+      "name": "source",
       "rgb": {
-        "r": 207,
-        "g": 205,
+        "r": 34,
+        "g": 84,
+        "b": 245
+      },
+      "lch": {
+        "l": 43,
+        "c": 94,
+        "h": 297
+      },
+      "hex": "#2254f5",
+      "type": "color"
+    },
+    {
+      "name": "minStopName",
+      "rgb": {
+        "r": 12,
+        "g": 45,
+        "b": 145
+      },
+      "lch": {
+        "l": 24,
+        "c": 64,
+        "h": 297
+      },
+      "hex": "#0c2e92",
+      "type": "color"
+    },
+    …
+    {
+      "name": "maxStopName",
+      "rgb": {
+        "r": 244,
+        "g": 240,
         "b": 255
       },
       "lch": {
-        "l": 84,
-        "c": 26,
-        "h": 294
+        "l": 95,
+        "c": 7,
+        "h": 301
       },
-      "hex": "#d0cdff",
-      "type": "color"
-    },
-    …
-    "maxStopName": {
-      "rgb": {
-        "r": 0,
-        "g": 16,
-        "b": 150
-      },
-      "lch": {
-        "l": 18,
-        "c": 84,
-        "h": 304
-      },
-      "hex": "#001097"
-      "type": "color"
-    },
-  },
-  …
-  "Source color N": {
-    "minStopName": {
-      "rgb": {
-        "r": 255,
-        "g": 178,
-        "b": 89
-      },
-      "lch": {
-        "l": 78,
-        "c": 58,
-        "h": 70
-      },
-      "hex": "#ffb359",
-      "type": "color"
-    },
-    …
-    "maxStopName": {
-      "rgb": {
-        "r": 95,
-        "g": 0,
-        "b": 0
-      },
-      "lch": {
-        "l": 17,
-        "c": 47,
-        "h": 35
-      },
-      "hex": "#600000",
+      "hex": "#f5f1ff",
       "type": "color"
     }
-  }
+  ],
+  …
+    "Source color N": [
+    {
+      "name": "source",
+      "rgb": {
+        "r": 232,
+        "g": 70,
+        "b": 90
+      },
+      "lch": {
+        "l": 54,
+        "c": 67,
+        "h": 21
+      },
+      "hex": "#e8465a",
+      "type": "color"
+    },
+    {
+      "name": "minStopName",
+      "rgb": {
+        "r": 115,
+        "g": 12,
+        "b": 33
+      },
+      "lch": {
+        "l": 24,
+        "c": 46,
+        "h": 21
+      },
+      "hex": "#740d22",
+      "type": "color"
+    },
+    …
+    {
+      "name": "maxStopName",
+      "rgb": {
+        "r": 255,
+        "g": 238,
+        "b": 237
+      },
+      "lch": {
+        "l": 95,
+        "c": 6,
+        "h": 22
+      },
+      "hex": "#ffeeee",
+      "type": "color"
+    }
+  ]
 }
 ```
 {% endcode %}
@@ -104,16 +138,17 @@ You can export every color shade to CSV files on your local machine, according t
 
 {% code overflow="wrap" %}
 ```csv
-sourceColorName,Lightness,Chroma,Hue
-900,21,42,22
-800,30,55,22
-700,38,63,22
-600,46,67,22
-500,54,67,22
-400,63,63,22
-300,70,50,21
-200,77,35,22
-100,86,20,22
-50,93,10,23
+Source color,Lightness,Chroma,Hue
+source,43,94,297
+10,24,64,297
+9,32,80,297
+8,40,90,297
+7,47,92,297
+6,54,79,295
+5,61,65,295
+4,70,51,296
+3,78,36,297
+2,87,22,299
+1,95,7,301
 ```
 {% endcode %}

@@ -1,6 +1,6 @@
 # Set the lightness scale stops
 
-<figure><img src="../.gitbook/assets/create_palette-tweak.gif" alt=""><figcaption></figcaption></figure>
+{% embed url="https://drive.google.com/file/d/1CsKN0T_6ZBsx7NzkFjqCxdpt183NAviz/view?usp=sharing" %}
 
 {% hint style="info" %}
 Create first the palette to tweak the lightness scale in real-time

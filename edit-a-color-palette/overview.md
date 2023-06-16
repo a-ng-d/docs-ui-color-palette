@@ -13,8 +13,8 @@ description: A quick glance at the controller
    4. `Settings`: Palette configuration
    5. `About`: Useful links
 2. Tweak the `Lightness scale`'s stops
-3. Display every color shade's properties
-4. Turn every color shade into document local style or update them
+3. Change palette the `Layout`
+4. Create document local styles or update them
 5. Add a new color to the palette
 6. Tweak the `Source colors` (from the left to the right):
    1. Color name
@@ -29,4 +29,4 @@ description: A quick glance at the controller
 9. Export the palette to the local machine
 10. Change the `Palette name`
 11. Edit the `Text light color` and `Text dark color` to tweak the contrast score
-12. Generate color shades with new algorithm
+12. Turn color shades into new ones using a new algorithm

@@ -14,7 +14,7 @@ description: A quick glance at the controller
 3. Select a `Lightness scale` preset
 4. Tweak the `Lightness scale`'s stops
 5. Tip messages
-6. Generate the palette according to both the `Lightness scale` and the `Base information`
-7. Display every color shade's properties
+6. Change the palette `Layout`
+7. Create the palette according to both the `Lightness scale` and the `Base information`
 8. Change the `Palette name`
 9. Edit the `Text light color` and `Text dark color` to tweak the contrast score
