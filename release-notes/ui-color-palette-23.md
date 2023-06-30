@@ -15,7 +15,7 @@ Furthermore, the HSL color space enables you to include the source colors in the
 
 ## Improvements
 
-### Get more color model in the tokens
+### Get more color models in the tokens
 
 <figure><img src="../.gitbook/assets/release_note-more_color_data.png" alt=""><figcaption></figcaption></figure>
 
