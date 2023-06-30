@@ -31,3 +31,4 @@
   * [UI Color Palette 20](release-notes/ui-color-palette-20.md)
   * [UI Color Palette 21](release-notes/ui-color-palette-21.md)
   * [UI Color Palette 22](release-notes/ui-color-palette-22.md)
+  * [UI Color Palette 23](release-notes/ui-color-palette-23.md)

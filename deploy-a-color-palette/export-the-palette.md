@@ -11,103 +11,127 @@ You can export every color shade (including the source color) to a JSON file on 
 {% code overflow="wrap" %}
 ```json
 {
-  "Source color 1": [
-    {
-      "name": "source",
-      "rgb": {
-        "r": 34,
-        "g": 84,
-        "b": 245
-      },
-      "lch": {
-        "l": 43,
-        "c": 94,
-        "h": 297
-      },
-      "hex": "#2254f5",
-      "type": "color"
-    },
-    {
-      "name": "minStopName",
-      "rgb": {
-        "r": 12,
-        "g": 45,
-        "b": 145
-      },
-      "lch": {
-        "l": 24,
-        "c": 64,
-        "h": 297
-      },
-      "hex": "#0c2e92",
-      "type": "color"
-    },
-    …
-    {
-      "name": "maxStopName",
-      "rgb": {
-        "r": 244,
-        "g": 240,
-        "b": 255
-      },
-      "lch": {
-        "l": 95,
-        "c": 7,
-        "h": 301
-      },
-      "hex": "#f5f1ff",
-      "type": "color"
-    }
-  ],
-  …
-    "Source color N": [
-    {
-      "name": "source",
-      "rgb": {
-        "r": 232,
-        "g": 70,
-        "b": 90
-      },
-      "lch": {
-        "l": 54,
-        "c": 67,
-        "h": 21
-      },
-      "hex": "#e8465a",
-      "type": "color"
-    },
-    {
-      "name": "minStopName",
-      "rgb": {
-        "r": 115,
-        "g": 12,
-        "b": 33
-      },
-      "lch": {
-        "l": 24,
-        "c": 46,
-        "h": 21
-      },
-      "hex": "#740d22",
-      "type": "color"
-    },
-    …
-    {
-      "name": "maxStopName",
+  "Source color 1": {
+    "maxStopName": {
       "rgb": {
         "r": 255,
         "g": 238,
         "b": 237
+      },
+      "gl": {
+        "r": 1,
+        "g": 0.934,
+        "b": 0.932
       },
       "lch": {
         "l": 95,
         "c": 6,
         "h": 22
       },
+      "oklch": {
+        "l": 0.963,
+        "c": 0.018,
+        "h": 19
+      },
+      "lab": {
+        "l": 95,
+        "a": 5,
+        "b": 2
+      },
+      "oklab": {
+        "l": 0.963,
+        "a": 0.017,
+        "b": 0.006
+      },
+      "hsl": {
+        "h": 1,
+        "s": 100,
+        "l": 96
+      },
       "hex": "#ffeeee",
       "type": "color"
-    }
-  ]
+    },
+    […]
+    "minStopName": {
+      "rgb": {
+        "r": 115,
+        "g": 12,
+        "b": 33
+      },
+      "gl": {
+        "r": 0.455,
+        "g": 0.049,
+        "b": 0.132
+      },
+      "lch": {
+        "l": 24,
+        "c": 46,
+        "h": 21
+      },
+      "oklch": {
+        "l": 0.362,
+        "c": 0.134,
+        "h": 17
+      },
+      "lab": {
+        "l": 24,
+        "a": 43,
+        "b": 17
+      },
+      "oklab": {
+        "l": 0.362,
+        "a": 0.128,
+        "b": 0.041
+      },
+      "hsl": {
+        "h": 347,
+        "s": 80,
+        "l": 25
+      },
+      "hex": "#740d22",
+      "type": "color"
+    },
+    "source": {
+      "rgb": {
+        "r": 232,
+        "g": 70,
+        "b": 90
+      },
+      "gl": {
+        "r": 0.91,
+        "g": 0.275,
+        "b": 0.353
+      },
+      "lch": {
+        "l": 54,
+        "c": 67,
+        "h": 21
+      },
+      "oklch": {
+        "l": 0.631,
+        "c": 0.197,
+        "h": 18
+      },
+      "lab": {
+        "l": 54,
+        "a": 63,
+        "b": 25
+      },
+      "oklab": {
+        "l": 0.631,
+        "a": 0.188,
+        "b": 0.061
+      },
+      "hsl": {
+        "h": 352,
+        "s": 77,
+        "l": 59
+      },
+      "hex": "#e8465a",
+      "type": "color"
+    },
+  },
+  […]
 }
 ```
 {% endcode %}
@@ -116,21 +140,20 @@ You can export every color shade (including the source color) to a JSON file on 
 
 You can export every color shade to a CSS file on your local machine, according to this model:
 
-{% code overflow="wrap" %}
-```css
-:root {
-  --source-color-1-min-stop-name: rgb(207, 205, 255);
-  …
-  --source-color-1-max-stop-name: rgb(0, 16, 150);
-  
-  …
-  
-  --source-color-N-min-stop-name: rgb(255, 178, 89);
-  …
-  --source-color-N-min-stop-name: rgb(95, 0, 0);
+<pre class="language-css" data-overflow="wrap"><code class="lang-css">:root {
+  /* Source color 1 */
+<strong>  --source-color-1-source: rgb(207, 205, 255);
+</strong>  --source-color-1-min-stop-name: rgb(115, 12, 33);
+  […]
+  --source-color-1-max-stop-name: rgb(255, 238, 237);
+  […]
+  /* Source color N */
+  --source-color-N-source: rgb(34, 84, 245);
+  --source-color-N-min-stop-name: rgb(12, 45, 145);
+  […]
+  --source-color-N-min-stop-name: rgb(244, 240, 255);
 }
-```
-{% endcode %}
+</code></pre>
 
 ## Export the LCH values to CSV
 

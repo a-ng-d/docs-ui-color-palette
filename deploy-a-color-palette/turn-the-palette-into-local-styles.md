@@ -10,7 +10,7 @@ The shades are added according to this model:
 * `sourceColorName`
   * `source`
   * `minStopName`
-  * …
+  * \[…]
   * `maxStopName`
 * …
 
@@ -18,13 +18,13 @@ For example:
 
 * Primary
   * source
-  * 50
-  * 100
-  * 200
-  * 300
-  * …
   * 900
-* …
+  * 800
+  * 700
+  * 600
+  * \[…]
+  * 50
+* \[…]
 * Caution
 {% endhint %}
 

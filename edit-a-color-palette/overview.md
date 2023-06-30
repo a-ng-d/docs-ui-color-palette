@@ -22,11 +22,11 @@ description: A quick glance at the controller
    3. LCH
    4. Advanced options
    5. Remove
-   6. OKLCH mode toggle
-   7. Hue range shifting
+   6. Hue range shifting
 7. Export `File format`
 8. Export `Preview`
 9. Export the palette to the local machine
 10. Change the `Palette name`
-11. Edit the `Text light color` and `Text dark color` to tweak the contrast score
-12. Turn color shades into new ones using a new algorithm
+11. Change the `Color space`
+12. Turn color shades into new ones using the new algorithm
+13. Adjust the `Text light color` and `Text dark color` on the color shades
