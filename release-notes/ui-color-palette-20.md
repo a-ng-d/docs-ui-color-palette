@@ -19,14 +19,14 @@ This update improves the consistency of your palette's lightness and saturation 
 
 <figure><img src="../.gitbook/assets/release_note-csv_export.png" alt=""><figcaption></figcaption></figure>
 
-You can now export the palette LCH values into CSV to create your own report using your preferred software (such as Excel, Numbers, or Sheets) to compare the color shades and aid in your decision-making process.
+You can now export the palette LCH values into CSV to create your report using your preferred software (such as Excel, Numbers, or Sheets) to compare the color shades and aid in decision-making.
 
 ## Minor Changes
 
-### Press esc. to unselect a lightness stop&#x20;
+### Press esc. to unselect a lightness stop
 
 You can press the esc. key to unselect a lightness stop in addition to clicking outside.
 
 ## Bugs Fixes
 
-* After disabling the properties display option, changing the preset and updating the stops now works as expected
+* After disabling the properties display option, changing the preset and updating the stops now works as expected.

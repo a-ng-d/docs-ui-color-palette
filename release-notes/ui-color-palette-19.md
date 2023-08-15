@@ -19,7 +19,7 @@ Automatically identify the closest color shade to the source color when editing 
 
 <figure><img src="../.gitbook/assets/release_note-source_local_styles.png" alt=""><figcaption></figcaption></figure>
 
-Automatically include the source color in the document's local styles under the name "source" and place it before the color shades ordered according to the naming convention. This will help keep track of the origin and usage of the colors.
+Automatically include the source color in the document's local styles under "source" and place it before the color shades ordered according to the naming convention. This will help keep track of the origin and usage of the colors.
 
 ### Be advised of the updates
 
@@ -29,9 +29,9 @@ Stay informed of updates through the plugin, where you can read about the most i
 
 ## Minor Changes
 
-### Source colors is the new Starting colors
+### Source colors are the new Starting colors
 
-The term "Source colors" is now used instead of "Starting colors." This change was made to more appropriately refer to the selected colors, such as brand colors.
+"Source colors" is now used instead of "Starting colors." This change was made to more appropriately refer to the selected colors, such as brand colors.
 
 ### The shortcuts bar is available everywhere
 

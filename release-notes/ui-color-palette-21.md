@@ -15,7 +15,7 @@ Enhance your palette customization by editing the text colors used for the contr
 
 ## Minor Changes
 
-### Streamline the process of copying the export preview&#x20;
+### Streamline the process of copying the export preview
 
 You can effortlessly select the entire export preview and conveniently copy and paste it into your desired document.
 
@@ -25,4 +25,4 @@ The newly created palette is thoughtfully positioned at the center of your viewp
 
 ## Bugs Fixes
 
-* You can find the appropriate preset when selecting a palette and running the plugin
+* You can find the appropriate preset when selecting a palette and running the plugin.
