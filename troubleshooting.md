@@ -50,7 +50,7 @@ Several cases may explain the issue:
 
 <details>
 
-<summary><code>You cannot create more that 4 variable modes</code></summary>
+<summary><code>You cannot create more than 4 variable modes</code></summary>
 
 According to your Figma plan:
 
