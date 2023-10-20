@@ -1,5 +1,5 @@
 ---
-description: 3 days to trial and get an idea
+description: Get ready for the last quarter!
 layout:
   title:
     visible: true
@@ -13,14 +13,28 @@ layout:
     visible: true
 ---
 
-# UI Color Palette 25
+# UI Color Palette 26
 
-> Within 72 hours, all the tools will be available for you to test how you can distribute your color palettes among design and development teams. Our ambition is to make color palettes accessible, easy to handle, and publishable.
+## Improvements
+
+### Create and Update Local Variables with a Single Click
+
+Both actions are combined into a single button for clarity. This button creates or updates local styles and variables based on the selected palette (it does not remove them yet).
+
+### Simplify the export file selection
+
+In the coming weeks, we will be adding several new exports, including the Tailwind and Chakra CSS frameworks (spoiler alert!). We have enhanced the experience of selecting the appropriate format to accommodate a wider range of options.
 
 ## Minor Changes
 
-* Review a warning message when the variable modes exceed.
-* Update the external links in the About section.
+* The highlights do not appear on the very first run.
+* The NPS forms can be filled within the plugin.
+* The local styles are gathered in a group named with the palette's one (if renamed).
+* Review the content related to color spaces and settings.
+
+## Bug fixes
+
+* The variable "description" is equivalent to the source color, preventing constant updates even if nothing has been edited.
 
 ## Read the digest of the major version
 
