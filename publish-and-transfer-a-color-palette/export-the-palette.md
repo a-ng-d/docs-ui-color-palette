@@ -156,17 +156,19 @@ You can export every color shade to a Swift file on your computer. This file use
 
 The export file follows this model:
 
-{% code overflow="wrap" %}
-```swift
-import SwiftUI
+<pre class="language-swift" data-overflow="wrap"><code class="lang-swift">import SwiftUI
 
-extension Color {
-  // themeName - sourceColorName
-  static let themeNameSourceColorNameStopName = Color(red: 0.133, green: 0.329, blue: 0.961)
-  ...
+<strong>public extension Color {
+</strong><strong>
+</strong>  static let Token = Color.TokenColor()
+  
+  struct TokenColor {
+    // themeName - sourceColorName
+    public let themeNameSourceColorNameStopName = Color(red: 0.133, green: 0.329, blue: 0.961)
+    ...
+  }
 }
-```
-{% endcode %}
+</code></pre>
 
 ## Export as Resources to XML (Android)・Pro
 

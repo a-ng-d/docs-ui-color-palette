@@ -11,6 +11,7 @@
 * [Choose a lightness scale preset](create-a-color-palette/choose-a-lightness-scale-preset.md)
 * [Set the lightness scale stops](create-a-color-palette/set-the-lightness-scale-stops.md)
 * [Configure and create the color palette](create-a-color-palette/create-the-color-palette.md)
+* [Use the Quick Actions to create](create-a-color-palette/use-the-quick-actions-to-create.md)
 
 ## Edit a color palette
 
@@ -43,3 +44,4 @@
   * [UI Color Palette 24](release-notes/ui-color-palette-24.md)
   * [UI Color Palette 25](release-notes/ui-color-palette-25.md)
   * [UI Color Palette 26](release-notes/ui-color-palette-26.md)
+  * [UI Color Palette 28](release-notes/ui-color-palette-28.md)
