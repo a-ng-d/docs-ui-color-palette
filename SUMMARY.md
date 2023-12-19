@@ -45,3 +45,4 @@
   * [UI Color Palette 25](release-notes/ui-color-palette-25.md)
   * [UI Color Palette 26](release-notes/ui-color-palette-26.md)
   * [UI Color Palette 28](release-notes/ui-color-palette-28.md)
+  * [UI Color Palette 29](release-notes/ui-color-palette-29.md)

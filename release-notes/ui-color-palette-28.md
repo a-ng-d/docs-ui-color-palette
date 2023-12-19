@@ -1,16 +1,6 @@
 ---
 description: Enhance the Color Palette Management Experience
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: true
+layout: landing
 ---
 
 # UI Color Palette 28

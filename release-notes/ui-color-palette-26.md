@@ -1,16 +1,6 @@
 ---
 description: Get ready for the last quarter!
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: true
+layout: landing
 ---
 
 # UI Color Palette 26

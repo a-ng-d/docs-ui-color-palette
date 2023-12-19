@@ -1,16 +1,6 @@
 ---
 description: 3 days to trial and get an idea
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: true
+layout: landing
 ---
 
 # UI Color Palette 25

@@ -150,6 +150,34 @@ The export file follows this model:
 ```
 {% endcode %}
 
+{% hint style="info" %}
+You can switch the [`RGB`](../glossary.md#rgb) color space into `hexadecimal code,` [`LCH`](../glossary.md#lch)`,` or [`P3`](../glossary.md#p3) values.
+{% endhint %}
+
+## Export as config for Tailwind・Pro
+
+You can export every color shade and theme to a JSON file on your computer. This file can be used to complete the Tailwind CSS framework config file. Learn more about customizing colors on the [Tailwind Documentation](https://tailwindcss.com/docs/customizing-colors).
+
+The export file follows this model:
+
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  "theme": {
+    "colors": {
+      "sourceColorName": {
+        "themeName": {
+          "stopName": "#e9f4f6",
+          ...
+        },
+        ...
+      },
+      ...
+    }
+  }
+}
+```
+
 ## Export as Color to Swift (Apple OS)・Pro
 
 You can export every color shade to a Swift file on your computer. This file uses the SwiftUI library for declaring colors and reusing them through an Xcode project. Learn more about Color Structure on the [Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/color).
@@ -167,12 +195,13 @@ The export file follows this model:
     public let themeNameSourceColorNameStopName = Color(red: 0.133, green: 0.329, blue: 0.961)
     ...
   }
+
 }
 </code></pre>
 
 ## Export as Resources to XML (Android)・Pro
 
-You can export every color shade to an XML file on your computer. This file enables color declaration to reuse through an Android project. Learn more about App Resources on the [Android Developer Documentation](https://developer.android.com/guide/topics/resources/providing-resources).
+You can export every color shade to an XML file on your computer. This file enables color declaration to be reused through an Android project. Learn more about App Resources on the [Android Developer Documentation](https://developer.android.com/guide/topics/resources/providing-resources).
 
 The export file follows this model:
 

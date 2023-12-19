@@ -9,6 +9,8 @@ Some presets are only available in the Pro plan.
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color system:
 
 * `Material Design`, 10 stops, from 50 to 900 (Google).
+* `Material 3`, 13 stops, from 0 to 100 (Google).
+* `Tailwind`, 11 stops, from 50 to 950 (Google)・Pro.
 * `Ant Design`, 10 stops, from 1 to 10.
 * `ADS Foundations` (Atlassian)・Pro:
   * 7 stops, from 50 to 500.
