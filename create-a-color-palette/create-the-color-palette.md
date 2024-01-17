@@ -42,6 +42,19 @@ You can change the global color space of your whole palette will be affected. Fo
 * [`HSL`](../glossary.md#hsl).
 * [`HSLuv`](../glossary.md#hsluv).
 
+## Select a vision simulation
+
+You can simulate a specific vision disability to get a perception through the eyes of people living with those troubles. The contrast between the `Text light color`/`Text dark color` and the color shades are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
+
+* Protanomaly.
+* Protanopia.
+* Deuteranomaly・Pro.
+* Deuteranopia・Pro.
+* Tritanomaly・Pro.
+* Tritanopia・Pro.
+* Achromatomaly・Pro.
+* Achromatopsia・Pro.
+
 ## Create the palette in one single click
 
 The palette is instantly created close to your view by clicking `Create a UI Color Palette`, according to the `Lightness scale` and the `Settings`.

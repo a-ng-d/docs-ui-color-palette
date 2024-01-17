@@ -178,32 +178,56 @@ module.exports = {
 }
 ```
 
-## Export as Color to Swift (Apple OS)・Pro
+## Export for Apple apps (SwiftUI and UIKit)・Pro
 
-You can export every color shade to a Swift file on your computer. This file uses the SwiftUI library for declaring colors and reusing them through an Xcode project. Learn more about Color Structure on the [Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/color).
+You can export every color shade to a Swift file on your computer, regarding the framework you use for building UI in your Xcode project. Learn more about Color Structure on the [Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/color).
 
-The export file follows this model:
+The export files follow these models:
+
+### SwiftUI
 
 <pre class="language-swift" data-overflow="wrap"><code class="lang-swift">import SwiftUI
 
 <strong>public extension Color {
-</strong><strong>
-</strong>  static let Token = Color.TokenColor()
-  
+</strong>  static let Token = Color.TokenColor() 
   struct TokenColor {
     // themeName - sourceColorName
     public let themeNameSourceColorNameStopName = Color(red: 0.133, green: 0.329, blue: 0.961)
     ...
   }
-
 }
 </code></pre>
 
-## Export as Resources to XML (Android)・Pro
+### UIKit
 
-You can export every color shade to an XML file on your computer. This file enables color declaration to be reused through an Android project. Learn more about App Resources on the [Android Developer Documentation](https://developer.android.com/guide/topics/resources/providing-resources).
+<pre class="language-swift" data-overflow="wrap"><code class="lang-swift">import UIKit
 
-The export file follows this model:
+<strong>struct Color {
+</strong>  struct ThemeName {
+    // sourceColorName
+    public let SourceColorNameStopName = Color(red: 0.133, green: 0.329, blue: 0.961)
+    ...
+  }
+}
+</code></pre>
+
+## Export for Android apps (Compose and Resources)・Pro
+
+You can export every color shade to Kotlin or an XML file on your computer regarding how you want to develop your Android project. Learn more about [App Resources](https://developer.android.com/guide/topics/resources/providing-resources) and [Jetpack Compose](https://developer.android.com/jetpack/compose) on the Android Developer Documentation.
+
+The export files follow these models:
+
+### Compose
+
+```kotlin
+import androidx.compose.ui.graphics.Color
+
+// themeName - sourceColorName
+val themeName_sourceColorName_stopName = Color(0XFF1D3A3E)
+...
+```
+
+### Resources
 
 {% code overflow="wrap" %}
 ```xml

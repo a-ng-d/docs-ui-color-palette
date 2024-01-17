@@ -19,4 +19,5 @@ description: A quick glance at the controller
 9. Change the palette `Description`.
 10. Change the palette `Layout`.
 11. Select the `Color space`.
-12. Adjust the `Text light color` and `Text dark color` on the color shades.
+12. Select a `Vision simulation`.
+13. Adjust the `Text light color` and `Text dark color` on the color shades.

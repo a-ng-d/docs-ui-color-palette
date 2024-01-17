@@ -1,5 +1,11 @@
 # Manage the colors
 
+{% hint style="info" %}
+New palettes use an improved color shade creation process. Existing palettes need manual activation to use this process, which creates harmonized and consistent palettes with slightly desaturated colors.
+{% endhint %}
+
+## Select a color space
+
 {% embed url="https://drive.google.com/file/d/1VvcCp5okql_yKHT-dEPrwQR4xWTJoPXR/view?usp=drive_link" fullWidth="true" %}
 
 {% hint style="info" %}
@@ -15,4 +21,17 @@ You can change the global color space of your whole palette will be affected. Fo
 * [`HSL`](../glossary.md#hsl).
 * [`HSLuv`](../glossary.md#hsluv).
 
-In addition, when you create a new palette, the improved color shade creation process is automatically used to make every color shade from your source color. However, you'll need to manually enable this enhanced process for your existing palettes because it may significantly change the color shades. The improved process aims to harmonize the chroma or saturation and create a more consistent palette with slightly desaturated colors.
+## Select a vision simulation
+
+{% embed url="https://drive.google.com/file/d/1b53Zj7qz74sCpMitKH5tT3mu3YDV6S6z/view?usp=sharing" fullWidth="true" %}
+
+You can simulate a specific vision disability to get a perception through the eyes of people living with those troubles. The contrast between the `Text light color`/`Text dark color` and the color shades are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
+
+* Protanomaly.
+* Protanopia.
+* Deuteranomaly・Pro.
+* Deuteranopia・Pro.
+* Tritanomaly・Pro.
+* Tritanopia・Pro.
+* Achromatomaly・Pro.
+* Achromatopsia・Pro.

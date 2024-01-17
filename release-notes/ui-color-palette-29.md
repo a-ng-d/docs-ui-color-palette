@@ -21,14 +21,10 @@ We've revamped the color model for CSS exports. This update allows for a broader
 
 The Material Design 3 preset has been added to our options. This new preset increases versatility in your design process. Applying Material Design principles and creating visually appealing projects is now easier.
 
-Achieve faster and intuitive control of the configuration using your keyboard. Navigate through the actions efficiently.
-
-Helpful links, such as support, contact, external links, and news, are compiled into a single list.
-
 ## Minor Changes
 
-* We've updated our communication button labeled "Send an email" to now read "Contact Support"
-* We've improved the instructions to guide users to select colors from the canvas.
+* The communication button "Send an email" has been updated to "Contact Support".
+* Instructions for selecting colors from the canvas have been improved.
 
 ## Bug Fixes
 

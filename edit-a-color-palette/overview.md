@@ -41,5 +41,6 @@ description: A quick glance at the controller
 14. Change the palette `Description`.
 15. Change the palette `Layout`.
 16. Select the `Color space`.
-17. Turn color shades into new ones using the latest algorithm.
-18. Adjust the `Text light color` and `Text dark color` on the color shades.
+17. Select a `Vision simulation`.
+18. Turn color shades into new ones using the latest algorithm.
+19. Adjust the `Text light color` and `Text dark color` on the color shades.
