@@ -14,12 +14,11 @@ description: A quick glance at the controller
    5. `Settings`: Palette configuration.
 2. Select a configured `Color theme`.
 3. Adjust the `Lightness scale`'s stops.
-4. Select the action:
-   1. `Manage the local styles`: Sync the color shades with the document's local styles.
-   2. `Manage the local variables`: Sync the color shades with the documents' local variables.
-5. Create or update local styles or variables.
-6. Add a new color to the palette.
-7. Adjust the `Source colors` (from the left to the right):
+4. Run the action:
+   1. `Sync the local styles`: Sync the color shades with the document's local styles.
+   2. `Sync the local variables`: Sync the color shades with the documents' local variables.
+5. Add a new color to the palette.
+6. Adjust the `Source colors` (from the left to the right):
    1. Color name
    2. Hexadecimal code
    3. LCH
@@ -27,20 +26,20 @@ description: A quick glance at the controller
    5. Remove
    6. Hue range shifting
    7. Description
-8. Add a new theme to the palette.
-9. Adjust the `Color themes` (from the left to the right):
+7. Add a new theme to the palette.
+8. Adjust the `Color themes` (from the left to the right):
    1. Theme name
    2. Palette background color
    3. Advanced options
    4. Remove
    5. Description
-10. Export `File format`.
-11. Export `Preview`.
-12. Export the palette to the local machine.
-13. Change the palette `Name`.
-14. Change the palette `Description`.
-15. Change the palette `Layout`.
-16. Select the `Color space`.
-17. Select a `Vision simulation`.
-18. Turn color shades into new ones using the latest algorithm.
-19. Adjust the `Text light color` and `Text dark color` on the color shades.
+9. Export file format.
+10. Export preview.
+11. Export the palette to the local machine.
+12. Change the palette `Name`.
+13. Change the palette `Description`.
+14. Change the palette `Layout`.
+15. Select the `Color space`.
+16. Select a `Vision simulation`.
+17. Turn color shades into new ones using the latest algorithm.
+18. Adjust the `Text light color` and `Text dark color` on the color shades.

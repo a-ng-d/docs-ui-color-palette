@@ -7,7 +7,7 @@ description: A quick glance at the controller
 <figure><img src="../.gitbook/assets/create_palette-overview.png" alt=""><figcaption></figcaption></figure>
 
 1. The `Selected colors` from the document canvas.
-2. The selected colors from a `Coolors` palette.
+2. The selected colors from a `Coolors` palette or a `Realtime Colors` simulation.
 3. Browse the inspector:
    1. `Scale`: `Lightness scale` configuration.
    2. `Settings`: Palette configuration.

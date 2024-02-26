@@ -28,6 +28,7 @@
 
 ## Publish and transfer a color palette
 
+* [Overview](publish-and-transfer-a-color-palette/overview.md)
 * [Sync the palette to the local styles](publish-and-transfer-a-color-palette/sync-the-palette-to-the-local-styles.md)
 * [Sync the palette to the local variables・Pro](publish-and-transfer-a-color-palette/sync-the-palette-to-the-local-variables-pro.md)
 * [Export the palette](publish-and-transfer-a-color-palette/export-the-palette.md)
@@ -47,3 +48,4 @@
   * [UI Color Palette 28](release-notes/ui-color-palette-28.md)
   * [UI Color Palette 29](release-notes/ui-color-palette-29.md)
   * [UI Color Palette 30](release-notes/ui-color-palette-30.md)
+  * [UI Color Palette 31](release-notes/ui-color-palette-31.md)
