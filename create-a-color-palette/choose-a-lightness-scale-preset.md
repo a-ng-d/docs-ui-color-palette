@@ -18,7 +18,11 @@ A preset contains a list of stops named from an established nomenclature. These 
 * `Carbon`, 10 stops, from 10 to 100 (IBM)・Pro.
 * `Base`, 8 stops, from 50 to 700 (Uber)・Pro.
 
-Or make your own from 2 to 24 stops via the `Custom` preset.
+Or make your own from 2 to 24 stops via the `Custom` preset. The stops naming convention can be edited to meet your need, only available with this preset when creating a palette:
+
+* `1 - 24`, the default option, increasing by 1
+* `10 - 240`, increasing by 10
+* `100 - 2400`, increasing by 100
 
 {% hint style="warning" %}
 Managing more than 15 stops could complicate the color system. It also depends on the number of the `Source colors`.

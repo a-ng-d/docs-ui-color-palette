@@ -13,7 +13,7 @@ description: A quick glance at the controller
    2. `Settings`: Palette configuration.
 4. Select a `Lightness scale` preset.
 5. Adjust the `Lightness scale`'s stops.
-6. Tip messages.
+6. Select a `Distribution easing`.
 7. Create the palette according to both the `Lightness scale` and the `Settings`.
 8. Change the palette `Name`.
 9. Change the palette `Description`.

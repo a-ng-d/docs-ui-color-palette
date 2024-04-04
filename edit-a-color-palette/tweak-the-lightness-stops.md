@@ -9,7 +9,13 @@
 
 {% embed url="https://drive.google.com/file/d/1jZPC7C1Jf1P8MiXzbOv2Hv8ZFeQjDMIo/view?usp=drive_link" fullWidth="true" %}
 
-You can change the lightness scale in real-time via the slider. Note that it is possible to use the same shortcuts as the creation.
+You can change the lightness scale in real-time via the slider. Note that it is possible to use the same keyboard shortcuts than the creation.
+
+The `Distribution easing` drives how the stops are distributed in the range. `Linear` is the default option and allows you to bring an equivalent gap between the stops, but you can select:
+
+* `Ease in` for a quick acceleration at the end.
+* `Ease out` for a quick acceleration at the start.
+* `Ease in and out` for quick acceleration at the start and the end.
 
 {% hint style="info" %}
 You can tweak a stop with more accuracy:
