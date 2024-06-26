@@ -50,3 +50,7 @@
   * [UI Color Palette 30](release-notes/ui-color-palette-30.md)
   * [UI Color Palette 31](release-notes/ui-color-palette-31.md)
   * [UI Color Palette 32](release-notes/ui-color-palette-32.md)
+* [Legal](legal/README.md)
+  * [Terms and Conditions](legal/terms-and-conditions.md)
+  * [Privacy Policy](legal/privacy-policy.md)
+  * [Cookie Policy](legal/cookie-policy.md)
