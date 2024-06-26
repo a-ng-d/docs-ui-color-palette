@@ -13,9 +13,7 @@ layout:
     visible: false
 ---
 
-# Cookie Policy
-
-Last updated: June 12, 2024
+# Cookies Policy
 
 This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used.
 
