@@ -1,8 +1,8 @@
-# Change the source colors
+# 2️⃣ Change the source colors
 
 {% hint style="info" %}
-* An acknowledgment appoints if the color shade is close to the source color.
-* The properties are hidden during the adjustment to provide good performance in editing.
+* An acknowledgment is appointed if the color shade is close to the source color.
+* The properties are hidden during the adjustment to provide exemplary performance in editing.
 {% endhint %}
 
 ## Add or remove a color

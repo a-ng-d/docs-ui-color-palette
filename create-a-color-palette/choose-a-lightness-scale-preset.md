@@ -1,7 +1,7 @@
-# Choose a lightness scale preset
+# 2️⃣ Choose a lightness scale preset
 
 {% hint style="danger" %}
-Some presets are only available in the Pro plan.
+Some presets are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
 {% endhint %}
 
 {% embed url="https://drive.google.com/file/d/1ar3BigcoJ3vR6TtgOXJWM7qz0tUHRl9n/view?usp=sharing" fullWidth="true" %}

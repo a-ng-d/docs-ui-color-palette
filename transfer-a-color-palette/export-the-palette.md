@@ -1,7 +1,7 @@
-# Export the palette
+# 1️⃣ Export the palette
 
 {% hint style="danger" %}
-Some file formats are only available in the Pro plan.
+Some file formats are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
 {% endhint %}
 
 The palette can be exported in several file formats to be transferred to a dev environment or reworked with another tool.
@@ -11,7 +11,7 @@ The palette can be exported in several file formats to be transferred to a dev e
 * The file models are arranged to keep a correct structure for other tools if `Color themes` are enabled.
 {% endhint %}
 
-## Export as global tokens to a JSON file
+## Export as global tokens to a `JSON` file
 
 {% hint style="success" %}
 The JSON file format is ideal for design tokens because it can be easily handled.
@@ -83,7 +83,7 @@ The export file follows this model:
 ```
 {% endcode %}
 
-## Export as tokens for Amazon Style Dictionary・Pro
+## Export as tokens for `Amazon Style Dictionary` <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade (including the source color) to a JSON file on your computer. This file is compliant with a basic configuration of the Amazon Style Dictionary tool. The purpose is to generate stylesheets from token files. Learn more about [Amazon Style Dictionary](https://amzn.github.io/style-dictionary/#/README).
 
@@ -109,7 +109,7 @@ The export file follows this model:
 ```
 {% endcode %}
 
-## Export as tokens for Tokens Studio・Pro
+## Export as tokens for `Tokens Studio` <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade (including the source color) to a JSON file on your computer. This file can be imported to Tokens Studio, a Figma plugin to manage design tokens. The purpose is to add more semantics to the shades. Learn more about [Tokens Studio](https://tokens.studio/).
 
@@ -134,7 +134,7 @@ The export file follows this model:
 ```
 {% endcode %}
 
-## Export as Custom Properties to CSS
+## Export as `Custom Properties` to `CSS`
 
 You can export every color shade to a CSS file on your computer. Learn more about CSS4 Custom Properties on the [Mozilla Developer Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Using\_CSS\_custom\_properties).
 
@@ -142,9 +142,9 @@ The export file follows this model:
 
 {% code overflow="wrap" %}
 ```css
-:root {
-  /* themeName - sourceColorName */
-  --themeName-sourceColorName-stopName: rgb(207, 205, 255);
+:root[data-theme="themeName"] {
+  /* sourceColorName */
+  --sourceColorName-stopName: rgb(207, 205, 255);
   ...
 }
 ```
@@ -154,7 +154,7 @@ The export file follows this model:
 You can switch the [`RGB`](../glossary.md#rgb) color space into `hexadecimal code,` [`LCH`](../glossary.md#lch)`,` or [`P3`](../glossary.md#p3) values.
 {% endhint %}
 
-## Export as config for Tailwind・Pro
+## Export as config for `Tailwind` <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade and theme to a JSON file on your computer. This file can be used to complete the Tailwind CSS framework config file. Learn more about customizing colors on the [Tailwind Documentation](https://tailwindcss.com/docs/customizing-colors).
 
@@ -178,7 +178,7 @@ module.exports = {
 }
 ```
 
-## Export for Apple apps (SwiftUI and UIKit)・Pro
+## Export for Apple apps (`SwiftUI` and `UIKit`) <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade to a Swift file on your computer, regarding the framework you use for building UI in your Xcode project. Learn more about Color Structure on the [Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/color).
 
@@ -211,7 +211,7 @@ The export files follow these models:
 }
 </code></pre>
 
-## Export for Android apps (Compose and Resources)・Pro
+## Export for Android apps (`Compose` and `Resources`) <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade to Kotlin or an XML file on your computer regarding how you want to develop your Android project. Learn more about [App Resources](https://developer.android.com/guide/topics/resources/providing-resources) and [Jetpack Compose](https://developer.android.com/jetpack/compose) on the Android Developer Documentation.
 
@@ -240,7 +240,7 @@ val themeName_sourceColorName_stopName = Color(0XFF1D3A3E)
 ```
 {% endcode %}
 
-## Export the LCH values to CSV・Pro
+## Export the [`LCH`](../glossary.md#lch) values to `CSV` <mark style="color:yellow;">`Pro`</mark>
 
 You can export every color shade to CSV files on your computer.
 

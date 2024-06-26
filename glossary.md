@@ -1,4 +1,4 @@
-# Glossary
+# ➡️ Glossary
 
 ## Color spaces gamuts
 
@@ -81,5 +81,71 @@ The OKLCH color space model is a highly accurate color space that utilizes two C
 <summary>RGB</summary>
 
 Computers and TVs use RGB color space with primary red, green, and blue colors. Other colors are created by changing their intensity. RGB is popular in digital imaging and graphic design.
+
+</details>
+
+## Color vision deficiencies
+
+<details>
+
+<summary>Protanomaly</summary>
+
+Protanomaly is a type of color vision deficiency, often referred to as red-green color blindness. People with protanomaly have a reduced sensitivity to red light
+
+</details>
+
+<details>
+
+<summary>Protanopia</summary>
+
+Protanopia is a type of color blindness that affects the perception of red and green colors. People with protanopia have difficulty distinguishing between red, green, and brown hues
+
+</details>
+
+<details>
+
+<summary>Deuteranomaly</summary>
+
+Deuteranomaly is a type of red-green color blindness in which the green cones in the eye detect too much red light, making it difficult to distinguish between certain shades of red and green.
+
+</details>
+
+<details>
+
+<summary>Deuteranopia</summary>
+
+Deuteranopia is a type of color vision deficiency characterized by the inability to perceive green light. People with deuteranopia are unable to distinguish between green and red colors.
+
+</details>
+
+<details>
+
+<summary>Tritanomaly</summary>
+
+Tritanomaly is a type of color vision deficiency which affects a person's ability to see the color blue. It is caused by an anomaly in the "S" cone cells of the retina. People with tritanomaly have difficulty distinguishing between blue and green hues, and they may also have trouble recognizing purples.
+
+</details>
+
+<details>
+
+<summary>Tritanopia</summary>
+
+Tritanopia is a type of color blindness characterized by the inability to perceive the color blue. It is a rare form of color blindness, and those affected may have difficulty differentiating between shades of blue, yellow, and green.
+
+</details>
+
+<details>
+
+<summary>Achromatomaly</summary>
+
+Achromatomaly is a type of color vision deficiency characterized by a reduced sensitivity to light in the red and green parts of the spectrum. This condition makes it difficult to distinguish between certain colors, particularly red and green.
+
+</details>
+
+<details>
+
+<summary>Achromatopsia</summary>
+
+Achromatopsia, also known as total color blindness, is a rare, non-progressive visual disorder characterized by a complete inability to perceive colors. Individuals with achromatopsia typically experience extreme sensitivity to light and have difficulty seeing in bright environments.
 
 </details>

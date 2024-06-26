@@ -1,7 +1,7 @@
-# Sync the palette to the local variables・Pro
+# 🔐 Sync the palette to the local variable
 
 {% hint style="danger" %}
-Creating and updating local variables are only available in the Pro plan.
+Creating and updating local variables are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
 {% endhint %}
 
 ## Add the shades to the document's local variables

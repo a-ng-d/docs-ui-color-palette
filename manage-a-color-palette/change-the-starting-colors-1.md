@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Create color themes・Pro
+# 🔐 Create color themes
 
 {% hint style="danger" %}
-Managing `Color themes` is only available in the Pro plan.
+Managing `Color themes` is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
 {% endhint %}
 
 {% hint style="info" %}
 * The default color theme is named `None`.
-* The properties are hidden during the adjustment to provide good performance in editing.
+* The properties are hidden during the adjustment to provide exemplary performance in editing.
 {% endhint %}
 
 ## Add or remove a theme

@@ -1,4 +1,8 @@
-# Sync the palette to the local styles
+# 🔐 Sync the palette to the local styles
+
+{% hint style="danger" %}
+Creating and updating local styles are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+{% endhint %}
 
 The shades are grouped by source colors, from the darkest to the lightest. If any `Color themes` have been created, the groups will be gathered and named with their related color theme. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
 

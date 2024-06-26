@@ -1,4 +1,8 @@
-# Configure the palette
+# 4️⃣ Manage global settings
+
+{% hint style="danger" %}
+`Color sheet` is only available in the Pro plan.
+{% endhint %}
 
 {% embed url="https://drive.google.com/file/d/1H-5nCxlZPl_MnkFidf7Rea3dUStFlyCw/view?usp=sharing" fullWidth="true" %}
 
@@ -21,7 +25,3 @@ You can globally personalize your palette in `Settings` by changing:
     * The selected `Color space` values (`LCH`, `LAB`, and `HSL`).
     * The `WCAG 2.1` contrast score and the ratio.
     * The `APCA` contrast score and every minimum font size according to the weight.
-
-{% hint style="danger" %}
-`Color sheet` is only available in the Pro plan.
-{% endhint %}

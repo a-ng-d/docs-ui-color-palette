@@ -1,4 +1,4 @@
-# Manage the colors
+# 5️⃣ Manage the colors
 
 {% hint style="info" %}
 New palettes use an improved color shade creation process. Existing palettes need manual activation to use this process, which creates harmonized and consistent palettes with slightly desaturated colors.
@@ -27,11 +27,11 @@ You can change the global color space of your whole palette will be affected. Fo
 
 You can simulate a specific vision disability to get a perception through the eyes of people living with those troubles. The contrast between the `Text light color`/`Text dark color` and the color shades are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
 
-* Protanomaly.
-* Protanopia.
-* Deuteranomaly・Pro.
-* Deuteranopia・Pro.
-* Tritanomaly・Pro.
-* Tritanopia・Pro.
-* Achromatomaly・Pro.
-* Achromatopsia・Pro.
+* [`Protanomal`](../glossary.md#protanomaly).
+* [`Protanopia`](../glossary.md#protanopia).
+* [`Deuteranomaly`](../glossary.md#deuteranomaly) <mark style="color:yellow;">`Pro`</mark>.
+* [`Deuteranopia`](../glossary.md#deuteranopia) <mark style="color:yellow;">`Pro`</mark>.
+* [`Tritanomaly`](../glossary.md#tritanomaly) <mark style="color:yellow;">`Pro`</mark>.
+* [`Tritanopia`](../glossary.md#tritanopia) <mark style="color:yellow;">`Pro`</mark>.
+* [`Achromatomaly`](../glossary.md#achromatomaly) <mark style="color:yellow;">`Pro`</mark>.
+* [`Achromatopsia`](../glossary.md#achromatopsia) <mark style="color:yellow;">`Pro`</mark>.
