@@ -28,6 +28,7 @@ The number inputs copycat the Figma ones.
 There are more advanced options:
 
 * The hue range can also be shifted to adjust the shades' scale (handy for the yellow colors).
+* The chroma range can also be shifted to adjust the shades' scale (handy for the yellow and green colors).
 * The description can help you organize the shades and bring more semantics.
 
 ## Reorder the colors
