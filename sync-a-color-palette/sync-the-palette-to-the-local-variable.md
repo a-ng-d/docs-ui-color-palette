@@ -1,7 +1,8 @@
 # 🔐 Sync the palette to the local variable
 
 {% hint style="danger" %}
-Creating and updating local variables are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+* Creating and updating local variables are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+* Beware of editing your variable collection by hand, as each variable and mode is linked to the palette's shade and theme.
 {% endhint %}
 
 ## Add the shades to the document's local variables
