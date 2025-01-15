@@ -1,6 +1,10 @@
-# 6️⃣ Manage the contrast
+---
+icon: '6'
+---
 
-{% embed url="https://drive.google.com/file/d/1E1pjh6LoL92QPtiqGGk5ZsXYlhsPHGm4/view?usp=drive_link" fullWidth="true" %}
+# Manage the contrast
+
+{% embed url="https://screen.studio/share/aNyIpLys" fullWidth="true" %}
 
 {% hint style="warning" %}
 The properties must be shown to display the accessibility scores in real-time, the properties must be shown. However, remember that the more shades used, the lower the performance.

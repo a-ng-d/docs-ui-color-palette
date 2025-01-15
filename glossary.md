@@ -1,4 +1,26 @@
-# ➡️ Glossary
+---
+icon: book-open
+---
+
+# Glossary
+
+## Concepts
+
+<details>
+
+<summary>Primitive colors</summary>
+
+Color scaling is the declination of a source color to make it darker or lighter. These shades, aka Primitive colors, are consistent in contrast and lightness but still abstract and complex when applied to UI components. They can be bound as aliases in a more structured way, aka [`Semantic colors`](glossary.md#semantic-colors).
+
+</details>
+
+<details>
+
+<summary>Semantic colors</summary>
+
+A color system is an architecture in which each color serves a particular purpose. For example, red could warn a user, and grey could structure a layout. [`Primitive colors`](glossary.md#primitive-colors) are picked and bound to this architecture to create Semantic ones.
+
+</details>
 
 ## Color spaces gamuts
 
@@ -147,5 +169,23 @@ Achromatomaly is a type of color vision deficiency characterized by a reduced se
 <summary>Achromatopsia</summary>
 
 Achromatopsia, also known as total color blindness, is a rare, non-progressive visual disorder characterized by a complete inability to perceive colors. Individuals with achromatopsia typically experience extreme sensitivity to light and have difficulty seeing in bright environments.
+
+</details>
+
+## Contrast ratio models
+
+<details>
+
+<summary>WCAG 2.1</summary>
+
+The WCAG 2.1 defines contrast ratio as the luminance difference between colors, ensuring text readability. It mandates a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text,
+
+</details>
+
+<details>
+
+<summary>APCA</summary>
+
+The Advanced Perceptual Contrast Algorithm (APCA) calculates contrast ratios based on human visual perception, focusing on text readability by considering font weight and viewing conditions. This method aims to improve accessibility and visual comfort.
 
 </details>

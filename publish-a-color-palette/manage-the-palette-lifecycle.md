@@ -1,4 +1,8 @@
-# 1️⃣ Manage the palette lifecycle
+---
+icon: '1'
+---
+
+# Manage the palette lifecycle
 
 {% hint style="info" %}
 An account is required to publish palettes.
@@ -6,7 +10,7 @@ An account is required to publish palettes.
 
 With our color palette management tool, you can publish any color palette remotely for reuse across multiple documents. This feature enhances your efficiency and productivity, allowing you to store your work securely, collaborate with your team, and maintain synchronization. The concept is similar to Figma components: the remote palette serves as the source of truth, or `Master`, while the palette across the document is the `Instance`.
 
-## Palette lifecycle
+***
 
 Select a palette, click `Run`, and then `Publish` palette. A dialog shows you the palette's status on the remote and a couple of brief information:
 
@@ -14,7 +18,7 @@ Select a palette, click `Run`, and then `Publish` palette. A dialog shows you th
 * Its name.
 * Its status.
 * Its source colors and themes include.
-* Eventually the provider if it is already published.
+* Eventually, the provider if it is already published.
 
 About the status, it indicates at a glance the action to do to manage the palette lifecycle:
 

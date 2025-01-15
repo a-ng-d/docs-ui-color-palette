@@ -1,6 +1,10 @@
+---
+icon: plus
+---
+
 # Use the Quick Actions to create
 
-{% embed url="https://drive.google.com/file/d/1revKgHUiRPOicUGQci8g_tH89h5dkg1x/view?usp=sharing" %}
+{% embed url="https://screen.studio/share/6mHcXTGm" %}
 
 You can use the Quick Actions feature to access a specific wizard that allows you to select:
 

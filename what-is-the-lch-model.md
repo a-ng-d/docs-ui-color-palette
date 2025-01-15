@@ -1,4 +1,8 @@
-# 👐 Why should you avoid RBG and HSL color spaces?
+---
+icon: flag
+---
+
+# Why should you avoid RBG and HSL color spaces?
 
 [`RGB`](glossary.md#rgb) color space is undoubtedly the most used color model to display a specific color from the monitor. It is directly related to the 3 LEDs showing a color the human eye can perceive with the additive mixing. Easy to pick a random color but frankly terrible to create darker or lighter declination of a color.
 

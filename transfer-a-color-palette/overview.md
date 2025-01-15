@@ -1,10 +1,11 @@
 ---
 description: A quick glance at the controller
+icon: eyes
 ---
 
-# 👀 Overview
+# Overview
 
-<figure><img src="../.gitbook/assets/transfer_palette-find_dev.png" alt=""><figcaption><p><code>Find</code>  in <code>Dev Mode</code></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/transfer_palette-export_dev (1).png" alt=""><figcaption><p><code>Find</code>  in <code>Dev Mode</code></p></figcaption></figure>
 
 1. List of available palettes on the current page:
    * The name.
