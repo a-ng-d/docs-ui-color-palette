@@ -12,7 +12,7 @@ With our color palette management tool, you can publish any color palette remote
 
 ***
 
-Select a palette, click `Run`, and then `Publish` palette. A dialog shows you the palette's status on the remote and a couple of brief information:
+Select a palette, click `Publish palette`. A dialog shows you the palette's status on the remote and a couple of brief information:
 
 * Its screenshot.
 * Its name.
