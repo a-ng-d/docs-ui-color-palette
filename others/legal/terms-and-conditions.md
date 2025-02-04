@@ -1,16 +1,6 @@
 ---
 description: 'Last updated: January 18, 2023'
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: false
+layout: editorial
 ---
 
 # Terms and Conditions

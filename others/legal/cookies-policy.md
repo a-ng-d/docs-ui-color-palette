@@ -1,16 +1,6 @@
 ---
 description: 'Last updated: June 12, 2024'
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: false
+layout: editorial
 ---
 
 # Cookies Policy
