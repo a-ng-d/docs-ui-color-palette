@@ -22,6 +22,6 @@ If the palette is yours, you can:
 
 <figure><img src="../../.gitbook/assets/publish_palette-sync-detach.png" alt=""><figcaption></figcaption></figure>
 
-* `Share with the community`: The palette can be added by other members of UI Color Palette.
+* `Share with the community`: The palette can be added by other members of `UI Color Palette`.
 
 <figure><img src="../../.gitbook/assets/publish_palette-publish-share.png" alt=""><figcaption></figcaption></figure>

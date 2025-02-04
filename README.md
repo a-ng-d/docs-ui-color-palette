@@ -1,13 +1,13 @@
 ---
-description: Get started quickly!
 icon: hand-wave
+description: Get started quickly!
 ---
 
 # Welcome aboard!
 
 {% embed url="https://www.figma.com/proto/d7ZXo6UmewGsioSQrMbbLE/Assets?content-scaling=fixed&hide-ui=1&node-id=780-2014&page-id=472:279&scaling=contain&t=ynHhcCrd1CaOPNeC-8&viewport=62,276,0.2" %}
 
-UI Color Palette is a Figma and FigJam plugin that creates, manages, deploys, and publishes consistent and accessible color palettes. The plugin uses alternative color spaces, like LCH, OKLCH, CIELAB, OKLAB, and HSLuv, to create color shades based on the configured lightness scale. These spaces ensure [WCAG standard](https://www.w3.org/WAI/standards-guidelines/wcag/) compliance and sufficient contrast between information and background color.
+`UI Color Palette` is a `Figma` and `FigJam` plugin that creates, manages, deploys, and publishes consistent and accessible color palettes. The plugin uses alternative color spaces, like [`LCH`](glossary.md#lch), [`OKLCH`](glossary.md#oklch), [`CIELAB`](glossary.md#cielab), [`OKLAB`](glossary.md#oklab), and [`HSLuv`](glossary.md#hsluv), to create color shades based on the configured lightness scale. These spaces ensure [WCAG standard](https://www.w3.org/WAI/standards-guidelines/wcag/) compliance and sufficient contrast between information and background color.
 
 This plugin will allow you to:
 
