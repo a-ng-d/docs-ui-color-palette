@@ -4,5 +4,5 @@ You can go to `Palettes`, then `From the community`, to retrieve a list of share
 
 From the list, you can:
 
-* `Add to file`: A palette instance is pushed to the document. It can be updated and republished later.
+* `Add to file`: A palette instance is pushed to the document. It can be updated but cannot be republished later.
 * `Search palettes…`: Quickly go to a specific palette or a group of palettes.
