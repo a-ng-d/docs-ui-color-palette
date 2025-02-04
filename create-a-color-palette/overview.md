@@ -1,16 +1,16 @@
 ---
-description: A quick glance at the controller
 icon: eyes
+description: A quick glance at the controller
 ---
 
 # Overview
 
 <figure><img src="../.gitbook/assets/create_palette-palettes.png" alt=""><figcaption><p>Palettes</p></figcaption></figure>
 
-1. Search a palette.
-2. Add a palette to the file, or:
-   * Unpublish the palette
-   * Share or stop sharing the palette with the community
+1. Search for a palette.
+2. Add a palette to the file or:
+   * Unpublish the palette.
+   * Share or stop sharing the palette with the community.
 
 ***
 
