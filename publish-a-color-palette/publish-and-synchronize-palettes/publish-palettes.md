@@ -12,7 +12,7 @@ If the palette is yours, you can:
 
 * `Revert`: Roll it back to the `Master`.
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/publish_palette-publish-push.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/publish-palette_publish-revert.png" alt=""><figcaption></figcaption></figure></div>
 
 * `Synchronize`: Update it from the last version on the remote.
 
@@ -24,4 +24,4 @@ If the palette is yours, you can:
 
 * `Share with the community`: The palette can be added by other members of `UI Color Palette`.
 
-<figure><img src="../../.gitbook/assets/publish_palette-publish-share.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/publish-palette_publish-share.png" alt=""><figcaption></figcaption></figure>
