@@ -1,11 +1,11 @@
 ---
-icon: hand-wave
 description: Get started quickly!
+icon: hand-wave
 ---
 
 # Welcome aboard!
 
-<figure><img src=".gitbook/assets/couverture.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/cover.png" alt=""><figcaption></figcaption></figure>
 
 `UI Color Palette` is a `Figma` and `FigJam` plugin that creates, manages, deploys, and publishes consistent and accessible color palettes. The plugin uses alternative color spaces, like [`LCH`](glossary.md#lch), [`OKLCH`](glossary.md#oklch), [`CIELAB`](glossary.md#cielab), [`OKLAB`](glossary.md#oklab), and [`HSLuv`](glossary.md#hsluv), to create color shades based on the configured lightness scale. These spaces ensure [WCAG standard](https://www.w3.org/WAI/standards-guidelines/wcag/) compliance and sufficient contrast between information and background color.
 

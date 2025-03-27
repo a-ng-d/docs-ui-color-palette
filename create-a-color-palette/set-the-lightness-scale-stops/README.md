@@ -10,6 +10,6 @@ icon: '3'
 [adjust-the-lightness-scale.md](adjust-the-lightness-scale.md)
 {% endcontent-ref %}
 
-{% content-ref url="distribute-the-stops.md" %}
-[distribute-the-stops.md](distribute-the-stops.md)
+{% content-ref url="distribute-the-stops-pro.md" %}
+[distribute-the-stops-pro.md](distribute-the-stops-pro.md)
 {% endcontent-ref %}

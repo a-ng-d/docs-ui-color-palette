@@ -14,7 +14,7 @@
 * [Set the scale](create-a-color-palette/set-the-lightness-scale-stops/README.md)
   * [Adjust the lightness scale](create-a-color-palette/set-the-lightness-scale-stops/adjust-the-lightness-scale.md)
   * [Adjust the chroma・Pro](create-a-color-palette/set-the-lightness-scale-stops/adjust-the-chroma-pro.md)
-  * [Distribute the stops](create-a-color-palette/set-the-lightness-scale-stops/distribute-the-stops.md)
+  * [Distribute the stops・Pro](create-a-color-palette/set-the-lightness-scale-stops/distribute-the-stops-pro.md)
 * [Configure the palette](create-a-color-palette/create-the-color-palette/README.md)
   * [Change the palette global settings](create-a-color-palette/create-the-color-palette/change-the-palette-global-settings.md)
   * [Select a color space](create-a-color-palette/create-the-color-palette/select-a-color-space.md)

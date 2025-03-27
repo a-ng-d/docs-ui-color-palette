@@ -1,6 +1,6 @@
 ---
-icon: eyes
 description: A quick glance at the controller
+icon: eyes
 ---
 
 # Overview
@@ -32,7 +32,7 @@ description: A quick glance at the controller
 8. Access shortcuts:
    * Open the docs.
    * Open `User menu`.
-   * Open `More menu`.
+   * Open `Help/Support menu`.
 
 ***
 

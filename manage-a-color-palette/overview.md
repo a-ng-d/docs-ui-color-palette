@@ -24,7 +24,7 @@ icon: eyes
 8. Access shortcuts:
    * Open the docs.
    * Open `User menu`.
-   * Open `Help menu`.
+   * Open `Help/Support menu`.
 
 ***
 
@@ -34,9 +34,9 @@ icon: eyes
 2. Adjust the `Source colors` (from the left to the right):
    * Color name.
    * Hexadecimal code.
-   * &#x20;[`LCH`](../glossary.md#lch).
+   * `Hue` shifting.
    * Advanced options:
-     * `Hue` shifting.
+     * [`LCH`](../glossary.md#lch).
      * `Chroma` shifting.
      * Description.
    * Remove.
@@ -57,11 +57,12 @@ icon: eyes
 
 <figure><img src="../.gitbook/assets/manage_palette-settings.png" alt=""><figcaption><p><code>Settings</code></p></figcaption></figure>
 
-1. Change the palette `Name`.
-2. Change the palette `Description`.
-3. Change the palette `Layout`.
-4. Select the `Color space`.
-5. Select a `Vision simulation`.
-6. Select the `Chroma velocity.`
-7. Adjust the `Text light color`.&#x20;
-8. Adjust the `Text dark color`.
+1. Adjust your `Palette` settings or your `Preferences`.
+2. Change the palette `Name`.
+3. Change the palette `Description`.
+4. Change the palette `Layout`.
+5. Select the `Color space`.
+6. Select a `Vision simulation`.
+7. Select the `Chroma velocity.`
+8. Adjust the `Text light color`.&#x20;
+9. Adjust the `Text dark color`.
