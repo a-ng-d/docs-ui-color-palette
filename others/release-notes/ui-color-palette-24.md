@@ -2,20 +2,6 @@
 description: Create Color systems “like a Pro”
 cover: ../../.gitbook/assets/release_note-pro_plan.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: true
 ---
 
 # UI Color Palette 24

@@ -10,7 +10,7 @@ icon: book-open
 
 <summary>Primitive colors</summary>
 
-Color scaling is the declination of a source color to make it darker or lighter. These shades, aka Primitive colors, are consistent in contrast and lightness but still abstract and complex when applied to UI components. They can be bound as aliases in a more structured way, aka [`Semantic colors`](glossary.md#semantic-colors).
+Color scaling is the declination of a source color to make it darker or lighter. These shades and tints, also known as Primitive colors, are consistent in contrast and lightness, yet remain abstract and complex when applied to UI components. They can be bound as aliases in a more structured way, aka [`Semantic colors`](glossary.md#semantic-colors).
 
 </details>
 
@@ -28,7 +28,7 @@ A color system is an architecture in which each color serves a particular purpos
 
 <summary>sRGB</summary>
 
-The sRGB gamut is a color space standard used in monitors, printers, and the internet. It defines a range of colors for accurate and consistent display. It is widely accepted and compatible with existing technologies.
+The sRGB gamut is a color space standard used in monitors, printers, and on the internet. It defines a range of colors for accurate and consistent display. It is widely accepted and compatible with existing technologies.
 
 </details>
 
@@ -48,7 +48,7 @@ The D65 color space gamut is used in photography, printing, and video. It's base
 
 </details>
 
-## Color spaces models
+## Color space models
 
 <details>
 
