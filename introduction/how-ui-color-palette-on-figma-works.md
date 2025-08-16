@@ -16,7 +16,7 @@ Palettes can generate documents within a Figma document as `Local Instances`. Th
 
 ## Remote Master
 
-Palettes can be saved in the cloud for use across different Figma documents and supported platforms like [Sketch](https://www.sketch.com/) and [Penpot](https://penpot.app/). A saved palette acts as the `Remote Master`. To update a saved palette, it must be added to the local selected page, and any changes must be published.
+Palettes can be saved in the cloud for use across different Figma documents and supported platforms like [Penpot](https://penpot.app/) and [Sketch](https://www.sketch.com/). A saved palette acts as the `Remote Master`. To update a saved palette, it must be added to the local selected page, and any changes must be published.
 
 In summary, a saved palette is the `Remote Master`, a local palette is a `Local Master`, and a generated document is a `Local Instance`.
 

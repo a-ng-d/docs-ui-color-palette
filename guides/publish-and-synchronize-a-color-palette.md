@@ -43,7 +43,7 @@ You can go to `Library` then `My palettes`. This list gathers all the live palet
 * `Search palettes…`: Quickly go to a palette that is precisely known
 
 {% hint style="info" %}
-You can use a UI color palette across **Penpot**, **Sketch**, and **Figma**. Palettes created in **Figma** are compatible with **Sketch**, and those made in **Sketch** can be used in **Penpot**.
+You can use a UI color palette across **Figma**, **Penpot**, and **Sketch**. Palettes created in **Figma** are compatible with **Penpot**, and those made in **Penpot** can be used in **Sketch**.
 {% endhint %}
 {% endstep %}
 
