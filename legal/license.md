@@ -1,5 +1,6 @@
 ---
 icon: file-certificate
+layout: landing
 ---
 
 # License
