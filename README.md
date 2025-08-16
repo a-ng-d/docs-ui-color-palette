@@ -13,7 +13,7 @@ This plugin will allow you to:
 
 * Create a complete palette from any existing color to help you build a color scaling (or [`Primitive colors`](glossary.md#primitives))
 * Manage the color palette in real-time to control the contrast
-* Sync the color shades/tints with local styles, variables, and third-party plugins
+* Sync the color shades/tints with local styles and variables
 * Generate code in various languages
 * Publish the palette for reuse across multiple documents or add shared palettes from the community
 
