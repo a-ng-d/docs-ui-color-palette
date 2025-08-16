@@ -31,6 +31,7 @@
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookies Policy](legal/cookies-policy.md)
+* [License](legal/license.md)
 
 ## Others
 
