@@ -7,6 +7,10 @@ icon: file-lines
 
 # Generate a color palette documentation
 
+{% hint style="info" %}
+Currently, document generation may be slow depending on the complexity of the color palette. Feel free to take a break and grab a coffee after clicking the button to generate.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ## Generate a document of the palette
