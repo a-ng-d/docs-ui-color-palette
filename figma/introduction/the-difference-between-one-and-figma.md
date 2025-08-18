@@ -2,17 +2,17 @@
 icon: file-plus-minus
 ---
 
-# The difference between /One and /Figma
+# The difference between /one and /figma
 
 UI Color Palette is divided into two plugins, sharing the same features but with a different transactional workflow.
 
-## UI Color Palette /One
+## UI Color Palette /one
 
 This plugin offers Pro features accessible via a license-based system. With a single license, you can use these Pro features on any platform ([Sketch](https://www.sketch.com/) and [Penpot](https://penpot.app/)) where the plugin is available. Licenses are managed by the third-party system [Lemon Squeezy](https://www.lemonsqueezy.com/), with oversight from the UI Color Palette team. For assistance, please contact our support team.
 
 <a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
 
-## UI Color Palette /Figma
+## UI Color Palette /figma
 
 {% hint style="info" %}
 Figma is unable to accept payments from users with **Russian** or **Indian**-based credit cards at this time.

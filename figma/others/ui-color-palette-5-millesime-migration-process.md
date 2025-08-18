@@ -16,7 +16,7 @@ In version 5 (aka Millésime), the palette documentation is only permitted on de
 
 {% hint style="info" %}
 * The migration script is executed on the selected page of your document after running the plugin and after changing the page
-* Be sure to use the /Figma plugin to execute the migration, as it can recognize the palette you created before version 5
+* Be sure to use the `/figma` plugin to execute the migration, as it can recognize the palette you created before version 5
 {% endhint %}
 
 Figma documents are versioned, and if you encounter any problems after the migration, please reach out to us for further assistance.
