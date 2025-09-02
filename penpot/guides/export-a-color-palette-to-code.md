@@ -240,7 +240,7 @@ The export file follows this model:
 
 {% tab title="SCSS・/pro" %}
 {% hint style="danger" %}
-Exporting SCSS variables is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting SCSS variables is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can export every color shade/tint to a **SCSS** file on your computer. The color modes can be applied via the `:root` or a specific class selector. Learn more about **Sass** variables on the [official documentation](https://sass-lang.com/documentation/variables/).
