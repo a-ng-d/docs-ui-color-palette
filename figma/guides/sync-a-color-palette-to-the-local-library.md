@@ -14,7 +14,7 @@ icon: arrows-rotate-reverse
 {% embed url="https://drive.google.com/file/d/1R9L9ZT0Ka2I3FYbr0B8XtoFLN-wc8222/view?usp=sharing" %}
 
 {% hint style="danger" %}
-Creating and updating local styles are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Creating and updating local styles are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color modes` have been created, the groups will be gathered and named with their related color mode. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
@@ -36,7 +36,7 @@ The synchronization with the local styles is not deep by default, so the styles 
 {% embed url="https://drive.google.com/open?id=1dkhiDqUXReZrAWddrHcJnaV5r_shcatu&usp=drive_fs" %}
 
 {% hint style="danger" %}
-Creating and updating local variables are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Creating and updating local variables are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 Once the palette is ready, click the `Sync with the local variables` button to add every color shade/tint into the document's local variable. These variables can be published as Team Library.
