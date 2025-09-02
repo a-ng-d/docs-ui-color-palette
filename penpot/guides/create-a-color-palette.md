@@ -15,7 +15,7 @@ icon: palette
 {% embed url="https://drive.google.com/file/d/1ur6wYlTk7WX0gjb9MbrPcoml-gLvQrKp/view?usp=sharing" %}
 
 {% hint style="warning" %}
-You can select and import up to 5 colors on the <mark style="color:yellow;">`Free`</mark> plan.
+You can select and import up to 5 colors on the <mark style="color:yellow;">`/basic`</mark> plan.
 {% endhint %}
 
 ### Select colors from the document canvas
@@ -45,23 +45,23 @@ One palette per tool is permitted.
 {% embed url="https://drive.google.com/file/d/12f7kqCiDjvqGRbm3OD4NYAK7lxbvsDzp/view?usp=sharing" %}
 
 {% hint style="warning" %}
-Some presets are only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Some presets are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color scaling:
 
 * `Material Design`, 10 stops, from 50 to 900 (Google)
-* `Material 3`, 13 stops, from 0 to 100 (Google)・<mark style="color:yellow;">`Pro`</mark>
-* `Tailwind`, 11 stops, from 50 to 950 (Google)・<mark style="color:yellow;">`Pro`</mark>
+* `Material 3`, 13 stops, from 0 to 100 (Google)・<mark style="color:yellow;">`/pro`</mark>
+* `Tailwind`, 11 stops, from 50 to 950 (Google)・<mark style="color:yellow;">`/pro`</mark>
 * `Ant Design`, 10 stops, from 1 to 10
-* `ADS Foundations` (Atlassian)・<mark style="color:yellow;">`Pro`</mark>:
+* `ADS Foundations` (Atlassian)・<mark style="color:yellow;">`/pro`</mark>:
   * 7 stops, from 50 to 500
   * 19 stops (for neutral colors), from 0 to 900
-* `Carbon`, 10 stops, from 10 to 100 (IBM)・<mark style="color:yellow;">`Pro`</mark>
-* `Base`, 8 stops, from 50 to 700 (Uber)・<mark style="color:yellow;">`Pro`</mark>
-* `Polaris`, 16 stops, from 1 to 16 (Shopify)・<mark style="color:yellow;">`Pro`</mark>
+* `Carbon`, 10 stops, from 10 to 100 (IBM)・<mark style="color:yellow;">`/pro`</mark>
+* `Base`, 8 stops, from 50 to 700 (Uber)・<mark style="color:yellow;">`/pro`</mark>
+* `Polaris`, 16 stops, from 1 to 16 (Shopify)・<mark style="color:yellow;">`/pro`</mark>
 
-Or make your own from 2 to 8 (24 in <mark style="color:yellow;">`Pro`</mark>) stops via the `Custom` preset. The stop's naming convention can be edited to meet your needs, only available with this preset when creating a palette:
+Or make your own from 2 to 8 (24 in <mark style="color:yellow;">`/pro`</mark>) stops via the `Custom` preset. The stop's naming convention can be edited to meet your needs, only available with this preset when creating a palette:
 
 * `1 - 24`, the default option, increasing by 1
 * `10 - 240`, increasing by 10
@@ -108,7 +108,7 @@ The `Contrast mode` works very well with the [`HSLuv`](../glossary.md#hsluv) col
 ### <i class="fa-lock">:lock:</i> Adjust the chroma
 
 {% hint style="danger" %}
-Setting the `Chroma` is only available on the <mark style="color:yellow;">`Pro`</mark> plan.
+Setting the `Chroma` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
@@ -120,11 +120,7 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### <i class="fa-lock">:lock:</i> Distribute the stops
-
-{% hint style="danger" %}
-Setting the `Distribution easing` is only available on the <mark style="color:yellow;">`Pro`</mark> plan.
-{% endhint %}
+### Distribute the stops
 
 The `Distribution easing` drives how the stops are distributed in the range. `Linear` is the default option and allows you to bring an equivalent gap between the stops, but you can select:
 
@@ -180,7 +176,7 @@ You can change the global color space of your whole palette, which will be affec
 ### <i class="fa-lock">:lock:</i> Select a vision simulation
 
 {% hint style="danger" %}
-The vision impairments are only available on the <mark style="color:yellow;">`Pro`</mark> plan.
+The vision impairments are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Text light color`/`Text dark color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
@@ -207,7 +203,7 @@ Here are the velocities:
 ### <i class="fa-lock">:lock:</i> Lock the source colors
 
 {% hint style="danger" %}
-Locking the source colors is only available on the <mark style="color:yellow;">`Pro`</mark> plan.
+Locking the source colors is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 The color scaling can include every source color instead of the closest shade/tint to this one. It will preserve the brand language despite a weaker contrast consistency.

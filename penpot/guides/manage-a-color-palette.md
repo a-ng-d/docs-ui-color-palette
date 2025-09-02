@@ -47,7 +47,7 @@ The default name of a new color is `New UI Color`.
 ### Change a color's parameters
 
 {% hint style="warning" %}
-The Alpha mode is only available on the <mark style="color:yellow;">`Pro`</mark> plan.
+The Alpha mode is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input). The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of palette cannot override this value. If reset, the global `Chroma` value is restored.
@@ -70,7 +70,7 @@ You can reorder the colors list by dragging an item and dropping it above or bel
 {% embed url="https://drive.google.com/file/d/1S5kuk1scwk6tvBs32ZIOWk4zdaiJeL7n/view?usp=sharing" %}
 
 {% hint style="danger" %}
-Managing `Color modes` is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Managing `Color modes` is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 {% hint style="info" %}

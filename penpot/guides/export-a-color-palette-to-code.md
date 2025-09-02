@@ -20,15 +20,34 @@ The export file follows this model:
 {% code overflow="wrap" %}
 ```json
 {
-  "$themes": [],
+  "$themes": [
+    {
+      "name": "Color Mode Name 1",
+      "group": "Modes",
+      "description": "",
+      "selectedTokenSets": {
+        "Palette Name/Color Mode Name 1": "enabled"
+    },
+    {
+      "name": "Color Mode Name 2",
+      "group": "Modes",
+      "description": "",
+      "selectedTokenSets": {
+        "Palette Name/Color Mode Name 2": "enabled"
+    },
+    ...
+  ],
   "$metadata": {
     "activeThemes": [],
-    "tokenSetOrder": [],
+    "tokenSetOrder": [
+      "Palette Name/Color Mode Name 1",
+      "Palette Name/Color Mode Name 2",
+      ...
+    ],
     "activeSets": []
   },
-  // "Color Mode Name/Source Color Name" if there is any color mode
-  "Palette Name/Source Color Name": {
-    "Stop Name": {
+  "Palette Name/Color Mode Name 1": {
+    "sourceColorName.stopName": {
       "$type": "color",
       "$value": "#f4f1b1",
       "$description": "Shade/Tint color with 96.0% of lightness"
@@ -219,7 +238,7 @@ The export file follows this model:
 {% endcode %}
 {% endtab %}
 
-{% tab title="SCSS・Pro" %}
+{% tab title="SCSS・/pro" %}
 {% hint style="danger" %}
 Exporting SCSS variables is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
 {% endhint %}
@@ -263,9 +282,9 @@ $source-color-name-source: var(--source-color-name-source);
 {% endcode %}
 {% endtab %}
 
-{% tab title="Less・Pro" %}
+{% tab title="Less・/pro" %}
 {% hint style="danger" %}
-Exporting Less variables is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting Less variables is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can export every color shade/tint to a **Less** file on your computer. The color modes can be applied via the `:root` or a specific class selector. Learn more about **Less** variables on the [official documentation](https://lesscss.org/features/#variables-feature).
@@ -311,7 +330,7 @@ The export file follows this model:
 ## <i class="fa-lock">:lock:</i> Export for Tailwind (JS, CSS)
 
 {% hint style="danger" %}
-Exporting for Tailwind v3 and v4 is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting for Tailwind v3 and v4 is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 {% tabs %}
@@ -371,7 +390,7 @@ The export file follows this model:
 ## <i class="fa-lock">:lock:</i> Export for Apple apps (Swift)
 
 {% hint style="danger" %}
-Exporting for Apple apps is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting for Apple apps is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can export every color shade/tint to a Swift file on your computer, depending on the framework you use for building UI in your Xcode project. Learn more about Color Structure on the [Apple Developer Documentation](https://developer.apple.com/documentation/swiftui/color).
@@ -412,7 +431,7 @@ The export file follows this model:
 ## <i class="fa-lock">:lock:</i> Export for Android apps (KT and XML)
 
 {% hint style="danger" %}
-Exporting for Android apps is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting for Android apps is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can export every color shade/tint to Kotlin or an XML file on your computer, depending on how you want to develop your Android project. Learn more about [App Resources](https://developer.android.com/guide/topics/resources/providing-resources) and [Jetpack Compose](https://developer.android.com/jetpack/compose) on the Android Developer Documentation.
@@ -447,7 +466,7 @@ val colorModeName_sourceColorName_stopName = Color(0XFF1D3A3E)
 ## <i class="fa-lock">:lock:</i> Export the LCH as spreadsheets (CSV)
 
 {% hint style="danger" %}
-Exporting as spreadsheets is only available in the <mark style="color:yellow;">`Pro`</mark> plan.
+Exporting as spreadsheets is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can export every color shade/tint to CSV files on your computer.
