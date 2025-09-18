@@ -20,7 +20,9 @@ You can select and import up to 5 colors on the <mark style="color:yellow;">`/ba
 
 ### Select colors from the document canvas
 
-Select one or more filled layers. You might rename these layers because the palette will use the layer name as a color name.&#x20;
+Select one or more filled layers. You might rename these layers because the palette will use the layer name as a color name.
+
+If no color is selected or imported, a default color is set and can be named and edited.
 
 {% hint style="info" %}
 Only frames, shapes are allowed to be turned into source colors if they have at least a solid color as `Fill`.
@@ -87,6 +89,8 @@ Update a stop by sliding its knob on the range. You can slide every knob by usin
 
 * <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
 * <kbd>Shift ⇪</kbd> while sliding the first or the last stop to distribute each of them equally on the range
+* <i class="fa-arrow-right-arrow-left">:arrow-right-arrow-left:</i> button to reverse the stops
+* <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> button to reset to the default scale
 
 In addition, you can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
 
@@ -133,6 +137,10 @@ The easings are varied in three ways:
 * `Sine`
 * `Regular`
 * `Cubic`
+
+{% hint style="info" %}
+You can apply the distribution directly on the current scale by clicking the <i class="fa-arrow-rotate-right">:arrow-rotate-right:</i> button.
+{% endhint %}
 {% endstep %}
 
 {% step %}
