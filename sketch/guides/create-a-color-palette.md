@@ -34,7 +34,7 @@ Only frames, shapes are allowed to be turned into source colors if they have at 
 ### Import colors from external palette tools
 
 {% hint style="info" %}
-* Importing colors costs 25 credits
+* Importing colors costs 50 credits
 * One palette per tool is permitted
 {% endhint %}
 
