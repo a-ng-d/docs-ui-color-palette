@@ -34,8 +34,6 @@ Adding or removing only works in the `Custom` preset.
 {% step %}
 ## Change the source colors
 
-{% embed url="https://drive.google.com/file/d/1PbGyLkK5qY402VLbmYBTawPdXoOFIoNQ/view?usp=sharing" %}
-
 ### Add or remove a color
 
 Click on the <i class="fa-plus">:plus:</i> icon to add a new color to the `Source colors`. There is a <i class="fa-minus">:minus:</i> icon at each color to remove it definitively from the palette.
@@ -67,8 +65,6 @@ You can reorder the colors list by dragging an item and dropping it above or bel
 {% step %}
 ## <i class="fa-lock">:lock:</i> Create color modes
 
-{% embed url="https://drive.google.com/file/d/1S5kuk1scwk6tvBs32ZIOWk4zdaiJeL7n/view?usp=sharing" %}
-
 {% hint style="danger" %}
 Managing `Color modes` is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
@@ -90,7 +86,7 @@ The default name of a new color is `New UI Mode`.
 You can create as many color modes as you need; nevertheless, the more modes you manage, the more limits you might meet in creating local variables. According to your Figma plan:
 
 * In Figma Starter, you cannot add more than 1 variable mode
-* In Figma Professional and Organization, you cannot add more than 4 variable modes
+* In Figma Professional and Organization, you cannot add more than 10 variable modes
 
 Learn more by consulting [Figma pricing](https://www.figma.com/pricing/).
 {% endhint %}
@@ -101,8 +97,8 @@ Select a previously created mode via the list at the top-right, and then you can
 
 * Its `Lightness scale`
 * Its `Vision simulation mode`
-* Its `Dark text color`
-* Its `Light text color`
+* Its `Dark foreground color`
+* Its `Light foreground color`
 
 These parameters are connected to the chosen mode. When you select a different mode, these parameters update to match the new mode.
 

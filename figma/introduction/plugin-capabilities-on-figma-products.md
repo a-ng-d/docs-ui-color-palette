@@ -17,13 +17,13 @@ The plugin is tailored for each of them regarding their use cases and constraint
 * Dev mode:
   * Browse local palettes on the selected page
   * Export color palette to code
-  * Preview color palette and scores
+  * Preview color palette properties and scores
   * Switch contrast ratio score
   * Authentication
 * VS Code Figma plugin:
   * Browse local palettes on the selected page
   * Export color palette to code
-  * Preview color palette and scores
+  * Preview color palette properties and scores
   * Switch contrast ratio score
   * Authentication
 * FigJam: Partial capabilities

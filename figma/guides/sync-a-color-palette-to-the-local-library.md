@@ -11,8 +11,6 @@ icon: arrows-rotate-reverse
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local styles
 
-{% embed url="https://drive.google.com/file/d/1R9L9ZT0Ka2I3FYbr0B8XtoFLN-wc8222/view?usp=sharing" %}
-
 {% hint style="danger" %}
 Creating and updating local styles are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
@@ -33,8 +31,6 @@ The synchronization with the local styles is not deep by default, so the styles 
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local variables
 
-{% embed url="https://drive.google.com/open?id=1dkhiDqUXReZrAWddrHcJnaV5r_shcatu&usp=drive_fs" %}
-
 {% hint style="danger" %}
 Creating and updating local variables are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
@@ -49,7 +45,7 @@ The description of the `Source colors` is reworked and added to the description
 According to your Figma plan:
 
 * In Figma Starter, you cannot add more than 1 variable mode.
-* In Figma Professional and Organization, you cannot add more than 4 variable modes.
+* In Figma Professional and Organization, you cannot add more than 10 variable modes.
 
 Learn more by consulting [Figma pricing](https://www.figma.com/pricing/).
 {% endhint %}
