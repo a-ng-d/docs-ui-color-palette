@@ -34,8 +34,6 @@ Adding or removing only works in the `Custom` preset.
 {% step %}
 ## Change the source colors
 
-{% embed url="https://drive.google.com/file/d/1PbGyLkK5qY402VLbmYBTawPdXoOFIoNQ/view?usp=sharing" %}
-
 ### Add or remove a color
 
 Click on the <i class="fa-plus">:plus:</i> icon to add a new color to the `Source colors`. There is a <i class="fa-minus">:minus:</i> icon at each color to remove it definitively from the palette.
@@ -67,8 +65,6 @@ You can reorder the colors list by dragging an item and dropping it above or bel
 {% step %}
 ## <i class="fa-lock">:lock:</i> Create color modes
 
-{% embed url="https://drive.google.com/file/d/1S5kuk1scwk6tvBs32ZIOWk4zdaiJeL7n/view?usp=sharing" %}
-
 {% hint style="danger" %}
 Managing `Color modes` is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
@@ -92,8 +88,8 @@ Select a previously created mode via the list at the top-right, and then you can
 
 * Its `Lightness scale`
 * Its `Vision simulation mode`
-* Its `Dark text color`
-* Its `Light text color`
+* Its `Dark foreground color`
+* Its `Light foreground color`
 
 These parameters are connected to the chosen mode. When you select a different mode, these parameters update to match the new mode.
 

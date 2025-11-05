@@ -11,8 +11,6 @@ icon: arrows-rotate-reverse
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local styles
 
-{% embed url="https://drive.google.com/file/d/1R9L9ZT0Ka2I3FYbr0B8XtoFLN-wc8222/view?usp=sharing" %}
-
 {% hint style="danger" %}
 Creating and updating local styles are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
@@ -30,8 +28,6 @@ The synchronization with the local styles is not deep by default, so the styles 
 
 {% step %}
 ## Export tokens and import them as tokens
-
-{% embed url="https://drive.google.com/open?id=1dkhiDqUXReZrAWddrHcJnaV5r_shcatu&usp=drive_fs" %}
 
 Once the palette is ready, you can export it as Native tokens to import with the Penpot import. See more on the [Export a color palette to code](export-a-color-palette-to-code.md#export-as-design-tokens-json).
 

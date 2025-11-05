@@ -48,13 +48,26 @@ You can use a UI color palette across **Penpot**, **Sketch**, and **Figma**. Pal
 {% endstep %}
 
 {% step %}
-## Hunt palettes from the community&#x20;
+## Hunt palettes from the community
 
 You can go to `Library`, then `Community`, to retrieve a list of shared palettes provided by `UI Color Palette` Users. These palettes keep a link to their `Master` and can be synchronized if the user publishes a new version. You must click `Synchronize palette` to check the status.
 
 From the list, you can:
 
-* `Add to local`: A palette instance is pushed to the document. It can be updated but cannot be republished later
+* `Add to local`: A palette instance is pushed to the document, and it can be updated, but cannot be republished later
+* `Glance palette`: A quick look at a palette's properties, where you can add it to your starred or local
+* `Search palettes…`: Quickly go to a specific palette or a group of palettes
+{% endstep %}
+
+{% step %}
+## Explore resource palettes from mature organizations
+
+You can go to `Library`, then `Organization`, to retrieve a list of palettes inspired by well-known organizations such as Adobe, Microsoft, Radix, Tailwind, etc.
+
+From the list, you can:
+
+* `Add to local`: A palette instance is pushed to the document, and it can be updated, but cannot be republished later
+* `Glance palette`: A quick look at a palette's properties, where you can add it to your starred or local
 * `Search palettes…`: Quickly go to a specific palette or a group of palettes
 {% endstep %}
 {% endstepper %}
