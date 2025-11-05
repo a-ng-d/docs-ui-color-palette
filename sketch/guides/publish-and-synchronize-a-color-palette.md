@@ -54,7 +54,20 @@ You can go to `Library`, then `Community`, to retrieve a list of shared palettes
 
 From the list, you can:
 
-* `Add to local`: A palette instance is pushed to the document. It can be updated but cannot be republished later
+* `Add to local`: A palette instance is pushed to the document, and it can be updated, but cannot be republished later
+* `Glance palette`: A quick look at a palette's properties, where you can add it to your starred or local
+* `Search palettes…`: Quickly go to a specific palette or a group of palettes
+{% endstep %}
+
+{% step %}
+## Explore resource palettes from mature organizations
+
+You can go to `Library`, then `Organization`, to retrieve a list of palettes inspired by well-known organizations such as Adobe, Microsoft, Radix, Tailwind, etc.
+
+From the list, you can:
+
+* `Add to local`: A palette instance is pushed to the document, and it can be updated, but cannot be republished later
+* `Glance palette`: A quick look at a palette's properties, where you can add it to your starred or local
 * `Search palettes…`: Quickly go to a specific palette or a group of palettes
 {% endstep %}
 {% endstepper %}

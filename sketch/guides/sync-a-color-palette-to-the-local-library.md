@@ -11,10 +11,8 @@ icon: arrows-rotate-reverse
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local styles
 
-{% embed url="https://drive.google.com/file/d/1R9L9ZT0Ka2I3FYbr0B8XtoFLN-wc8222/view?usp=sharing" %}
-
 {% hint style="danger" %}
-Creating and updating local styles are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
+Creating and updating local styles is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color modes` have been created, the groups will be gathered and named with their related color theme. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
@@ -31,10 +29,8 @@ The synchronization with the local styles is not deep by default, so the styles 
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local variables
 
-{% embed url="https://drive.google.com/open?id=1dkhiDqUXReZrAWddrHcJnaV5r_shcatu&usp=drive_fs" %}
-
 {% hint style="danger" %}
-Creating and updating local variables are only available in the <mark style="color:yellow;">`/pro`</mark> plan.
+Creating and updating local variables is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color modes` have been created, the groups will be gathered and named with their related color theme. In addition, if the palette has a custom name, every group is gathered into one with the palette name.

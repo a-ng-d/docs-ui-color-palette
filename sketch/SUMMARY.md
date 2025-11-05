@@ -12,7 +12,9 @@
 ## Guides
 
 * [Create a color palette](guides/create-a-color-palette.md)
+* [Master a color palette](guides/master-a-color-palette.md)
 * [Manage a color palette](guides/manage-a-color-palette.md)
+* [Generate a color palette documentation](guides/generate-a-color-palette-documentation.md)
 * [Export a color palette to code](guides/export-a-color-palette-to-code.md)
 * [Sync a color palette to the local library](guides/sync-a-color-palette-to-the-local-library.md)
 * [Publish and synchronize a color palette](guides/publish-and-synchronize-a-color-palette.md)
