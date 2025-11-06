@@ -2,9 +2,13 @@
 icon: key
 ---
 
-# Manage your license・/One
+# Manage your license・/one
 
 Once you purchase a license on the UI Color Palette store, you will receive an email with your license key. Then, you can open `Manage license` in the <i class="fa-user">:user:</i> `User menu`.
+
+{% hint style="warning" %}
+Ensure you use the appropriate plugin, tagged [`/one`](https://uicp.ylb.lt/run-figma-plugin) on Figma, to use the license key and make the magic happen!
+{% endhint %}
 
 Paste your license key in the Instance key input, and type a name (you can use your first name) in order to identify the key's consumer and manage it via **Lemon Squeezy**. This may help the owner of the licenses if he has purchased them.
 
