@@ -30,5 +30,5 @@
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookies Policy](legal/cookies-policy.md)
-* [Terms of Sales](legal/terms-of-sales.md)
+* [Terms of Sale](legal/terms-of-sale.md)
 * [License](legal/license.md)

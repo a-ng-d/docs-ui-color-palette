@@ -1,8 +1,10 @@
 ---
-description: 'Last updated: 7 November, 2025'
+description: 'Last updated: November 7, 2025'
+icon: dollar-sign
+layout: landing
 ---
 
-# Terms of Sales
+# Terms of Sale
 
 ## 1. Acceptance of Terms
 
