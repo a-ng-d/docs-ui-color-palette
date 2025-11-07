@@ -1,6 +1,7 @@
 ---
-description: 'Last updated: August 14, 2025'
+description: 'Last updated: November 7, 2025'
 icon: dollar-sign
+layout: editorial
 ---
 
 # Terms of Sale
