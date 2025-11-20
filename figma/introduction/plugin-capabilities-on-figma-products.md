@@ -10,6 +10,7 @@ UI Color Palette can be used on many Figma products:
 * Dev mode
 * [VS Code Figma plugin](https://marketplace.visualstudio.com/items?itemName=figma.figma-vscode-extension)
 * FigJam
+* Buzz
 
 The plugin is tailored for each of them regarding their use cases and constraints:
 
@@ -29,3 +30,8 @@ The plugin is tailored for each of them regarding their use cases and constraint
 * FigJam: Partial capabilities
   * Sync to the local styles is impossible
   * Sync to the local variables is impossible
+* Buzz: Partial capabilities
+  * Sync to the local styles is impossible
+  * Sync to the local variables is impossible
+  * Export is not available
+  * Modes are not available
