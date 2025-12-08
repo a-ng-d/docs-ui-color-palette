@@ -10,6 +10,7 @@
 * [The difference between /one and /figma](introduction/the-difference-between-one-and-figma.md)
 * [Plugin capabilities on Figma products](introduction/plugin-capabilities-on-figma-products.md)
 * [Palette publication lifecycle](introduction/palette-publication-lifecycle.md)
+* [Fees from the credit system](introduction/fees-from-the-credit-system.md)
 
 ## Guides
 

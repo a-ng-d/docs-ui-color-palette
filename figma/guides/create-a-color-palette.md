@@ -17,8 +17,7 @@ You can select and import up to 5 colors on the <mark style="color:yellow;">`/ba
 {% endhint %}
 
 {% hint style="info" %}
-* The imported, created, or generated color will adopt a name based on its appearance. So, a redish could be named Crimson Red
-* Your credits will be renewed to 400 the next day when the plugin runs
+The imported, created, or generated color will adopt a name based on its appearance. So, a redish could be named Crimson Red
 {% endhint %}
 
 ### Select colors from the document canvas
@@ -34,8 +33,7 @@ Only frames, shapes are allowed to be turned into source colors if they have at 
 ### Import colors from external palette tools
 
 {% hint style="info" %}
-* Importing colors costs 50 credits
-* One palette per tool is permitted
+One palette per tool is permitted
 {% endhint %}
 
 The color combinations can be edited using tailored tools such as [`Coolors`](https://coolors.co/), [`Realtime Colors`](https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff\&fonts=Inter-Inter), and [`Colour Lovers`](https://www.colourlovers.com/).&#x20;
@@ -46,29 +44,17 @@ For [`Colour Lovers`](https://www.colourlovers.com/), you can browse the palette
 
 ### Generate colors with AI
 
-{% hint style="info" %}
-Generating colors costs 100 credits.
-{% endhint %}
-
 On `AI`, if you’re looking for a color combination, you can generate it by sending a prompt to the AI. There are several prompt templates to help you get started. Once you request a color combination, the AI will propose five colors, each flagged with a `Primary`, `Text`, `Success`, `Warning`, or `Alert` role.
 
 The colors are adapted to the role they refer to, so an `Alert` color would always be redish. Then, you can add these colors to the sources, and you will be redirected to the `Overview` context.
 
 ### Extract colors from an image
 
-{% hint style="info" %}
-Uploading an image costs 100 credits.
-{% endhint %}
-
 On `Image`, when uploading a `PNG` image, 5 dominant colors are extracted from it. Ensure that you upload a `PNG`, as a `JPEG` will result in an error.
 
 Then, you can add these colors to the sources, and you will be redirected to the `Overview` context.
 
 ### Create a color harmony
-
-{% hint style="info" %}
-Adding the colors costs 50 credits.
-{% endhint %}
 
 On `Wheel`, you can obtain from a base color a combination of colors using several color wheel theories:
 
