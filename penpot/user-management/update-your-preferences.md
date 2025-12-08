@@ -14,3 +14,4 @@ There is two preferences:
 * The language of the UI:
   * English (US)
   * French (France)
+  * Portuguese (Brazil)

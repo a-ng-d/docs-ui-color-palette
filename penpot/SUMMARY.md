@@ -8,6 +8,7 @@
 * [Why should you avoid RBG and HSL color spaces?](introduction/what-is-the-lch-model.md)
 * [How UI Color Palette on Penpot works](introduction/how-ui-color-palette-on-penpot-works.md)
 * [Palette publication lifecycle](introduction/palette-publication-lifecycle.md)
+* [Fees from the credit system](introduction/fees-from-the-credit-system.md)
 
 ## Guides
 
