@@ -3,7 +3,7 @@ description: >-
   Learn how to master a color palette to adjust every parameter to create the
   best color palette that suits your organisation's culture and brand's
   language.
-icon: palette
+icon: sparkles
 ---
 
 # Master a color palette

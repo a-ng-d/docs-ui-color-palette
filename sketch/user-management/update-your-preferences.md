@@ -17,6 +17,7 @@ There are three preferences:
 * The language of the UI:
   * English (US)
   * French (France)
+  * Portuguese (Brazil)
 
 {% hint style="warning" %}
 The current behavior of Sketch cannot allow you to replace the previous variables with the new ones. So, the new variables will lose the link with the published ones.
