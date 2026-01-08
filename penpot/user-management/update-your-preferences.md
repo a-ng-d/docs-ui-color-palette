@@ -15,3 +15,4 @@ There is two preferences:
   * English (US)
   * French (France)
   * Portuguese (Brazil)
+  * Chinese (Simplified)
