@@ -4,7 +4,7 @@ icon: square-dollar
 
 # Fees from the credit system
 
-UI Color Palette introduces a credit system to unlock a couple of advanced features, so you can test them. Each day, you receive 250 credits on the date of the refillment (when you have consumed all the credits, or when you have started the plugin if the date has not been set).
+UI Color Palette introduces a credit system to unlock a couple of advanced features, so you can test them. Each day, you receive 500 credits on the date of the refillment (when you have consumed all the credits, or when you have started the plugin if the date has not been set).
 
 Here are the fees for the related advanced features.
 
