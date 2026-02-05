@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: August 14, 2025'
+description: 'Last updated: February 5, 2026'
 icon: file-signature
 layout: editorial
 ---
@@ -8,116 +8,120 @@ layout: editorial
 
 ## 1. Introduction
 
-At UI Color Palette, we are committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, disclose, and protect your personal information in accordance with international regulations, including the General Data Protection Regulation (GDPR), Law 25, the California Consumer Privacy Act (CCPA), the Consumer Privacy Act (CPA), and the new Federal Act on Data Protection (nFADP).
+Welcome to **UI Color Palette**. These Terms and Conditions ("Terms") govern your access to and use of the UI Color Palette plugin for Penpot, including any content, functionality, and services offered on or through the plugin (collectively, the "Service").
 
-## 2. Collection of Information
+By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not access or use the Service.
 
-### 2.1. Personal Information
+---
 
-We collect the email addresses of our users when they create an account on our platform. This information is necessary to provide our services and communicate with you.
+## 2. Account Creation
 
-### 2.2. Usage Data
+Optionally, you may choose to create an account on **Supabase** to enhance your experience with the Service. This process is handled opaquely, meaning you do not directly create the account yourself. By using the Service and opting to create an account, you agree to the creation of this account and to provide accurate, current, and complete information about yourself as prompted by the registration process. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify **UI Color Palette** immediately of any unauthorized use of your account or any other breach of security.
 
-We use Mixpanel to save events and track the usage of our service. The data collected may include information about how you interact with our website or application, such as pages visited, links clicked, and other actions you perform. Mixpanel collects personal information only with your explicit consent, and the data is stored within the European Union.
+---
 
-### 2.3. Account Creation
+## 3. Use of the Service
 
-To create an account on our platform, we use Supabase. The information collected may include your email address, name, and other personal information necessary to create and manage your account. Supabase stores personal account information.
+You are granted a limited, non-exclusive, non-transferable, and revocable license to access and use the Service for your personal or internal business purposes. You agree not to:
 
-### 2.4. Analytics
+- Use the Service for any illegal or unauthorized purpose.
+- Interfere with or disrupt the Service or servers or networks connected to the Service.
+- Use any data mining, robots, or similar data gathering and extraction methods in connection with the Service.
+- Violate any applicable law or regulation in connection with your use of the Service.
 
-We use Google Analytics to collect and analyze usage data. Google Analytics collects personal information only with your explicit consent.
+---
 
-### 2.5. Payments and Licensing
+## 4. Intellectual Property
 
-We use Lemon Squeezy to handle payments, subscriptions, and license management. When you purchase a license or subscription, Lemon Squeezy may collect personal information such as your name, email address, payment details, and billing information. Lemon Squeezy acts as a merchant of record and is responsible for processing these transactions securely in compliance with PCI DSS standards. For more information on how Lemon Squeezy handles your data, please refer to their [Privacy Policy](https://www.lemonsqueezy.com/privacy).
+The Service and its entire contents, features, and functionality are owned by **UI Color Palette**, its licensors, or other providers of such material and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.
 
-## 3. Use of Information
+However, the **UI Color Palette** project, including all code and graphical assets, is open-source and licensed under the **MIT License**.
 
-We use the collected information to:
+---
 
-* Provide and improve our services.
-* Communicate with you regarding our services, updates, and promotions.
-* Analyze the usage of our service to enhance the user experience.
-* Ensure the security of our service and protect against fraudulent activities.
-* Manage and verify licenses and subscriptions via Lemon Squeezy.
+## 5. User Content
 
-## 4. Sharing of Information
+You are responsible for any content you submit, post, or display on or through the Service ("User Content"). By submitting User Content, you grant **UI Color Palette** a non-exclusive, royalty-free, perpetual, irrevocable, and fully sublicensable right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, and display such User Content worldwide.
 
-We do not sell, trade, or rent your personal information to third parties without your explicit consent, except in the following cases:
+---
 
-* With third-party service providers who assist us in providing our services, such as Mixpanel, Supabase, Google Analytics, and Lemon Squeezy.
-* To comply with legal obligations or respond to legitimate requests from public authorities.
-* To protect our rights, property, or safety, as well as that of our users or the public.
+## 6. Data Storage and Management
 
-## 5. Your Rights
+Your data will be stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase's website](https://supabase.com).
 
-In accordance with data protection regulations, you have the following rights:
+---
 
-* **Right of Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
-* **Right to Erasure**: You may request the deletion of your personal information.
-* **Right to Portability**: You may request to receive your personal information in a structured, machine-readable format.
-* **Right to Object**: You may object to the processing of your personal information for legitimate reasons.
+## 7. Analytics
 
-To exercise these rights, please contact us at: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
+Analytics for the Service are managed by **Mixpanel**. By using the Service, you consent to the collection and use of your data by Mixpanel in accordance with their privacy policy. For more information, visit [Mixpanel's website](https://mixpanel.com).
 
-### 5.1. Rights of California Residents
+---
 
-If you are a resident of California, you have the following additional rights under the CCPA:
+## 8. Hosting
 
-* **Right to Know**: You may request information about the personal information we have collected about you.
-* **Right to Delete**: You may request the deletion of your personal information.
-* **Right to Non-Discrimination**: You have the right not to be discriminated against for exercising your CCPA rights.
+The Service is hosted on **Penpot**. By using the Service, you agree to comply with Penpot's terms of service and privacy policy. For more information, visit [Penpot's website](https://penpot.com).
 
-### 5.2. Rights of Canadian Residents
+---
 
-If you are a resident of Canada, you have the following additional rights under the CPA:
+## 9. Open Source and MIT License
 
-* **Right to Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
+The **UI Color Palette** project is open-source and licensed under the **MIT License**.
 
-### 5.3. Rights of Swiss Residents
+---
 
-If you are a resident of Switzerland, you have the following additional rights under the nFADP:
+## 10. Termination
 
-* **Right to Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
+We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, under our sole discretion, for any reason, including but not limited to a breach of the Terms.
 
-To exercise these rights, please contact us at: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
+---
 
-## 6. Data Security
+## 11. Indemnification
 
-We implement technical and organizational security measures to protect your personal information from unauthorized access, use, disclosure, alteration, or destruction. Lemon Squeezy also implements industry-standard security measures to protect your payment and licensing information.
+You agree to defend, indemnify, and hold harmless **UI Color Palette** and its affiliates from any claims arising out of your use of the Service or any breach of these Terms.
 
-## 7. Data Retention
+---
 
-We retain your personal information for as long as necessary to provide our services and comply with our legal obligations. Once your information is no longer needed, we securely delete it. Payment and licensing data processed by Lemon Squeezy is retained according to their data retention policies.
+## 12. Limitation of Liability
 
-## 8. International Data Transfers
+**UI Color Palette** is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of the Service.
 
-If we transfer your personal information outside of the European Union or other jurisdictions with strict data protection laws, we will ensure that appropriate safeguards are in place, such as the use of standard contractual clauses approved by the European Commission.
+---
 
-## 9. Cookies and Tracking Technologies
+## 13. Governing Law
 
-We use cookies and similar tracking technologies to collect and use personal information about you. For more information about the types of cookies we use and how to manage your cookie preferences, please see our [Cookie Policy](https://www.ui-color-palette.com/cookie-policy).
+These Terms shall be governed by the laws of **France**, without regard to its conflict of law provisions.
 
-## 10. Protection of Minors
+---
 
-Our services are not intended for use by minors. We do not knowingly collect personal information from minors. If we become aware that we have collected personal information from a minor, we will take steps to delete it.
+## 14. Changes to Terms
 
-## 11. Data Breach Procedures
+We reserve the right to modify or replace these Terms at any time. Material revisions will be notified at least 30 days in advance.
 
-In the event of a data breach, we will take appropriate measures to investigate and remediate the breach. We will also notify affected users and relevant authorities as required by law.
+---
 
-## 12. Data Protection Officer
+## 15. Licensing and Payments
 
-If you have any questions or concerns about our data protection practices, you may contact our Data Protection Officer at: [dpo@ui-color-palette.com](mailto:dpo@ui-color-palette.com).
+### 15.1 Payment Channels
 
-## 13. Changes to the Privacy Policy
+**UI Color Palette** offers paid features through two distinct channels:
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page. We encourage you to review this policy regularly to stay informed about how we protect your personal information.
+- **Lemon Squeezy**: For subscriptions and licenses purchased outside of Penpot.
 
-## 14. Contact
+### 15.2 Lemon Squeezy Licensing
 
-If you have any questions or concerns about this Privacy Policy, please contact us at: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
+For purchases made **outside of Penpot**:
+
+- **License Management**: Handled exclusively through Lemon Squeezy.
+- **Payments and Refunds**: Processed by Lemon Squeezy per their [terms](https://www.lemonsqueezy.com/terms).
+- **Subscription Renewals**: Automatic unless canceled before the renewal date.
+- **Taxes**: Your responsibility; Lemon Squeezy collects/remits where required.
+
+For more details, visit:
+
+- [Lemon Squeezy's Terms](https://www.lemonsqueezy.com/terms)
+
+---
+
+## 16. Contact Information
+
+For any questions about these Terms, please contact us at [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com).
