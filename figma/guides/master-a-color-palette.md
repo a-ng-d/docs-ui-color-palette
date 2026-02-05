@@ -17,7 +17,6 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 
 * Adjust the view's height by grabbing the top edge
 * Expand and collapse the view
-* Show the contrast score ([`WCAG 2.1`](../glossary.md#wcag-2.1) and [`APCA`](../glossary.md#apca))
 {% endhint %}
 
 Update a stop by sliding its knob on the range. You can slide every knob by using these shortcuts:
@@ -59,6 +58,21 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
+### <i class="fa-lock">:lock:</i> Adjust the hue
+
+{% hint style="danger" %}
+Setting the `Hue` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
+You can adjust the `Hue` of every scaled color from -180° to 180°.
+
+{% hint style="info" %}
+You can tweak a stop with more accuracy:
+
+* Select the stop and press the arrow keys. The default nudge amount is 1%, increased to 10% if the <kbd>Shift ⇧</kbd> is pressed
+* Double-click the stop and change the value
+{% endhint %}
+
 ### Distribute the stops
 
 The `Distribution easing` drives how the stops are distributed in the range. `Linear` is the default option and allows you to bring an equivalent gap between the stops, but you can select:
@@ -86,7 +100,6 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 
 * Adjust the view's height by grabbing the top edge
 * Expand and collapse the view
-* Show the contrast score ([`WCAG 2.1`](../glossary.md#wcag-2.1) and [`APCA`](../glossary.md#apca))
 {% endhint %}
 
 ### Select a color space
@@ -146,14 +159,24 @@ The color scaling can include every source color instead of the closest shade/ti
 {% hint style="info" %}
 Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
 
-* Adjust the view's height by grabbing the top edge
-* Expand and collapse the view
-* Show the contrast score ([`WCAG 2.1`](../glossary.md#wcag-2.1) and [`APCA`](../glossary.md#apca))
+* Show the contrast score and interval ([`WCAG 2.1`](../glossary.md#wcag-2.1) and [`APCA`](../glossary.md#apca))
+* Filter the shades/tints that pass or fail according to their ([`WCAG 2.1`](../glossary.md#wcag-2.1) or [`APCA`](../glossary.md#apca))
+* Consult a complete contrast report per shade/tint
 {% endhint %}
 
 You can customize the foreground colors to simulate contrast between the color shade/tint and accompanying foreground element. This allows you to compare differences using colors more relevant to your brand guidelines. While pure black `#000` and white `#FFF` are the default colors, you can now tailor them to suit your needs better.
 
 The contrast scores will help you achieve sufficient readability of the information on the foreground. [`APCA`](../glossary.md#apca) is a powerful tool that indicates the minimum typographic contrast needed for effective readability.
+
+{% hint style="danger" %}
+Showing intervals, filtering and consulting contrast report are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
+The interval calculates the difference between the minimum and maximum scores in a given stop. This allows you to adjust the color scale to achieve a perfectly harmonious color palette.
+
+You can filter the passing and failing shades/tints using their foreground color (light and/or dark).
+
+The contrast report emphasizes the contrast score and the recommendations. [`WCAG 2.1`](../glossary.md#wcag-2.1) gives an A, AA, or AAA score, whereas [`APCA`](../glossary.md#apca) gives a semantic type. A playground allows you to type specific text and choose a specific font weight to check the readability of the foreground content. Additionally, a readability score measures the performance of the contrast using the APCA algorithm.
 {% endstep %}
 {% endstepper %}
 
