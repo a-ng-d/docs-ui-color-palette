@@ -11,10 +11,6 @@ icon: arrows-rotate-reverse
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local styles
 
-{% hint style="danger" %}
-Creating and updating local styles is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
-
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color modes` have been created, the groups will be gathered and named with their related color theme. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
 
 Once the palette is ready, click the `Sync with the local styles` button to add every color shade/tint to the document's local styles. These styles can be published in the Team Library.
@@ -28,10 +24,6 @@ The synchronization with the local styles is not deep by default, so the styles 
 
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local variables
-
-{% hint style="danger" %}
-Creating and updating local variables is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
 
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color modes` have been created, the groups will be gathered and named with their related color theme. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
 

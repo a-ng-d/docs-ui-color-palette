@@ -9,9 +9,9 @@ icon: sliders-up
 
 {% stepper %}
 {% step %}
-## Adjust the lightness scale
+## Adjust the color scale
 
-The slider allows you to change the `Lightness scale` and the global `Chroma` in real-time. You can use the same keyboard shortcuts as the [creation](create-a-color-palette.md#set-the-scale).
+The slider allows you to change the `Lightness`, `Chroma`, and `Hue` in real-time. You can use the same keyboard shortcuts as the [creation](create-a-color-palette.md#set-the-scale).
 
 The changes will be reflected in the `Preview`.
 
@@ -48,14 +48,14 @@ The default name of a new color is `New UI Color`.
 The Alpha mode is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
-You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input). The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of palette cannot override this value. If reset, the global `Chroma` value is restored.
+You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input). The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of the palette cannot override this value. If reset, the global `Chroma` value is restored. The `Hue` range can also be shifted to adjust the hue of the shades/tints' scale and works the same way as the `Chroma`.
 
 There are more advanced options (expand first by clicking the <i class="fa-ellipsis">:ellipsis:</i> icon):
 
 * The [`LCH`](../glossary.md#lch) values, which might be changed directly to update the color
 * The `Hue` range can also be shifted to adjust the hue of the shades/tints' scale (handy for the yellow colors)
-* The `Alpha mode` makes the source color's scaling transparent instead of creating shades/tints and tints. The contrast is determined by mixing the alpha color with the `Background color` you set (default is white `#FFF`). The lightness stops' values are used to set the alpha
-* The description can help you organize the shades/tints and bring semantics
+* The `Alpha mode` makes the source color's scaling transparent instead of creating shades and tints. The contrast is determined by mixing the alpha color with the `Background color` you set (default is white `#FFF`). The lightness stops' values are used to set the alpha
+* The description can help you organize the shades/tints and add semantic meaning
 
 ### Reorder the colors
 
