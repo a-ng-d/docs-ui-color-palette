@@ -16,8 +16,8 @@ Here are the fees for the related advanced features.
 | [Generate colors from AI](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)                 | 50 credits |
 | [Extract dominant colors from image](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)      | 50 credits |
 | [Create a color harmony](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)                  | 50 credits |
-| [Generate a simple palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)   | 100 credits  |
-| [Generate a detailed palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette) | 150 credits |
-| [Generate a color sheet](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)      | 200 credits |
+| [Generate a simple palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)   | 150 credits  |
+| [Generate a detailed palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette) | 200 credits |
+| [Generate a color sheet](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)      | 250 credits |
 | [Update a palette](../guides/generate-a-color-palette-documentation.md#update-a-document-if-the-palette-has-been-too) | 25 credits  |
-| [Sync with local styles](../guides/sync-a-color-palette-to-the-local-library.md#sync-to-the-local-styles)             | 200 styles  |
+| [Sync with local styles](../guides/sync-a-color-palette-to-the-local-library.md#sync-to-the-local-styles)             | 250 styles  |
