@@ -14,14 +14,7 @@ By purchasing a license or subscription for UI Color Palette, you agree to these
 
 ## 2. Licenses, Subscriptions, and Pricing
 
-### 2.1 Lemon Squeezy (One-time Licenses)
-
-- **/personal:** $70 (1 seat, lifetime)
-- **/team:** $168 (up to 3 seats, lifetime)
-- **/agency:** $250 (up to 5 seats, lifetime)
-- **/organization:** $420 (up to 10 seats, lifetime)
-
-### 2.2 Lemon Squeezy (Subscriptions)
+### 2.1 Lemon Squeezy (Subscriptions)
 
 - **/week:** $3 per user per week
 - **/month:** $5 per user per month
@@ -37,7 +30,7 @@ By purchasing a license or subscription for UI Color Palette, you agree to these
   - **/year:** $40 per user per year
 
 
-### 2.3 Figma (Subscriptions)
+### 2.2 Figma (Subscriptions)
 
 UI Color Palette is available on Figma with the following subscription plans:
 
@@ -47,7 +40,7 @@ UI Color Palette is available on Figma with the following subscription plans:
 Refunds and billing for Figma subscriptions are managed according to [Figma’s Refund Policy](https://help.figma.com/hc/en-us/articles/12816440381975-Request-a-refund-for-a-Community-resource).
 
 
-### 2.4 Educational License (Free)
+### 2.3 Educational License (Free)
 
 - **/education:** Free (1 seat, 1 year)  
 Available only to currently enrolled students or educational institutions. Only institutional email addresses (e.g., ending in .edu, or your school’s domain) are accepted. Personal email addresses (e.g., Gmail, Yahoo) are not eligible.
