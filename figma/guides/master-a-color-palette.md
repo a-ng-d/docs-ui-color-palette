@@ -10,7 +10,11 @@ icon: sparkles
 
 {% stepper %}
 {% step %}
-## Adjust the lightness scale
+## <i class="fa-lock">:lock:</i> Adjust the scale
+
+{% hint style="danger" %}
+Adjusting the `Lightness` and `Contrast` are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 {% hint style="info" %}
 Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
@@ -19,14 +23,13 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 * Expand and collapse the view
 {% endhint %}
 
+### <i class="fa-lock">:lock:</i> Adjust the lightness
 Update a stop by sliding its knob on the range. You can slide every knob by using these shortcuts:
 
 * <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
 * <kbd>Shift ⇪</kbd> while sliding the first or the last stop to distribute each of them equally on the range
 * <i class="fa-arrow-right-arrow-left">:arrow-right-arrow-left:</i> button to reverse the stops
 * <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> button to reset to the default scale
-
-In addition, you can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
 
 {% hint style="info" %}
 You can tweak a stop with more accuracy:
@@ -35,7 +38,7 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### Use the contrast mode
+### <i class="fa-lock">:lock:</i> Use the contrast mode
 
 This `Contrast mode` specifically adjusts the lightness scale more precisely. Instead of adjusting just the lightness, you adjust the contrast ratio score of every color source's shade or tint. The adjustment works like the lightness scale; however, it recalculates the other stops to prevent any disharmonious scaling.
 
@@ -104,6 +107,10 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 
 ### Select a color space
 
+{% hint style="danger" %}
+Some color spaces are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
 {% hint style="info" %}
 The HSL color space is not recommended for good lightness and contrast consistency. This color space allows you to include the source color within the shades/tints.
 {% endhint %}
@@ -111,37 +118,41 @@ The HSL color space is not recommended for good lightness and contrast consisten
 You can change the global color space of your whole palette, which will be affected. Fortunately, you can browse the available color spaces without impacting the configuration (scale, source colors). Here are the color spaces:
 
 * [`LCH`](../glossary.md#lch) (default color space)
-* [`OKLCH`](../glossary.md#oklch)
-* [`CIELAB`](../glossary.md#cielab)
-* [`OKLAB`](../glossary.md#oklab)
+* [`OKLCH`](../glossary.md#oklch)・<mark style="color:yellow;">`/pro`</mark>
+* [`CIELAB`](../glossary.md#cielab)・<mark style="color:yellow;">`/pro`</mark>
+* [`OKLAB`](../glossary.md#oklab)・<mark style="color:yellow;">`/pro`</mark>
 * [`HSL`](../glossary.md#hsl)
-* [`HSLuv`](../glossary.md#hsluv)
+* [`HSLuv`](../glossary.md#hsluv)・<mark style="color:yellow;">`/pro`</mark>
 
-### <i class="fa-lock">:lock:</i> Select a vision simulation
+### Select a vision simulation
 
 {% hint style="danger" %}
-The vision impairments are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+Some vision impairments are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Light foreground color`/`Dark foreground color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
 
 * [`Protanomal`](../glossary.md#protanomaly)
-* [`Protanopia`](../glossary.md#protanopia)
-* [`Deuteranomaly`](../glossary.md#deuteranomaly)
-* [`Deuteranopia`](../glossary.md#deuteranopia)
-* [`Tritanomaly`](../glossary.md#tritanomaly)
-* [`Tritanopia`](../glossary.md#tritanopia)
-* [`Achromatomaly`](../glossary.md#achromatomaly)
-* [`Achromatopsia`](../glossary.md#achromatopsia)
+* [`Protanopia`](../glossary.md#protanopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Deuteranomaly`](../glossary.md#deuteranomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Deuteranopia`](../glossary.md#deuteranopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Tritanomaly`](../glossary.md#tritanomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Tritanopia`](../glossary.md#tritanopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Achromatomaly`](../glossary.md#achromatomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Achromatopsia`](../glossary.md#achromatopsia)・<mark style="color:yellow;">`/pro`</mark>
 
 ### Select a velocity
+
+{% hint style="danger" %}
+Some velocities are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 You can select how the chroma is calculated through the color scaling. Chroma defines the saturation of color within a specific color gamut ([`P3`](../glossary.md#p3), [`sRGB`](../glossary.md#srgb), [`D65`](../glossary.md#d65)). The ultimate purpose is to simulate a consistent and smooth chroma variation to avoid shades/tints from overshifting in lightness.
 
 Here are the velocities:
 
-* `Linear`: lighter shades/tints appear more saturated
-* `Sinusoidal`: shades/tints appear less saturated at both ends
+* `Linear`: lighter shades/tints appear more saturated・<mark style="color:yellow;">`/pro`</mark>
+* `Sinusoidal`: shades/tints appear less saturated at both ends・<mark style="color:yellow;">`/pro`</mark>
 * `Sinusoidal and hyperbolic`: shades/tints maintain consistent saturation
 
 ### <i class="fa-lock">:lock:</i> Lock the source colors

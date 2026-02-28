@@ -71,28 +71,29 @@ Then, you can add these colors to the sources, and you will be redirected to the
 ## Choose a lightness scale preset
 
 {% hint style="warning" %}
-You can add up to 8 stops in the `Custom` set on the <mark style="color:yellow;">`/basic`</mark> plan.
+* You can add up to 8 stops in the `Custom` set on the <mark style="color:yellow;">`/basic`</mark> plan.
+* Some presets are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color scaling:
 
-* Google:
+* Google・<mark style="color:yellow;">`/pro`</mark>:
   * `Material Design`, 10 stops, from 50 to 900
   * `Material 3`, 13 stops, from 0 to 100
 * Frameworks:
-  * `Tailwind`, 11 stops, from 50 to 950
+  * `Tailwind`, 11 stops, from 50 to 950・<mark style="color:yellow;">`/pro`</mark>
   * `Ant Design`, 10 stops, from 1 to 10
   * `Bootstrap`, 9 stops, from 100 to 900
-  * `Radix`, 12 stops, from 1 to 12
-  * `Untitled UI`, 12 stops, from 25 to 950
+  * `Radix`, 12 stops, from 1 to 12・<mark style="color:yellow;">`/pro`</mark>
+  * `Untitled UI`, 12 stops, from 25 to 950・<mark style="color:yellow;">`/pro`</mark>
   * `Open Color`, 10 stops, from 0 to 9
-* Atlassian:
+* Atlassian・<mark style="color:yellow;">`/pro`</mark>:
   * `ADS Foundations`, 7 stops, from 50 to 500
   * `ADS Foundations Neutral`, 19 stops, from 0 to 900
-* Adobe:
+* Adobe・<mark style="color:yellow;">`/pro`</mark>:
   * `Spectrum`, 13 stops, from 100 to 1300
   * `Spectrum Neutral`, 11 stops, from 25 to 900
-* More:
+* More・<mark style="color:yellow;">`/pro`</mark>:
   * `Carbon`, 10 stops, from 10 to 100 (IBM)
   * `Base`, 8 stops, from 50 to 700 (Uber)
   * `Polaris`, 16 stops, from 1 to 16 (Shopify)
