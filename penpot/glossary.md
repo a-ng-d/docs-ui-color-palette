@@ -60,6 +60,14 @@ CIELAB is a color space model based on human perception. It includes Lightness (
 
 <details>
 
+<summary>CMYK</summary>
+
+The CMYK (Cyan, Magenta, Yellow, Key/Black) color model is a subtractive color model used in color printing. Colors are produced by combining Cyan, Magenta, Yellow, and Black inks, which subtract light from white. It is the standard model for professional print production and differs from additive models like [RGB](glossary.md#rgb).
+
+</details>
+
+<details>
+
 <summary>HSL</summary>
 
 The HSL color space model is a type of color space commonly used in graphic design and web development. It has three axes, two of which represent Saturation (S\* axis) and Lightness (L\* axis), while the other represents Hue (H\* axis). The hue axis is circular, which enables a full range of colors to be displayed.
@@ -71,6 +79,14 @@ The HSL color space model is a type of color space commonly used in graphic desi
 <summary>HSLuv</summary>
 
 The HSLuv color space model works similarly with [HSL](glossary.md#hsl) but with improved perceptual uniformity and a more comprehensive range of chroma values. The chroma in HSLuv is adaptive and changes depending on the lightness value, providing a more consistent and natural-looking color representation.
+
+</details>
+
+<details>
+
+<summary>HSV</summary>
+
+The HSV (Hue, Saturation, Value) color space model represents colors using three components: Hue (H, the color angle from 0° to 360°), Saturation (S, the intensity of the color), and Value (V, the brightness). It is intuitive for designers as it mirrors how humans perceive and adjust colors, making it easy to independently control vividness and brightness.
 
 </details>
 
