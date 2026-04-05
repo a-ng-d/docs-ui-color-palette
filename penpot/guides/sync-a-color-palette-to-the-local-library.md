@@ -11,9 +11,9 @@ icon: arrows-rotate-reverse
 {% step %}
 ## <i class="fa-lock">:lock:</i> Sync to the local styles
 
-The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color mode` have been created, the groups will be gathered and named with their related color mode. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
+The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color mode` have been created, the groups will be gathered and named with their related color mode. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
 
-Once the palette is ready, click the `Sync with the local styles` button to add every color shade/tint to the document's local styles. These styles can be published as Team Library.
+Once the palette is ready, click the `Sync with the local styles` button to add every color shade/tint to the document's local styles. These styles can be published as Team Library.
 
 If you update the palette after adding its shades/tints to the local styles, you can click the `Sync with the local styles` button to update the styles that have been edited. The synchronization is not on both sides because you cannot update your palette from the local styles.
 
@@ -23,12 +23,8 @@ The synchronization with the local styles is not deep by default, so the styles 
 {% endstep %}
 
 {% step %}
-## Export tokens and import them as tokens
+## Sync with tokens
 
-Once the palette is ready, you can export it as Native tokens to import with the Penpot import. See more on the [Export a color palette to code](export-a-color-palette-to-code.md#export-as-design-tokens-json).
-
-{% hint style="info" %}
-The sync is not possible for now, but this will be an improvement for the future. Be aware that importing new tokens will erase the previous ones. See more on the [Penpot official document](https://help.penpot.app/user-guide/design-tokens/).
-{% endhint %}
+You can now synchronize your palette directly with Penpot design tokens using the native plugin API. See [Sync a color palette to tokens](sync-a-color-palette-to-tokens.md) for a step-by-step guide.
 {% endstep %}
 {% endstepper %}
