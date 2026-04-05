@@ -8,6 +8,10 @@ icon: palette
 
 # Create a color palette
 
+{% hint style="info" %}
+As of version 5.3.0, the UI has been reorganized around a sidebar. Palette management and generation tools (AI, image extraction, color wheel, Color Lovers) are now accessible as first-class navigation items from the sidebar.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ## Select and/or import the source colors
@@ -44,7 +48,7 @@ For [`Colour Lovers`](https://www.colourlovers.com/), you can browse the palette
 
 ### Generate colors with AI
 
-On `AI`, if you’re looking for a color combination, you can generate it by sending a prompt to the AI. There are several prompt templates to help you get started. Once you request a color combination, the AI will propose five colors, each flagged with a `Primary`, `Text`, `Success`, `Warning`, or `Alert` role.
+On `AI`, if you're looking for a color combination, you can generate it by sending a prompt to the AI. There are several prompt templates to help you get started. Once you request a color combination, the AI will propose five colors, each flagged with a `Primary`, `Text`, `Success`, `Warning`, or `Alert` role.
 
 The colors are adapted to the role they refer to, so an `Alert` color would always be redish. Then, you can add these colors to the sources, and you will be redirected to the `Overview` context.
 
@@ -78,11 +82,11 @@ Then, you can add these colors to the sources, and you will be redirected to the
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color scaling:
 
 * Google・<mark style="color:yellow;">`/pro`</mark>:
-  * `Material Design`, 10 stops, from 50 to 900
+  * `Material Design`, 10 stops, from 50 to 900
   * `Material 3`, 13 stops, from 0 to 100
 * Frameworks:
   * `Tailwind`, 11 stops, from 50 to 950・<mark style="color:yellow;">`/pro`</mark>
-  * `Ant Design`, 10 stops, from 1 to 10
+  * `Ant Design`, 10 stops, from 1 to 10
   * `Bootstrap`, 9 stops, from 100 to 900
   * `Radix`, 12 stops, from 1 to 12・<mark style="color:yellow;">`/pro`</mark>
   * `Untitled UI`, 12 stops, from 25 to 950・<mark style="color:yellow;">`/pro`</mark>
@@ -121,4 +125,4 @@ If logged in, upon publishing, the palette will be automatically renamed "{Your 
 {% endstep %}
 {% endstepper %}
 
-Click the `Create the UI Color Palette` button to save your palette and create a document in your current page! You can retrieve it in the `Local` section on the current page.
+Click the `Create the UI Color Palette` button to save your palette. Each palette creation costs **100 credits**. You can create as many palettes as you need — the previous one-palette-per-document limit no longer applies.

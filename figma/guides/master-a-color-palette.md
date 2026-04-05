@@ -26,15 +26,15 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 ### <i class="fa-lock">:lock:</i> Adjust the lightness
 Update a stop by sliding its knob on the range. You can slide every knob by using these shortcuts:
 
-* <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
-* <kbd>Shift ⇪</kbd> while sliding the first or the last stop to distribute each of them equally on the range
+* <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
+* <kbd>Shift ⇪</kbd> while sliding the first or the last stop to distribute each of them equally on the range
 * <i class="fa-arrow-right-arrow-left">:arrow-right-arrow-left:</i> button to reverse the stops
 * <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> button to reset to the default scale
 
 {% hint style="info" %}
 You can tweak a stop with more accuracy:
 
-* Select the stop and press the arrow keys. The default nudge amount is 1%, decreased to 0.1% if the <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux)
+* Select the stop and press the arrow keys. The default nudge amount is 1%, decreased to 0.1% if the <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux)
 * Double-click the stop and change the value
 {% endhint %}
 
@@ -123,6 +123,8 @@ You can change the global color space of your whole palette, which will be affec
 * [`OKLAB`](../glossary.md#oklab)・<mark style="color:yellow;">`/pro`</mark>
 * [`HSL`](../glossary.md#hsl)
 * [`HSLuv`](../glossary.md#hsluv)・<mark style="color:yellow;">`/pro`</mark>
+* `HSV`・<mark style="color:yellow;">`/pro`</mark>
+* `CMYK`・<mark style="color:yellow;">`/pro`</mark>
 
 ### Select a vision simulation
 

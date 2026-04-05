@@ -67,6 +67,10 @@ The export file follows this model:
 You can switch the [`RGB`](../glossary.md#rgb) values into [`OKLCH`](../glossary.md#oklch) values.
 {% endhint %}
 
+{% hint style="info" %}
+As of version 5.2.4, WCAG and APCA contrast ratios are included in the `$extensions` property of each shade, discriminated by color theme.
+{% endhint %}
+
 The export file follows this model (that can be used for [Terrazzo](https://terrazzo.app/) or [Style Dictionary v4](https://styledictionary.com/)):
 
 ```json
@@ -84,7 +88,6 @@ The export file follows this model (that can be used for [Terrazzo](https://terr
         "hex": "#f4f1b1"
       },
       "$description": "Shade/Tint color with 96.0% of lightness",
-      // If there is any color mode
       "$extentions": {
         "mode": {
           "Color Mode Name": {
@@ -100,8 +103,22 @@ The export file follows this model (that can be used for [Terrazzo](https://terr
             "$description": "Shade/Tint color with 88.0% of lightness"
           },
           ...
-        },
+        }
       },
+      "$extensions": {
+        "com.uicp.wcag": {
+          "Color Theme Name": {
+            "light": { "score": "AAA", "ratio": 7.13 },
+            "dark": { "score": "AAA", "ratio": 8.02 }
+          }
+        },
+        "com.uicp.apca": {
+          "Color Theme Name": {
+            "light": { "score": 79.5, "recommendation": "CONTENT_TEXT" },
+            "dark": { "score": 82.63, "recommendation": "CONTENT_TEXT" }
+          }
+        }
+      }
     },
     ...
   },
