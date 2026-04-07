@@ -18,6 +18,7 @@
 * [Generate a color palette documentation](guides/generate-a-color-palette-documentation.md)
 * [Export a color palette to code](guides/export-a-color-palette-to-code.md)
 * [Sync a color palette to the local library](guides/sync-a-color-palette-to-the-local-library.md)
+* [Sync a color palette to tokens](guides/sync-a-color-palette-to-tokens.md)
 * [Publish and synchronize a color palette](guides/publish-and-synchronize-a-color-palette.md)
 
 ## User management

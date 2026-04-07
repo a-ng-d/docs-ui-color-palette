@@ -10,6 +10,7 @@ Here are the fees for the related advanced features.
 
 | Action                                                                                                                | Fee         |
 | --------------------------------------------------------------------------------------------------------------------- | ----------- |
+| [Create a color palette](../guides/create-a-color-palette.md)                                                         | 100 credits |
 | [Import a palette from Coolors](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)           | 25 credits  |
 | [Import a palette from Realtime Colors](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)   | 25 credits  |
 | [Import a palette from Colour Lovers](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)     | 25 credits  |
