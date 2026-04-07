@@ -1,3 +1,7 @@
+---
+icon: square-dollar
+---
+
 # Fees from the credit system
 
 UI Color Palette introduces a credit system to unlock a couple of advanced features, so you can test them. Each week, you receive 500 credits on the date of the refillment (when you have consumed all the credits, or when you have started the plugin if the date has not been set).
@@ -7,12 +11,12 @@ Here are the fees for the related advanced features.
 | Action                                                                                                                | Fee         |
 | --------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [Create a color palette](../guides/create-a-color-palette.md)                                                         | 100 credits |
-| [Import a palette from Coolors](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)           | 25 credits  |
-| [Import a palette from Realtime Colors](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)   | 25 credits  |
-| [Import a palette from Colour Lovers](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)     | 25 credits  |
-| [Generate colors from AI](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)                 | 50 credits |
-| [Extract dominant colors from image](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)      | 50 credits |
-| [Create a color harmony](../guides/create-a-color-palette.md#select-and-or-import-the-source-colors)                  | 50 credits |
+| [Import a palette from Coolors](../guides/master-a-color-palette.md#change-the-source-colors)                         | 25 credits  |
+| [Import a palette from Realtime Colors](../guides/master-a-color-palette.md#change-the-source-colors)                 | 25 credits  |
+| [Import a palette from Colour Lovers](../guides/create-a-color-palette.md#browse-community-palettes)                  | 25 credits  |
+| [Generate colors from AI](../guides/create-a-color-palette.md#generate-colors-with-ai)                                | 50 credits |
+| [Extract dominant colors from image](../guides/create-a-color-palette.md#extract-colors-from-an-image)                | 50 credits |
+| [Create a color harmony](../guides/create-a-color-palette.md#create-a-color-harmony)                                  | 50 credits |
 | [Generate a simple palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)   | 150 credits  |
 | [Generate a detailed palette](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette) | 200 credits |
 | [Generate a color sheet](../guides/generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)      | 150 credits |
