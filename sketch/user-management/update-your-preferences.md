@@ -19,6 +19,9 @@ There are three preferences:
   * French (France)
   * Portuguese (Brazil)
   * Chinese (Simplified)
+  * Japanese (Japan)
+  * Korean (Korea)
+  * Spanish (Spain)
 
 {% hint style="warning" %}
 The current behavior of Sketch cannot allow you to replace the previous variables with the new ones. So, the new variables will lose the link with the published ones.

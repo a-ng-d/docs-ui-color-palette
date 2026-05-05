@@ -16,3 +16,6 @@ There are two preferences:
   * French (France)
   * Portuguese (Brazil)
   * Chinese (Simplified)
+  * Japanese (Japan)
+  * Korean (Korea)
+  * Spanish (Spain)
