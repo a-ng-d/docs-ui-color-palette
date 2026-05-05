@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: August 14, 2025'
+description: 'Last updated: May 6, 2026'
 icon: file-lock
 layout: editorial
 ---
@@ -22,7 +22,7 @@ We use Mixpanel to save events and track the usage of our service. The data coll
 
 ### 2.3. Account Creation
 
-To create an account on our platform, we use Supabase. The information collected may include your email address, name, and other personal information necessary to create and manage your account. Supabase stores personal account information.
+Creating an account is required to access paid features of UI Color Palette. Account creation and payment processing are handled through **Polar** ([polar.sh](https://polar.sh)). Account data (email address and subscription status) is stored on **Supabase**. The information collected may include your email address and other personal information necessary to create and manage your account and subscription.
 
 ### 2.4. Analytics
 
@@ -36,12 +36,13 @@ We use the collected information to:
 * Communicate with you regarding our services, updates, and promotions.
 * Analyze the usage of our service to enhance the user experience.
 * Ensure the security of our service and protect against fraudulent activities.
+* Manage your subscription and verify your access rights.
 
 ## 4. Sharing of Information
 
 We do not sell, trade, or rent your personal information to third parties without your explicit consent, except in the following cases:
 
-* With third-party service providers who assist us in providing our services, such as Mixpanel, Supabase, and Google Analytics.
+* With third-party service providers who assist us in providing our services, such as **Polar** (payment processing and subscription management), **Mixpanel** (usage analytics), **Supabase** (account data storage), and **Google Analytics** (web analytics).
 * To comply with legal obligations or respond to legitimate requests from public authorities.
 * To protect our rights, property, or safety, as well as that of our users or the public.
 
