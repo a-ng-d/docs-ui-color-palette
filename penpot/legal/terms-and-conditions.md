@@ -49,11 +49,12 @@ Your palette data and account information are stored and managed on **Supabase**
 
 ## 7. Analytics
 
+Analytics for the Service are managed by **Mixpanel**. By using the Service, you consent to the collection and use of your data by Mixpanel in accordance with their privacy policy. For more information, visit [Mixpanel’s website](https://mixpanel.com).
 
 
-## 8. Hosting
+## 8. Distribution
 
-The Service is hosted on **Framer**. By using the Service, you agree to comply with Framer’s terms of service and privacy policy. For more information, visit [Framer’s website](https://framer.com).
+The Service is distributed as a **plugin hosted on GitHub** ([github.com/a-ng-d](https://github.com/a-ng-d)). By using the Service, you agree to comply with GitHub’s terms of service and privacy policy. For more information, visit [GitHub’s website](https://github.com).
 
 
 ## 9. Open Source and MIT License
@@ -81,6 +82,7 @@ These Terms shall be governed by the laws of **France**, without regard to its c
 
 ## 14. Changes to Terms
 
+We reserve the right to modify or replace these Terms at any time. Material revisions will be notified at least 30 days in advance.
 
 
 ## 15. Licensing and Payments

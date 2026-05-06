@@ -51,9 +51,9 @@ Your palette data and account information are stored and managed on **Supabase**
 
 
 
-## 8. Hosting
+## 8. Distribution
 
-The Service is hosted on **Framer**. By using the Service, you agree to comply with Framer’s terms of service and privacy policy. For more information, visit [Framer’s website](https://framer.com).
+The Service is distributed as a **plugin through the Figma Community**. By installing and using the plugin, you agree to comply with Figma’s terms of service and privacy policy. For more information, visit [Figma’s website](https://figma.com).
 
 
 ## 9. Open Source and MIT License
