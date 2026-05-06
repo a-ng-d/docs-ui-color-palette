@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: February 5, 2026'
+description: 'Last updated: May 6, 2026'
 icon: file-signature
 layout: editorial
 ---
@@ -15,7 +15,11 @@ By accessing or using the Service, you agree to be bound by these Terms. If you 
 
 ## 2. Account Creation
 
-Optionally, you may choose to create an account on **Supabase** to enhance your experience with the Service. This process is handled opaquely, meaning you do not directly create the account yourself. By using the Service and opting to create an account, you agree to the creation of this account and to provide accurate, current, and complete information about yourself as prompted by the registration process. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify **UI Color Palette** immediately of any unauthorized use of your account or any other breach of security.
+UI Color Palette uses **Supabase** to create and store your account. This account is primarily used to host and synchronize your palette data across sessions and devices.
+
+To access paid features, this same account is also linked to **Polar** ([polar.sh](https://polar.sh)), which handles subscription management, payment processing, and access activation. Account creation is therefore a mandatory prerequisite for any paid subscription.
+
+By creating an account, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify **UI Color Palette** immediately of any unauthorized use of your account or any other breach of security.
 
 
 ## 3. Use of the Service
@@ -40,16 +44,16 @@ You are responsible for any content you submit, post, or display on or through t
 
 ## 6. Data Storage and Management
 
-Your data will be stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase's website](https://supabase.com).
+Your palette data and account information are stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase’s website](https://supabase.com).
 
 
 ## 7. Analytics
 
 
 
-## 8. Hosting
+## 8. Distribution
 
-The Service is hosted on **Framer**. By using the Service, you agree to comply with Framer's terms of service and privacy policy. For more information, visit [Framer's website](https://framer.com).
+The Service is distributed as a **plugin through the Figma Community**. By installing and using the plugin, you agree to comply with Figma’s terms of service and privacy policy. For more information, visit [Figma’s website](https://figma.com).
 
 
 ## 9. Open Source and MIT License
@@ -81,34 +85,23 @@ These Terms shall be governed by the laws of **France**, without regard to its c
 
 ## 15. Licensing and Payments
 
-### 15.1 Payment Channels
+### 15.1 Primary Payment Platform
 
-**UI Color Palette** offers paid features through two distinct channels:
+**UI Color Palette** processes all new subscriptions through **Polar** ([polar.sh](https://polar.sh)). Polar is linked to your existing UI Color Palette account (hosted on Supabase) to manage subscription status and synchronize access rights with the plugin.
 
-- **Figma Community**: For plugins purchased directly through Figma's platform.
-- **Lemon Squeezy**: For subscriptions and licenses purchased outside of Figma.
+### 15.2 Polar Subscriptions
 
-### 15.2 Figma Creator Paid License Agreement
+- **License management**: Automatically handled through your Polar account, synchronized with the plugin.
+- **Payments and refunds**: Governed by [Polar’s Terms of Service](https://polar.sh/legal/terms).
+- **Subscription renewals**: Automatic unless canceled before the renewal date.
+- **Taxes**: Polar collects and remits applicable taxes where required by law.
 
-When purchasing through the **Figma Community**, the following applies:
+### 15.3 Legacy Platforms (Sunset)
 
-- **License Management**: Figma handles all license distribution and validation.
-- **Payments and Refunds**: Governed by [Figma's Terms of Service](https://www.figma.com/legal/terms-of-service/).
-- **Subscription Renewals**: Automatic unless canceled per Figma's policies.
+New subscriptions through **Figma** and **Lemon Squeezy** have been suspended. Existing subscriptions and license keys on these platforms remain active under their original terms:
 
-### 15.3 Lemon Squeezy Licensing
-
-For purchases made **outside of Figma**:
-
-- **License Management**: Handled exclusively through Lemon Squeezy.
-- **Payments and Refunds**: Processed by Lemon Squeezy per their [terms](https://www.lemonsqueezy.com/terms).
-- **Subscription Renewals**: Automatic unless canceled before the renewal date.
-- **Taxes**: Your responsibility; Lemon Squeezy collects/remits where required.
-
-For more details, visit:
-
-- [Figma's Terms](https://www.figma.com/legal/terms-of-service/)
-- [Lemon Squeezy's Terms](https://www.lemonsqueezy.com/terms)
+- **Figma**: Governed by [Figma’s Terms of Service](https://www.figma.com/legal/terms-of-service/).
+- **Lemon Squeezy**: Governed by [Lemon Squeezy’s Terms](https://www.lemonsqueezy.com/terms).
 
 
 ## 16. Contact Information
