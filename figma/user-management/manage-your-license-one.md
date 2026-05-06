@@ -4,40 +4,36 @@ icon: key
 
 # Manage your license・/one
 
-UI Color Palette subscriptions are now managed through **Polar**. Creating a Polar account is required to subscribe, which allows your subscription status to be automatically synchronized with the plugin — no manual action needed.
+UI Color Palette /one supports two ways to activate Pro access.
+
+## Account-based subscription
+
+The recommended way to unlock Pro features is through an **account-based subscription**, linked to your UI Color Palette account.
+
+1. Open the `User menu` <i class="fa-user">:user:</i> and select **Sign in**.
+2. Sign in with your UI Color Palette account credentials.
+3. Once authenticated, your subscription is automatically detected and Pro features are unlocked — no additional steps required.
 
 {% hint style="info" %}
-Ensure you use the appropriate plugin, tagged [`/one`](https://uicp.ylb.lt/run-figma-plugin) on Figma, to activate your subscription and unlock Pro features.
+Your subscription is tied to your UI Color Palette account and syncs automatically across sessions.
 {% endhint %}
 
-## Subscribe via Polar
+## License key (legacy)
 
-{% stepper %}
-{% step %}
-### Open the license panel
+If you previously purchased a license key, you can still use it to activate Pro access.
 
-Open `Manage license` in the <i class="fa-user">:user:</i> `User menu`.
-{% endstep %}
-{% step %}
-### Create your Polar account
+1. Open `Manage license` in the `User menu` <i class="fa-user">:user:</i>.
+2. Paste your license key in the **Instance key** field and enter a name to identify your seat.
+3. Click **Activate**.
 
-If you don't have a Polar account yet, create one, then complete your purchase.
-{% endstep %}
-{% step %}
-### Access is activated automatically
+{% hint style="warning" %}
+License keys are no longer sold. New subscriptions are account-based. Existing keys remain fully supported.
+{% endhint %}
 
-Your subscription status is synchronized with the plugin instantly — no license key required.
-{% endstep %}
-{% endstepper %}
+## In-app purchase (Figma)
 
-## Figma in-app purchase
+Pro access can also be activated via a Figma in-app purchase directly from the Figma Community — no license key or account sign-in required.
 
-You can also subscribe directly from Figma using the in-app purchase option. Pro access is activated instantly — no license key required.
-
-## Existing Lemon Squeezy license keys
-
-If you already have a license key from Lemon Squeezy, it remains fully supported. You can continue to paste it in the Instance key input to activate Pro access.
-
-We can manage the license keys for each of our customers, and if you need any assistance, please let us know!
+We can manage license keys for each of our customers, and if you need any assistance, please let us know!
 
 <a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>

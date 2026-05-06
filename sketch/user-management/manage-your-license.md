@@ -4,32 +4,32 @@ icon: key
 
 # Manage your license
 
-UI Color Palette subscriptions are now managed through **Polar**. Creating a Polar account is required to subscribe, which allows your subscription status to be automatically synchronized with the plugin — no manual action needed.
+UI Color Palette supports two ways to activate Pro access.
 
-## Subscribe via Polar
+## Account-based subscription
 
-{% stepper %}
-{% step %}
-### Open the license panel
+The recommended way to unlock Pro features is through an **account-based subscription**, linked to your UI Color Palette account.
 
-Open `Manage license` in the <i class="fa-user">:user:</i> `User menu`.
-{% endstep %}
-{% step %}
-### Create your Polar account
+1. Open the `User menu` <i class="fa-user">:user:</i> and select **Sign in**.
+2. Sign in with your UI Color Palette account credentials.
+3. Once authenticated, your subscription is automatically detected and Pro features are unlocked — no additional steps required.
 
-If you don't have a Polar account yet, create one, then complete your purchase.
-{% endstep %}
-{% step %}
-### Access is activated automatically
+{% hint style="info" %}
+Your subscription is tied to your UI Color Palette account and syncs automatically across sessions.
+{% endhint %}
 
-Your subscription status is synchronized with the plugin instantly — no license key required.
-{% endstep %}
-{% endstepper %}
+## License key (legacy)
 
-## Existing Lemon Squeezy license keys
+If you previously purchased a license key, you can still use it to activate Pro access.
 
-If you already have a license key from Lemon Squeezy, it remains fully supported. You can continue to paste it in the Instance key input to activate Pro access.
+1. Open `Manage license` in the `User menu` <i class="fa-user">:user:</i>.
+2. Paste your license key in the **Instance key** field and enter a name to identify your seat.
+3. Click **Activate**.
 
-We can manage the license keys for each of our customers, and if you need any assistance, please let us know!
+{% hint style="warning" %}
+License keys are no longer sold. New subscriptions are account-based. Existing keys remain fully supported.
+{% endhint %}
+
+We can manage license keys for each of our customers, and if you need any assistance, please let us know!
 
 <a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
