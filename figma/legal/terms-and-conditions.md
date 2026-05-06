@@ -15,7 +15,11 @@ By accessing or using the Service, you agree to be bound by these Terms. If you 
 
 ## 2. Account Creation
 
-To access paid features of the Service, creating a **UI Color Palette account** is required. Account creation is a mandatory prerequisite for any paid subscription. Your account is created through **Polar** ([polar.sh](https://polar.sh)) and your account data is stored on **Supabase**. By creating an account, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify **UI Color Palette** immediately of any unauthorized use of your account or any other breach of security.
+UI Color Palette uses **Supabase** to create and store your account. This account is primarily used to host and synchronize your palette data across sessions and devices.
+
+To access paid features, this same account is also linked to **Polar** ([polar.sh](https://polar.sh)), which handles subscription management, payment processing, and access activation. Account creation is therefore a mandatory prerequisite for any paid subscription.
+
+By creating an account, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify **UI Color Palette** immediately of any unauthorized use of your account or any other breach of security.
 
 
 ## 3. Use of the Service
@@ -40,7 +44,7 @@ You are responsible for any content you submit, post, or display on or through t
 
 ## 6. Data Storage and Management
 
-Your account data will be stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase’s website](https://supabase.com).
+Your palette data and account information are stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase’s website](https://supabase.com).
 
 
 ## 7. Analytics
@@ -83,7 +87,7 @@ These Terms shall be governed by the laws of **France**, without regard to its c
 
 ### 15.1 Primary Payment Platform
 
-**UI Color Palette** processes all new subscriptions through **Polar** ([polar.sh](https://polar.sh)). A UI Color Palette account, created through Polar, is required to subscribe.
+**UI Color Palette** processes all new subscriptions through **Polar** ([polar.sh](https://polar.sh)). Polar is linked to your existing UI Color Palette account (hosted on Supabase) to manage subscription status and synchronize access rights with the plugin.
 
 ### 15.2 Polar Subscriptions
 
