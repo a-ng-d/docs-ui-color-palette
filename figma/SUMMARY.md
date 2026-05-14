@@ -28,14 +28,6 @@
 * [Manage your license・/one](user-management/manage-your-license-one.md)
 * [Plans](user-management/plans.md)
 
-## Legal
-
-* [Terms and Conditions](legal/terms-and-conditions.md)
-* [Privacy Policy](legal/privacy-policy.md)
-* [Cookies Policy](legal/cookies-policy.md)
-* [Terms of Sale](legal/terms-of-sale.md)
-* [License](legal/license.md)
-
 ## Others
 
 * [UI Color Palette 5 Millésime migration process](others/ui-color-palette-5-millesime-migration-process.md)

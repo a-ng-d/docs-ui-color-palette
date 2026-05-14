@@ -24,11 +24,3 @@
 * [Update your preferences](user-management/update-your-preferences.md)
 * [Manage your license](user-management/manage-your-license.md)
 * [Plans](user-management/plans.md)
-
-## Legal
-
-* [Terms and Conditions](legal/terms-and-conditions.md)
-* [Privacy Policy](legal/privacy-policy.md)
-* [Cookies Policy](legal/cookies-policy.md)
-* [Terms of Sale](legal/terms-of-sale.md)
-* [License](legal/license.md)
