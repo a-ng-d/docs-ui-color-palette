@@ -1,6 +1,5 @@
 ---
 icon: scale-balanced
-layout: editorial
 ---
 
 # Legal
