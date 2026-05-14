@@ -34,30 +34,30 @@ We use Google Analytics to collect and analyze usage data. Google Analytics coll
 
 We use the collected information to:
 
-* Provide and improve our services.
-* Communicate with you regarding our services, updates, and promotions.
-* Analyze the usage of our service to enhance the user experience.
-* Ensure the security of our service and protect against fraudulent activities.
-* Store and synchronize your palette data.
-* Manage your subscription and verify your access rights.
+- Provide and improve our services.
+- Communicate with you regarding our services, updates, and promotions.
+- Analyze the usage of our service to enhance the user experience.
+- Ensure the security of our service and protect against fraudulent activities.
+- Store and synchronize your palette data.
+- Manage your subscription and verify your access rights.
 
 ## 4. Sharing of Information
 
 We do not sell, trade, or rent your personal information to third parties without your explicit consent, except in the following cases:
 
-* With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), and **Google Analytics** (web analytics).
-* To comply with legal obligations or respond to legitimate requests from public authorities.
-* To protect our rights, property, or safety, as well as that of our users or the public.
+- With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), and **Google Analytics** (web analytics).
+- To comply with legal obligations or respond to legitimate requests from public authorities.
+- To protect our rights, property, or safety, as well as that of our users or the public.
 
 ## 5. Your Rights
 
 In accordance with data protection regulations, you have the following rights:
 
-* **Right of Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
-* **Right to Erasure**: You may request the deletion of your personal information.
-* **Right to Portability**: You may request to receive your personal information in a structured, machine-readable format.
-* **Right to Object**: You may object to the processing of your personal information for legitimate reasons.
+- **Right of Access**: You may request access to your personal information.
+- **Right to Rectification**: You may request the correction of any inaccurate personal information.
+- **Right to Erasure**: You may request the deletion of your personal information.
+- **Right to Portability**: You may request to receive your personal information in a structured, machine-readable format.
+- **Right to Object**: You may object to the processing of your personal information for legitimate reasons.
 
 To exercise these rights, please contact us at: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
 
@@ -65,23 +65,23 @@ To exercise these rights, please contact us at: [privacy@ui-color-palette.com](m
 
 If you are a resident of California, you have the following additional rights under the CCPA:
 
-* **Right to Know**: You may request information about the personal information we have collected about you.
-* **Right to Delete**: You may request the deletion of your personal information.
-* **Right to Non-Discrimination**: You have the right not to be discriminated against for exercising your CCPA rights.
+- **Right to Know**: You may request information about the personal information we have collected about you.
+- **Right to Delete**: You may request the deletion of your personal information.
+- **Right to Non-Discrimination**: You have the right not to be discriminated against for exercising your CCPA rights.
 
 ### 5.2. Rights of Canadian Residents
 
 If you are a resident of Canada, you have the following additional rights under the CPA:
 
-* **Right to Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
+- **Right to Access**: You may request access to your personal information.
+- **Right to Rectification**: You may request the correction of any inaccurate personal information.
 
 ### 5.3. Rights of Swiss Residents
 
 If you are a resident of Switzerland, you have the following additional rights under the nFADP:
 
-* **Right to Access**: You may request access to your personal information.
-* **Right to Rectification**: You may request the correction of any inaccurate personal information.
+- **Right to Access**: You may request access to your personal information.
+- **Right to Rectification**: You may request the correction of any inaccurate personal information.
 
 To exercise these rights, please contact us at: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
 
@@ -99,13 +99,13 @@ If we transfer your personal information outside of the European Union or other 
 
 ## 9. Cookies and Tracking Technologies
 
-We use cookies and similar tracking technologies to collect and use personal information about you. For more information about the types of cookies we use and how to manage your cookie preferences, please see our [Cookie Policy](https://uicp.ylb.lt/cookies).
+We use cookies and similar tracking technologies to collect and use personal information about you. For more information about the types of cookies we use and how to manage your cookie preferences, please see our [Cookie Policy](cookies-policy.md).
 
 ## 10. Protection of Minors
 
 Our services are not intended for use by minors. We do not knowingly collect personal information from minors. If we become aware that we have collected personal information from a minor, we will take steps to delete it.
 
-### 11. Data Breach Procedures
+## 11. Data Breach Procedures
 
 In the event of a data breach, we will take appropriate measures to investigate and remediate the breach. We will also notify affected users and relevant authorities as required by law.
 

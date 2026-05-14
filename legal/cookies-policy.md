@@ -40,12 +40,12 @@ You can control and/or delete cookies as you wish. For more information, visit [
 
 In accordance with data protection regulations, you have the right to:
 
-* Access your personal data
-* Correct or update your personal data
-* Request the deletion of your personal data
-* Object to the processing of your personal data
-* Request the portability of your personal data
-* Withdraw your consent to the use of cookies
+- Access your personal data
+- Correct or update your personal data
+- Request the deletion of your personal data
+- Object to the processing of your personal data
+- Request the portability of your personal data
+- Withdraw your consent to the use of cookies
 
 To exercise these rights, please contact us at: [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com).
 
@@ -53,21 +53,21 @@ To exercise these rights, please contact us at: [hello@ui-color-palette.com](mai
 
 ### 6.1. Analytics & Performance
 
-* **Google Analytics**: Collects website usage data (IP, browser, OS)
-* **Mixpanel**: Analyzes application usage patterns
+- **Google Analytics**: Collects website usage data (IP, browser, OS)
+- **Mixpanel**: Analyzes application usage patterns
 
 ### 6.2. Error Monitoring
 
-* **Sentry**: Collects technical error data (stack traces, browser info) to improve stability. No persistent cookies are used.
+- **Sentry**: Collects technical error data (stack traces, browser info) to improve stability. No persistent cookies are used.
 
 ### 6.3. Payment Processing
 
-* **Lemon Squeezy**: Handles payments without placing cookies on our domain
+- **Lemon Squeezy**: Handles payments without placing cookies on our domain
 
 ### 6.4. Consent Management
 
-* **Axeptio**: Manages cookie consent preferences
-* **In-House Solution**: Handles consent for our production application
+- **Axeptio**: Manages cookie consent preferences
+- **In-House Solution**: Handles consent for our production application
 
 ## 7. Changes to the Cookie Policy
 
