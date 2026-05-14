@@ -1,4 +1,4 @@
-# docs-ui-color-palette
+# UI Color Palette Docs
 
 Documentation mono-repo for **UI Color Palette** — a plugin available on Figma, Framer, Penpot, and Sketch that generates consistent, accessible color palettes using perceptual color spaces (LCH, OKLCH, CIELAB, OKLAB, HSLuv).
 
