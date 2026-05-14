@@ -9,5 +9,5 @@
     spec:
       ref:
         kind: openapi
-        spec: gitbook-petstore
+        spec: api-ui-color-palette
   ```
