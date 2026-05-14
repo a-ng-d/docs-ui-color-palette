@@ -12,6 +12,7 @@ Each folder is a standalone [GitBook](https://gitbook.com) space synced to its o
 | [`framer/`](framer/) | Documentation for the Framer plugin |
 | [`penpot/`](penpot/) | Documentation for the Penpot plugin |
 | [`sketch/`](sketch/) | Documentation for the Sketch plugin |
+| [`claude/`](claude/) | Claude Code plugin — skills, agents, and platform integrations |
 | [`mcp/`](mcp/) | MCP server — connect any AI assistant to the palette engine |
 | [`api/`](api/) | API reference (OpenAPI spec) |
 | [`legal/`](legal/) | Legal documents shared across all platforms |
