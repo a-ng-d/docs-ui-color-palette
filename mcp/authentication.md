@@ -1,7 +1,6 @@
 ---
 description: How to authenticate with the MCP server to access community tools
 icon: lock
-layout: editorial
 ---
 
 # Authentication
@@ -12,12 +11,12 @@ Palette generation tools work without any credentials. Community tools — publi
 
 The server implements **OAuth 2.0** with dynamic client registration. The authorization server is Supabase, proxied through the MCP worker so that MCP clients see a single issuer.
 
-| Endpoint | Path |
-|---|---|
-| Discovery | `/.well-known/oauth-authorization-server` |
-| Client registration | `/oauth/register` |
-| Token exchange | `/oauth/token` |
-| MCP | `/mcp` |
+| Endpoint            | Path                                      |
+| ------------------- | ----------------------------------------- |
+| Discovery           | `/.well-known/oauth-authorization-server` |
+| Client registration | `/oauth/register`                         |
+| Token exchange      | `/oauth/token`                            |
+| MCP                 | `/mcp`                                    |
 
 MCP clients that support OAuth 2.0 (Claude Desktop, Cursor, etc.) handle the full flow automatically — you just sign in when prompted.
 
@@ -33,23 +32,23 @@ The token is read from the `Authorization` header on the `/mcp` request and stor
 
 ## Which tools require authentication
 
-| Tool | Auth required |
-|---|---|
-| `get_palette` | No |
-| `get_color_system` | No |
-| `create_color_harmony` | No |
-| `extract_dominant_colors` | No |
-| `generate_code` | No |
-| `generate_colors_from_prompt` | No |
-| `preview_palette` | No |
-| `list_published_palettes` | No |
-| `list_my_published_palettes` | **Yes** |
-| `get_published_palette` | No |
-| `publish_palette` | **Yes** |
-| `update_published_palette` | **Yes** |
-| `share_published_palette` | **Yes** |
-| `unshare_published_palette` | **Yes** |
-| `unpublish_palette` | **Yes** |
+| Tool                          | Auth required |
+| ----------------------------- | ------------- |
+| `get_palette`                 | No            |
+| `get_color_system`            | No            |
+| `create_color_harmony`        | No            |
+| `extract_dominant_colors`     | No            |
+| `generate_code`               | No            |
+| `generate_colors_from_prompt` | No            |
+| `preview_palette`             | No            |
+| `list_published_palettes`     | No            |
+| `list_my_published_palettes`  | **Yes**       |
+| `get_published_palette`       | No            |
+| `publish_palette`             | **Yes**       |
+| `update_published_palette`    | **Yes**       |
+| `share_published_palette`     | **Yes**       |
+| `unshare_published_palette`   | **Yes**       |
+| `unpublish_palette`           | **Yes**       |
 
 When a tool requires authentication and no token is present, the server returns:
 
