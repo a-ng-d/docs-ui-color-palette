@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: May 6, 2026'
+description: 'Last updated: May 15, 2026'
 icon: file-signature
 layout: editorial
 ---
@@ -53,6 +53,7 @@ The distribution model of the Service depends on the platform:
 - **Framer**: Hosted on **Framer**. By using the Service, you agree to comply with Framer's terms of service and privacy policy. For more information, visit [Framer's website](https://framer.com).
 - **Penpot**: Distributed as a plugin hosted on **GitHub** ([github.com/a-ng-d](https://github.com/a-ng-d)). By using the Service, you agree to comply with GitHub's terms of service and privacy policy. For more information, visit [GitHub's website](https://github.com).
 - **Sketch**: A local plugin that runs directly on the user's machine. It is installed via Sketch and does not rely on any external hosting provider. No plugin data is transmitted to or stored on a remote server by the plugin itself.
+- **Claude**: Distributed as a plugin through **Anthropic's Claude** platform ([claude.ai](https://claude.ai)). By installing and using the plugin, you agree to comply with Anthropic's terms of service and usage policy. For more information, visit [Anthropic's website](https://anthropic.com).
 
 ## 8. Open Source and MIT License
 

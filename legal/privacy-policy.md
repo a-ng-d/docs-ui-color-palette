@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: May 6, 2026'
+description: 'Last updated: May 15, 2026'
 icon: file-lock
 layout: editorial
 ---
@@ -45,7 +45,7 @@ We use the collected information to:
 
 We do not sell, trade, or rent your personal information to third parties without your explicit consent, except in the following cases:
 
-- With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), and **Google Analytics** (web analytics).
+- With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), **Google Analytics** (web analytics), and **Anthropic** (Claude plugin distribution and AI-powered features).
 - To comply with legal obligations or respond to legitimate requests from public authorities.
 - To protect our rights, property, or safety, as well as that of our users or the public.
 
