@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome aboard!](README.md)
+* [UI Color Palette for Framer](README.md)
 * [Glossary](glossary.md)
 
 ## Introduction

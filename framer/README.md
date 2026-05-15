@@ -3,7 +3,7 @@ description: Get started quickly!
 icon: hand-wave
 ---
 
-# Welcome aboard!
+# UI Color Palette for Framer
 
 <figure><img src=".gitbook/assets/framer_cover.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,4 +22,4 @@ For a quick start, you can refer to this demo:
 
 And these pages:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>How to select source colors</td><td><a href=".gitbook/assets/quick_start-source_colors.png">quick_start-source_colors.png</a></td><td><a href="guides/create-a-color-palette.md#select-and-or-import-the-source-colors">#select-and-or-import-the-source-colors</a></td></tr><tr><td>How to scale colors</td><td><a href=".gitbook/assets/quick_start-color_scaling.png">quick_start-color_scaling.png</a></td><td><a href="guides/create-a-color-palette.md#adjust-the-lightness-scale">#adjust-the-lightness-scale</a></td></tr><tr><td>How to change source colors</td><td><a href=".gitbook/assets/quick_start-change_source_colors.png">quick_start-change_source_colors.png</a></td><td><a href="guides/manage-a-color-palette.md#change-the-source-colors">#change-the-source-colors</a></td></tr><tr><td>How to create styles</td><td><a href=".gitbook/assets/quick_start-change_styles.png">quick_start-change_styles.png</a></td><td><a href="guides/sync-a-color-palette-to-the-local-library.md#sync-to-the-local-styles">#sync-to-the-local-styles</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>How to select source colors</td><td><a href=".gitbook/assets/quick_start-source_colors.png">quick_start-source_colors.png</a></td><td><a href="guides/create-a-color-palette.md#select-and-or-import-the-source-colors">#select-and-or-import-the-source-colors</a></td></tr><tr><td>How to scale colors</td><td><a href=".gitbook/assets/plans-basic.png">plans-basic.png</a></td><td><a href="guides/create-a-color-palette.md#adjust-the-lightness-scale">#adjust-the-lightness-scale</a></td></tr><tr><td>How to change source colors</td><td><a href=".gitbook/assets/quick_start-change_source_colors.png">quick_start-change_source_colors.png</a></td><td><a href="guides/manage-a-color-palette.md#change-the-source-colors">#change-the-source-colors</a></td></tr><tr><td>How to create styles</td><td><a href=".gitbook/assets/quick_start-change_styles.png">quick_start-change_styles.png</a></td><td><a href="guides/sync-a-color-palette-to-the-local-library.md#sync-to-the-local-styles">#sync-to-the-local-styles</a></td></tr></tbody></table>
