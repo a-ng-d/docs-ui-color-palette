@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Legal](README.md)
+* [UI Color Palette legal documents](README.md)
 * [Terms and Conditions](terms-and-conditions.md)
 * [Privacy Policy](privacy-policy.md)
 * [Cookies Policy](cookies-policy.md)
