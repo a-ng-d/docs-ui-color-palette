@@ -1,7 +1,8 @@
 ---
-description: A Claude Code plugin for designing color palettes, auditing contrast, generating tokens, and syncing to design tools
+description: >-
+  A Claude Code plugin for designing color palettes, auditing contrast,
+  generating tokens, and syncing to design tools
 icon: hand-wave
-layout: editorial
 ---
 
 # UI Color Palette for Claude
@@ -14,12 +15,12 @@ layout: editorial
 Source → Palette → Deploy → Manage
 ```
 
-| Phase | What it does | Skills |
-|---|---|---|
-| **1 · Source** | Generate source colors from an image, a prompt, a harmony, or a design tool selection | `generate-source-colors` |
-| **2 · Palette** | Build a shade scale, define a semantic token system, audit contrast | `scale-palette`, `build-color-system`, `audit-palette` |
-| **3 · Deploy** | Push to design tools or export as code | `generate-code`, `generate-semantic-code`, platform skills |
-| **4 · Manage** | Browse, publish, share, update, and delete community palettes | `manage-palettes` |
+| Phase           | What it does                                                                          | Skills                                                     |
+| --------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **1 · Source**  | Generate source colors from an image, a prompt, a harmony, or a design tool selection | `generate-source-colors`                                   |
+| **2 · Palette** | Build a shade scale, define a semantic token system, audit contrast                   | `scale-palette`, `build-color-system`, `audit-palette`     |
+| **3 · Deploy**  | Push to design tools or export as code                                                | `generate-code`, `generate-semantic-code`, platform skills |
+| **4 · Manage**  | Browse, publish, share, update, and delete community palettes                         | `manage-palettes`                                          |
 
 ## Installation
 
@@ -58,9 +59,9 @@ On first enable, the plugin prompts for optional credentials — Penpot token, F
 
 Some platform integrations require external setup:
 
-| Platform | Requirement |
-|---|---|
-| Figma Desktop | Run Figma desktop with MCP enabled |
-| Penpot | Provide your user token via `/plugin config` |
-| Framer | Install the [MCP plugin](https://www.framer.com/marketplace/plugins/mcp/) and provide the URL |
-| Sketch | Enable MCP in Sketch preferences |
+| Platform      | Requirement                                                                                   |
+| ------------- | --------------------------------------------------------------------------------------------- |
+| Figma Desktop | Run Figma desktop with MCP enabled                                                            |
+| Penpot        | Provide your user token via `/plugin config`                                                  |
+| Framer        | Install the [MCP plugin](https://www.framer.com/marketplace/plugins/mcp/) and provide the URL |
+| Sketch        | Enable MCP in Sketch preferences                                                              |

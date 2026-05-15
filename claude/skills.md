@@ -1,25 +1,26 @@
 ---
-description: Core skills for the UI Color Palette workflow — source colors, palette building, code export, auditing, and palette management
+description: >-
+  Core skills for the UI Color Palette workflow — source colors, palette
+  building, code export, auditing, and palette management
 icon: wand-magic-sparkles
-layout: editorial
 ---
 
 # Skills
 
 All skills are namespaced under `ui-color-palette`. Invoke them with `/ui-color-palette:<skill-name>`.
 
----
+***
 
 ## generate-source-colors
 
 Generate source colors to seed a palette. Supports four modes:
 
-| Mode | How to invoke | What happens |
-|---|---|---|
-| **Image** | Pass a public image URL | Extracts dominant colors using k-means clustering |
-| **Prompt** | Describe a mood or brand in natural language | Generates colors via Mistral AI |
-| **Harmony** | Pass a base hex color and an optional harmony type | Derives complementary, analogous, triadic, tetradic, compound, or square harmonies |
-| **Design tool** | No argument — select layers in Figma, Penpot, Sketch, or Framer | Extracts fill colors from the current selection via MCP |
+| Mode            | How to invoke                                                   | What happens                                                                       |
+| --------------- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **Image**       | Pass a public image URL                                         | Extracts dominant colors using k-means clustering                                  |
+| **Prompt**      | Describe a mood or brand in natural language                    | Generates colors via Mistral AI                                                    |
+| **Harmony**     | Pass a base hex color and an optional harmony type              | Derives complementary, analogous, triadic, tetradic, compound, or square harmonies |
+| **Design tool** | No argument — select layers in Figma, Penpot, Sketch, or Framer | Extracts fill colors from the current selection via MCP                            |
 
 **Output**: a set of named `ColorConfiguration` objects ready to pass to `scale-palette`.
 
@@ -29,7 +30,7 @@ Generate source colors to seed a palette. Supports four modes:
 /ui-color-palette:generate-source-colors #E63946 triadic
 ```
 
----
+***
 
 ## scale-palette
 
@@ -46,7 +47,7 @@ Code export is handled by `generate-code`. Design tool deployment is handled by 
 
 **Session state**: if `PaletteData` is already in context, the skill offers to reuse it rather than rebuilding.
 
----
+***
 
 ## build-color-system
 
@@ -60,7 +61,7 @@ Use this when you need semantic token names (role, prominence, state) mapped to 
 
 **Session state**: skips taxonomy questions if `PaletteData` or `SystemConfiguration` is already in context.
 
----
+***
 
 ## audit-palette
 
@@ -77,7 +78,7 @@ Audit color pairs for WCAG 2.1 and APCA contrast compliance. Reads pre-computed 
 Themes must include `textColorsTheme: { lightColor: "#FFFFFF", darkColor: "#000000" }` for `textContrast` fields to be populated.
 {% endhint %}
 
----
+***
 
 ## generate-code
 
@@ -85,22 +86,22 @@ Export palette configuration as code or design tokens via `generate_code`. Does 
 
 **Arguments**: `<format> [color-space]`
 
-| Format | Description |
-|---|---|
-| `css` | CSS custom properties |
-| `scss` | SCSS variables |
-| `less` | LESS variables |
-| `tailwind-v3` | Tailwind v3 config |
-| `tailwind-v4` | Tailwind v4 CSS |
-| `swift-ui` | SwiftUI Color assets |
-| `ui-kit` | UIKit Color extension |
-| `compose` | Jetpack Compose |
-| `resources` | Android XML resources |
-| `csv` | CSV spreadsheet |
-| `native-tokens` | Native tokens JSON |
-| `dtcg-tokens` | W3C DTCG format |
-| `style-dictionary-v3` | Style Dictionary v3 |
-| `universal-json` | Universal JSON |
+| Format                | Description           |
+| --------------------- | --------------------- |
+| `css`                 | CSS custom properties |
+| `scss`                | SCSS variables        |
+| `less`                | LESS variables        |
+| `tailwind-v3`         | Tailwind v3 config    |
+| `tailwind-v4`         | Tailwind v4 CSS       |
+| `swift-ui`            | SwiftUI Color assets  |
+| `ui-kit`              | UIKit Color extension |
+| `compose`             | Jetpack Compose       |
+| `resources`           | Android XML resources |
+| `csv`                 | CSV spreadsheet       |
+| `native-tokens`       | Native tokens JSON    |
+| `dtcg-tokens`         | W3C DTCG format       |
+| `style-dictionary-v3` | Style Dictionary v3   |
+| `universal-json`      | Universal JSON        |
 
 ```bash
 /ui-color-palette:generate-code css
@@ -108,7 +109,7 @@ Export palette configuration as code or design tokens via `generate_code`. Does 
 /ui-color-palette:generate-code dtcg-tokens oklch
 ```
 
----
+***
 
 ## generate-semantic-code
 
@@ -119,21 +120,21 @@ Generate a **primitives file and a semantics file** together by passing a `Syste
 /ui-color-palette:generate-semantic-code dtcg-tokens
 ```
 
----
+***
 
 ## manage-palettes
 
 Manage the full lifecycle of published palettes on the UI Color Palette platform.
 
-| Action | Auth | Description |
-|---|---|---|
-| Browse | No | Search and page through community palettes |
-| Get | No | Fetch a specific palette by ID |
-| Publish | Yes | Save a palette to the database (private by default) |
-| Share | Yes | Make a palette publicly visible |
-| Unshare | Yes | Make a palette private |
-| Update | Yes | Update name, description, colors, or themes |
-| Delete | Yes | Permanently delete a palette |
+| Action  | Auth | Description                                         |
+| ------- | ---- | --------------------------------------------------- |
+| Browse  | No   | Search and page through community palettes          |
+| Get     | No   | Fetch a specific palette by ID                      |
+| Publish | Yes  | Save a palette to the database (private by default) |
+| Share   | Yes  | Make a palette publicly visible                     |
+| Unshare | Yes  | Make a palette private                              |
+| Update  | Yes  | Update name, description, colors, or themes         |
+| Delete  | Yes  | Permanently delete a palette                        |
 
 ```bash
 /ui-color-palette:manage-palettes
@@ -141,7 +142,7 @@ Manage the full lifecycle of published palettes on the UI Color Palette platform
 /ui-color-palette:manage-palettes <palette-id>
 ```
 
----
+***
 
 ## help
 

@@ -6,4 +6,3 @@
 * [Platform integrations](platforms.md)
 * [Agents](agents.md)
 * [Community skills](community-skills.md)
-* [Changelog](changelog.md)

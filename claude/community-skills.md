@@ -1,14 +1,15 @@
 ---
-description: Third-party skills bundled with the plugin for design tool and developer workflows
+description: >-
+  Third-party skills bundled with the plugin for design tool and developer
+  workflows
 icon: users
-layout: editorial
 ---
 
 # Community skills
 
 The plugin bundles five community skills. They are installed and locked via `skills-lock.json` and namespaced separately from the core UI Color Palette skills.
 
----
+***
 
 ## figma-variables-tokens-generator
 
@@ -17,7 +18,7 @@ The plugin bundles five community skills. They are installed and locked via `ski
 
 Generate a fully connected Figma design token system — variables, modes, and aliases — from a natural language description. Complements the native `ui-color-palette:figma` skill for token-first workflows.
 
----
+***
 
 ## penpot-uiux-design
 
@@ -26,7 +27,7 @@ Generate a fully connected Figma design token system — variables, modes, and a
 
 Create professional UI/UX designs in Penpot using MCP tools. Useful for building screens and components around a palette that has already been pushed to Penpot.
 
----
+***
 
 ## sketch-implement-design
 
@@ -35,7 +36,7 @@ Create professional UI/UX designs in Penpot using MCP tools. Useful for building
 
 Translate Sketch layers into production-ready code with visual fidelity. Works alongside `ui-color-palette:sketch` for full design-to-code workflows.
 
----
+***
 
 ## gh-cli
 
@@ -44,7 +45,7 @@ Translate Sketch layers into production-ready code with visual fidelity. Works a
 
 Comprehensive GitHub CLI (`gh`) reference — issues, PRs, releases, and repository operations. Useful for committing and opening PRs after exporting generated token files.
 
----
+***
 
 ## gitlab-cli-skills
 
@@ -53,7 +54,7 @@ Comprehensive GitHub CLI (`gh`) reference — issues, PRs, releases, and reposit
 
 GitLab CLI (`glab`) command reference and workflows. Requires `gitlab_url` configured via `/plugin config`.
 
----
+***
 
 ## Managing community skills
 
