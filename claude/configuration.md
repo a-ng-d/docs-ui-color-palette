@@ -36,11 +36,11 @@ The plugin connects to the following MCP servers automatically when enabled:
 
 ## Default agent
 
-The plugin sets `color-systemer` as the default agent in `settings.json`:
+The plugin sets `uicper` as the default agent in `settings.json`:
 
 ```json
 {
-  "agent": "color-systemer"
+  "agent": "uicper"
 }
 ```
 

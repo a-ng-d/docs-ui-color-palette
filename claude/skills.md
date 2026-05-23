@@ -59,7 +59,11 @@ Use this when you need semantic token names (role, prominence, state) mapped to 
 /ui-color-palette:build-color-system role/state/prominence
 ```
 
-**Session state**: skips taxonomy questions if `PaletteData` or `SystemConfiguration` is already in context.
+{% hint style="warning" %}
+A primitive palette is required. Run `scale-palette` first if `PaletteData` is not already in context.
+{% endhint %}
+
+**Session state**: skips taxonomy questions if `PaletteData` or `SystemConfiguration` is already in context. For a fully guided experience, the orchestrator delegates this step to the [`palette-color-systemer`](agents.md#palette-color-systemer) agent.
 
 ***
 

@@ -7,11 +7,11 @@ icon: robot
 
 # Agents
 
-The plugin ships five agents. `color-systemer` is the default orchestrator — it delegates to the four specialized agents when a task falls within their scope.
+The plugin ships six agents. `uicper` is the default orchestrator — it delegates to the five specialized agents when a task falls within their scope.
 
 ***
 
-## color-systemer
+## uicper
 
 **Default agent** — configured in `settings.json`.\
 **Model**: Sonnet · **Effort**: high · **Max turns**: 30
@@ -25,6 +25,25 @@ Top-level orchestrator for multi-step workflows. It coordinates skills, delegate
 * retrieve from community → rebuild → audit → export
 
 It does not perform heavy computation itself — it picks the right workflow and delegates.
+
+***
+
+## palette-color-systemer
+
+**Model**: Sonnet · **Effort**: medium · **Max turns**: 20
+
+Specialized agent for guided semantic color system design. Walks the user through the full taxonomy → binding → submission workflow step by step.
+
+**Responsibilities**:
+
+* Suggest taxonomy patterns (Role × State, Role × Prominence × State, Surface × Content, Custom)
+* Confirm members per group before proceeding
+* Propose intelligent default bindings derived from palette color ids and shade stops
+* Flag tokens that have no natural binding in the current palette
+* Batch all adjustments before calling `get_color_system` once
+* Display the resolved token matrix and route to the next deploy step
+
+**Hard prerequisite**: `PaletteData` or `base` + `themes` must be in context. If missing, the agent stops and redirects to `scale-palette` first.
 
 ***
 
@@ -86,4 +105,4 @@ Specialized transition agent. Takes `PaletteData` and moves it into the right de
 * Swatch board / document previews
 * Semantic variable collections on top of primitive variables
 
-It handles the transition logic — `color-systemer` handles the broader orchestration.
+It handles the transition logic — `uicper` handles the broader orchestration.
