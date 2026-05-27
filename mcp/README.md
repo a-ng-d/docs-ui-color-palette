@@ -44,11 +44,11 @@ The server runs on [Cloudflare Workers](https://workers.cloudflare.com) with dur
 | [`unshare_published_palette`](tools/community.md#unshare_published_palette)   | Make a palette private                 |
 | [`unpublish_palette`](tools/community.md#unpublish_palette)                   | Permanently delete a published palette |
 
-## Quick start
+## Installation
 
-**1. Add the server to your MCP client**
+### Claude Desktop
 
-Point your client at the `/mcp` endpoint. Example for Claude Desktop (`claude_desktop_config.json`):
+Add the server to `claude_desktop_config.json`:
 
 ```json
 {
@@ -59,6 +59,104 @@ Point your client at the `/mcp` endpoint. Example for Claude Desktop (`claude_de
   }
 }
 ```
+
+### Claude Code
+
+Add the server to `~/.claude/settings.json` (user-wide) or `.claude/settings.json` (project-level):
+
+```json
+{
+  "mcpServers": {
+    "ui-color-palette": {
+      "type": "http",
+      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+Or use the CLI directly:
+
+```bash
+claude mcp add --transport http ui-color-palette https://mcp-uicp.yelbolt.workers.dev/mcp
+```
+
+### VS Code
+
+Add the server to `.vscode/mcp.json` in your project (or the equivalent user-level config):
+
+```json
+{
+  "servers": {
+    "ui-color-palette": {
+      "type": "http",
+      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+### Cursor
+
+Add the server to `~/.cursor/mcp.json` (user-wide) or `.cursor/mcp.json` (project-level):
+
+```json
+{
+  "mcpServers": {
+    "ui-color-palette": {
+      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+### Windsurf
+
+Add the server to `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "ui-color-palette": {
+      "serverUrl": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+### OpenAI Codex
+
+Add the server to `~/.codex/config.json`:
+
+```json
+{
+  "mcpServers": {
+    "ui-color-palette": {
+      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+### Gemini CLI
+
+Add the server to `~/.gemini/settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "ui-color-palette": {
+      "httpUrl": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+    }
+  }
+}
+```
+
+***
+
+## Quick start
+
+**1. Add the server to your client** — see [Installation](#installation) above.
 
 **2. Authenticate (optional)**
 
