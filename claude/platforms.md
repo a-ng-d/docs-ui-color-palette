@@ -34,7 +34,7 @@ Platform skills handle the final step of the workflow: pushing a generated palet
 
 **Skill**: `/ui-color-palette:penpot`\
 **Argument**: `tokens`, `styles`, or `preview`\
-**Requires**: `penpot_token` configured via `/plugin config`
+**Requires**: `penpot_url` and `penpot_token` configured via `/plugin config`
 
 | Sub-workflow            | What it does                                             |
 | ----------------------- | -------------------------------------------------------- |

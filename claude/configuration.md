@@ -13,6 +13,7 @@ The plugin prompts for these values on first enable. You can update them at any 
 
 | Key              | Type     | Sensitive                | Required | Description                                                                                               |
 | ---------------- | -------- | ------------------------ | -------- | --------------------------------------------------------------------------------------------------------- |
+| `penpot_url`     | `string` | No                       | No       | Your Penpot instance base URL. Penpot Cloud: `https://design.penpot.app`. Self-hosted: your own domain    |
 | `penpot_token`   | `string` | Yes — stored in keychain | No       | Your Penpot user token. Find it in Penpot → Account → Integrations → MCP Server                           |
 | `framer_mcp_url` | `string` | No                       | No       | Your Framer MCP URL from the [Framer marketplace plugin](https://www.framer.com/marketplace/plugins/mcp/) |
 | `gitlab_url`     | `string` | No                       | No       | Your GitLab instance URL (e.g. `https://gitlab.company.com`) — leave empty if not using GitLab            |
@@ -28,7 +29,7 @@ The plugin connects to the following MCP servers automatically when enabled:
 | **UI Color Palette** | HTTP      | `https://mcp-uicp.yelbolt.workers.dev/mcp`         | OAuth 2.0 (optional)     |
 | **Figma**            | HTTP      | `https://mcp.figma.com/mcp`                        | OAuth                    |
 | **Figma Desktop**    | HTTP      | `http://127.0.0.1:3845/mcp`                        | Local                    |
-| **Penpot**           | HTTP      | `https://design.penpot.app/mcp/stream?userToken=…` | Token via `penpot_token` |
+| **Penpot**           | HTTP      | `${penpot_url}/mcp/stream?userToken=…`             | URL via `penpot_url` · token via `penpot_token` |
 | **Sketch**           | HTTP      | `http://localhost:31126/mcp`                       | Local                    |
 | **Framer**           | HTTP      | URL via `framer_mcp_url`                           | Token in URL             |
 | **GitHub**           | HTTP      | `https://api.githubcopilot.com/mcp/`               | OAuth                    |
