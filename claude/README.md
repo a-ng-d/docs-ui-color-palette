@@ -50,6 +50,24 @@ On first enable, the plugin prompts for optional credentials — Penpot token, F
 /plugin install github:a-ng-d/claude-ui-color-palette
 ```
 
+## Default agent — uicper
+
+The plugin configures **`uicper`** as the default orchestrator agent. Once the plugin is installed, activate it with:
+
+```bash
+/agents
+```
+
+From that point, you can describe what you want in plain language — no skill invocation needed:
+
+```
+Generate a warm, earthy brand palette and push it to Figma as variables
+```
+
+`uicper` coordinates the full 4-phase workflow (Source → Palette → Deploy → Manage), asks only the blocking questions, and delegates heavy work to specialized sub-agents (`palette-auditor`, `palette-codegen`, `palette-color-systemer`, `palette-publisher`, `palette-transitioner`).
+
+Skills remain available at any time for direct, single-step operations. See [Agents](agents.md) for the full sub-agent list and delegation rules.
+
 ## Quick start
 
 ```
