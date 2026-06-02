@@ -24,11 +24,31 @@ Source → Palette → Deploy → Manage
 
 ## Installation
 
+**Step 1 — Add the Yelbolt marketplace** (once per machine):
+
 ```bash
-claude /plugin install github:a-ng-d/claude-ui-color-palette
+/plugin marketplace add yelbolt/claude-marketplace
+```
+
+**Step 2 — Install the plugin:**
+
+```bash
+/plugin install ui-color-palette@yelbolt
 ```
 
 On first enable, the plugin prompts for optional credentials — Penpot token, Framer MCP URL, GitLab instance URL. These can be skipped and configured later via `/plugin config`.
+
+### Update
+
+```bash
+/plugin marketplace update yelbolt
+```
+
+### Alternative — direct GitHub install
+
+```bash
+/plugin install github:a-ng-d/claude-ui-color-palette
+```
 
 ## Quick start
 
