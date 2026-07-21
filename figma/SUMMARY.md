@@ -7,7 +7,7 @@
 
 * [Why should you avoid RBG and HSL color spaces?](introduction/what-is-the-lch-model.md)
 * [How UI Color Palette on Figma works](introduction/how-ui-color-palette-on-figma-works.md)
-* [The difference between /one and /figma](introduction/the-difference-between-one-and-figma.md)
+* [The difference between /one and /team](introduction/the-difference-between-one-and-team.md)
 * [Plugin capabilities on Figma products](introduction/plugin-capabilities-on-figma-products.md)
 * [Palette publication lifecycle](introduction/palette-publication-lifecycle.md)
 * [Understanding free and Pro](introduction/free-and-pro.md)
