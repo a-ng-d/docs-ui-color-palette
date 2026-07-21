@@ -44,10 +44,6 @@ The default name of a new color is `New UI Color`.
 
 ### Change a color's parameters
 
-{% hint style="warning" %}
-The Alpha mode is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
-
 You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input). The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of the palette cannot override this value. If reset, the global `Chroma` value is restored. The `Hue` range can also be shifted to adjust the hue of the shades/tints' scale and works the same way as the `Chroma`.
 
 There are more advanced options (expand first by clicking the <i class="fa-ellipsis">:ellipsis:</i> icon):

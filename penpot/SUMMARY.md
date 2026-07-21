@@ -8,12 +8,12 @@
 * [Why should you avoid RBG and HSL color spaces?](introduction/what-is-the-lch-model.md)
 * [How UI Color Palette on Penpot works](introduction/how-ui-color-palette-on-penpot-works.md)
 * [Palette publication lifecycle](introduction/palette-publication-lifecycle.md)
-* [Fees from the credit system](introduction/fees-from-the-credit-system.md)
+* [Understanding free and Pro](introduction/free-and-pro.md)
 
 ## Guides
 
 * [Create a color palette](guides/create-a-color-palette.md)
-* [Master a color palette](guides/create-a-color-palette-1.md)
+* [Master a color palette](guides/master-a-color-palette.md)
 * [Manage a color palette](guides/manage-a-color-palette.md)
 * [Generate a color palette documentation](guides/generate-a-color-palette-documentation.md)
 * [Export a color palette to code](guides/export-a-color-palette-to-code.md)

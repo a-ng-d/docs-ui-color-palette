@@ -46,11 +46,7 @@ This `Contrast mode` specifically adjusts the lightness scale more precisely. In
 The `Contrast mode` works very well with the [`HSLuv`](../glossary.md#hsluv) color space.
 {% endhint %}
 
-### <i class="fa-lock">:lock:</i> Adjust the chroma
-
-{% hint style="danger" %}
-Setting the `Chroma` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
+### Adjust the chroma
 
 You can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
 
@@ -61,11 +57,7 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### <i class="fa-lock">:lock:</i> Adjust the hue
-
-{% hint style="danger" %}
-Setting the `Hue` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
+### Adjust the hue
 
 You can adjust the `Hue` of every scaled color from -180° to 180°.
 
@@ -107,10 +99,6 @@ Use the `Preview` to observe and manage the color scaling in real-time. You can:
 
 ### Select a color space
 
-{% hint style="danger" %}
-Some color spaces are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
-
 {% hint style="info" %}
 The HSL color space is not recommended for good lightness and contrast consistency. This color space allows you to include the source color within the shades/tints.
 {% endhint %}
@@ -118,48 +106,36 @@ The HSL color space is not recommended for good lightness and contrast consisten
 You can change the global color space of your whole palette, which will be affected. Fortunately, you can browse the available color spaces without impacting the configuration (scale, source colors). Here are the color spaces:
 
 * [`LCH`](../glossary.md#lch) (default color space)
-* [`OKLCH`](../glossary.md#oklch)・<mark style="color:yellow;">`/pro`</mark>
-* [`CIELAB`](../glossary.md#cielab)・<mark style="color:yellow;">`/pro`</mark>
-* [`OKLAB`](../glossary.md#oklab)・<mark style="color:yellow;">`/pro`</mark>
+* [`OKLCH`](../glossary.md#oklch)
+* [`CIELAB`](../glossary.md#cielab)
+* [`OKLAB`](../glossary.md#oklab)
 * [`HSL`](../glossary.md#hsl)
-* [`HSLuv`](../glossary.md#hsluv)・<mark style="color:yellow;">`/pro`</mark>
+* [`HSLuv`](../glossary.md#hsluv)
 
 ### Select a vision simulation
-
-{% hint style="danger" %}
-Some vision impairments are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
 
 You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Light foreground color`/`Dark foreground color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
 
 * [`Protanomal`](../glossary.md#protanomaly)
-* [`Protanopia`](../glossary.md#protanopia)・<mark style="color:yellow;">`/pro`</mark>
-* [`Deuteranomaly`](../glossary.md#deuteranomaly)・<mark style="color:yellow;">`/pro`</mark>
-* [`Deuteranopia`](../glossary.md#deuteranopia)・<mark style="color:yellow;">`/pro`</mark>
-* [`Tritanomaly`](../glossary.md#tritanomaly)・<mark style="color:yellow;">`/pro`</mark>
-* [`Tritanopia`](../glossary.md#tritanopia)・<mark style="color:yellow;">`/pro`</mark>
-* [`Achromatomaly`](../glossary.md#achromatomaly)・<mark style="color:yellow;">`/pro`</mark>
-* [`Achromatopsia`](../glossary.md#achromatopsia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Protanopia`](../glossary.md#protanopia)
+* [`Deuteranomaly`](../glossary.md#deuteranomaly)
+* [`Deuteranopia`](../glossary.md#deuteranopia)
+* [`Tritanomaly`](../glossary.md#tritanomaly)
+* [`Tritanopia`](../glossary.md#tritanopia)
+* [`Achromatomaly`](../glossary.md#achromatomaly)
+* [`Achromatopsia`](../glossary.md#achromatopsia)
 
 ### Select a velocity
-
-{% hint style="danger" %}
-Some velocities are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
 
 You can select how the chroma is calculated through the color scaling. Chroma defines the saturation of color within a specific color gamut ([`P3`](../glossary.md#p3), [`sRGB`](../glossary.md#srgb), [`D65`](../glossary.md#d65)). The ultimate purpose is to simulate a consistent and smooth chroma variation to avoid shades/tints from overshifting in lightness.
 
 Here are the velocities:
 
-* `Linear`: lighter shades/tints appear more saturated・<mark style="color:yellow;">`/pro`</mark>
-* `Sinusoidal`: shades/tints appear less saturated at both ends・<mark style="color:yellow;">`/pro`</mark>
+* `Linear`: lighter shades/tints appear more saturated
+* `Sinusoidal`: shades/tints appear less saturated at both ends
 * `Sinusoidal and hyperbolic`: shades/tints maintain consistent saturation
 
-### <i class="fa-lock">:lock:</i> Lock the source colors
-
-{% hint style="danger" %}
-Locking the source colors is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
+### Lock the source colors
 
 The color scaling can include every source color instead of the closest shade/tint to this one. It will preserve the brand language despite a weaker contrast consistency.
 {% endstep %}
@@ -191,4 +167,4 @@ The contrast report emphasizes the contrast score and the recommendations. [`WCA
 {% endstep %}
 {% endstepper %}
 
-Click the `Save the UI Color Palette` button to save your palette! You can retrieve it in the `Local` section on the selected document.
+Click the `Save the UI Color Palette` button to save your palette! You can retrieve it in the `Local` section on the current page.

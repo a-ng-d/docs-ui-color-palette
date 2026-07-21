@@ -9,7 +9,11 @@ icon: code
 
 {% stepper %}
 {% step %}
-## Export as design tokens (JSON)
+## <i class="fa-lock">:lock:</i> Export as design tokens (JSON)
+
+{% hint style="danger" %}
+Exporting design tokens is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Native tokens" %}
@@ -216,6 +220,10 @@ The export file follows this model:
 
 {% tabs %}
 {% tab title="CSS Custom Properties" %}
+{% hint style="info" %}
+CSS is the default export and the only format available for free. Every other format requires the `/pro` plan.
+{% endhint %}
+
 You can export every color shade/tint to a **CSS** file on your computer. The modes can be applied via the `:root` selector. Learn more about CSS4 Custom Properties on the [Mozilla documentation.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties)
 
 {% hint style="info" %}

@@ -20,7 +20,7 @@ A UI Color Palette account is required to subscribe. Account creation is a manda
 
 UI Color Palette offers the following plans:
 
-- **/basic**: Free plan with credit-based access to advanced features.
+- **/basic**: Free plan. Every feature is available to explore, with volume caps (palettes, source colors, steps, color modes) and CSS export.
 - **/pro**: Paid subscription with unlimited access to all Pro features.
 
 Pricing is localized by market (United States, Europe, Canada, United Kingdom, Switzerland, Brazil, Singapore, Japan, South Korea, India) and is displayed at the point of purchase on [polar.sh](https://polar.sh). We reserve the right to update pricing at any time.

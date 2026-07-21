@@ -15,7 +15,7 @@ As of version 5.3.0, the UI has been reorganized around a sidebar. Palette manag
 
 Click the `+` button in the palette management section of the sidebar. You will be taken directly to the Management service, where you can configure your colors.
 
-Each palette creation costs **100 credits**. You can create as many palettes as you need — the previous one-palette-per-document limit no longer applies.
+Creating a palette is free — there is no credit cost. On the `/basic` plan, you can keep up to **3 palettes per document**; upgrade to `/pro` for unlimited palettes.
 
 {% hint style="info" %}
 Once in the Management service, you can:
