@@ -21,4 +21,4 @@ In version 5 (aka Millésime), the palette documentation is only permitted on de
 
 Figma documents are versioned, and if you encounter any problems after the migration, please reach out to us for further assistance.
 
-<a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
+<a href="https://uicp.ylb.lt/support" class="button primary" data-icon="bell-concierge">Contact support</a>

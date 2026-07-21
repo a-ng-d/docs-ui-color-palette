@@ -36,4 +36,4 @@ Pro access can also be activated via a Figma in-app purchase directly from the F
 
 We can manage license keys for each of our customers, and if you need any assistance, please let us know!
 
-<a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
+<a href="https://uicp.ylb.lt/support" class="button primary" data-icon="bell-concierge">Contact support</a>

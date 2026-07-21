@@ -32,4 +32,4 @@ License keys are no longer sold. New subscriptions are account-based. Existing k
 
 We can manage license keys for each of our customers, and if you need any assistance, please let us know!
 
-<a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
+<a href="https://uicp.ylb.lt/support" class="button primary" data-icon="bell-concierge">Contact support</a>

@@ -14,4 +14,4 @@ UI Color Palette shares the same features everywhere, but Pro access can be unlo
 
 `/team` relies on a license-based system, designed for purchasing and distributing several licenses at once — for example, one per member of a team. It is specific to Figma for now and is only compatible with the license system, so it does not use the account subscription. Licenses are managed by the third-party system [Lemon Squeezy](https://www.lemonsqueezy.com/), with oversight from the UI Color Palette team. For assistance, please contact our support team.
 
-<a href="https://uicp.ylb.lt/contact" class="button primary" data-icon="bell-concierge">Contact support</a>
+<a href="https://uicp.ylb.lt/support" class="button primary" data-icon="bell-concierge">Contact support</a>
