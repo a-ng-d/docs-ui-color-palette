@@ -161,7 +161,7 @@ Call this after `get_palette` (with `compact: true`) to give the user an instant
 A markdown image link:
 
 ```markdown
-![palette preview](https://api-uicp.yelbolt.workers.dev/v1/preview?data=...)
+![palette preview](https://api.ui-color-palette.com/v1/preview?data=...)
 ```
 
 **Typical workflow**

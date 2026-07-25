@@ -12,7 +12,7 @@ It lets an AI generate, preview, audit, and publish color palettes without openi
 ## Endpoint
 
 ```
-https://mcp-uicp.yelbolt.workers.dev/mcp
+https://mcp.ui-color-palette.com/mcp
 ```
 
 The server runs on [Cloudflare Workers](https://workers.cloudflare.com) with durable state per session.
@@ -54,7 +54,7 @@ Add the server to `claude_desktop_config.json`:
 {
   "mcpServers": {
     "ui-color-palette": {
-      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "url": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -69,7 +69,7 @@ Add the server to `~/.claude/settings.json` (user-wide) or `.claude/settings.jso
   "mcpServers": {
     "ui-color-palette": {
       "type": "http",
-      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "url": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -78,7 +78,7 @@ Add the server to `~/.claude/settings.json` (user-wide) or `.claude/settings.jso
 Or use the CLI directly:
 
 ```bash
-claude mcp add --transport http ui-color-palette https://mcp-uicp.yelbolt.workers.dev/mcp
+claude mcp add --transport http ui-color-palette https://mcp.ui-color-palette.com/mcp
 ```
 
 ### VS Code
@@ -90,7 +90,7 @@ Add the server to `.vscode/mcp.json` in your project (or the equivalent user-lev
   "servers": {
     "ui-color-palette": {
       "type": "http",
-      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "url": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -104,7 +104,7 @@ Add the server to `~/.cursor/mcp.json` (user-wide) or `.cursor/mcp.json` (projec
 {
   "mcpServers": {
     "ui-color-palette": {
-      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "url": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -118,7 +118,7 @@ Add the server to `~/.codeium/windsurf/mcp_config.json`:
 {
   "mcpServers": {
     "ui-color-palette": {
-      "serverUrl": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "serverUrl": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -132,7 +132,7 @@ Add the server to `~/.codex/config.json`:
 {
   "mcpServers": {
     "ui-color-palette": {
-      "url": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "url": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }
@@ -146,7 +146,7 @@ Add the server to `~/.gemini/settings.json`:
 {
   "mcpServers": {
     "ui-color-palette": {
-      "httpUrl": "https://mcp-uicp.yelbolt.workers.dev/mcp"
+      "httpUrl": "https://mcp.ui-color-palette.com/mcp"
     }
   }
 }

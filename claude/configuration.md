@@ -26,7 +26,7 @@ The plugin connects to the following MCP servers automatically when enabled:
 
 | Server               | Transport | URL                                                | Auth                     |
 | -------------------- | --------- | -------------------------------------------------- | ------------------------ |
-| **UI Color Palette** | HTTP      | `https://mcp-uicp.yelbolt.workers.dev/mcp`         | OAuth 2.0 (optional)     |
+| **UI Color Palette** | HTTP      | `https://mcp.ui-color-palette.com/mcp`         | OAuth 2.0 (optional)     |
 | **Figma**            | HTTP      | `https://mcp.figma.com/mcp`                        | OAuth                    |
 | **Figma Desktop**    | HTTP      | `http://127.0.0.1:3845/mcp`                        | Local                    |
 | **Penpot**           | HTTP      | `${penpot_url}/mcp/stream?userToken=…`             | URL via `penpot_url` · token via `penpot_token` |
