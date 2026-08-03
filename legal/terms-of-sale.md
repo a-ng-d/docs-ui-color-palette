@@ -42,7 +42,7 @@ New subscriptions through Figma are suspended. Existing Figma subscriptions rema
 
 ### 4.3 Lemon Squeezy (Sunset)
 
-New subscriptions through Lemon Squeezy are suspended. Existing license keys remain valid. Payments and refunds for existing purchases are governed by [Lemon Squeezy's Terms](https://www.lemonsqueezy.com/terms).
+New subscriptions through Lemon Squeezy are suspended. Existing license keys remain valid. Payments for existing purchases are governed by [Lemon Squeezy's Terms](https://www.lemonsqueezy.com/terms). Refund requests for Lemon Squeezy purchases are handled directly by us — see Section 7.2.
 
 ## 5. Educational License
 
@@ -61,9 +61,9 @@ Educational licenses are available through **Polar** under the following conditi
 
 ## 7. Refund Policy
 
-### 7.1 Polar Purchases
+### 7.1 Polar Purchases — Rest of World
 
-Digital products are non-refundable once delivered, except as described below.
+For customers outside the European Union, digital products are non-refundable once delivered, except as described below.
 
 **Exceptions:**\
 You may request a refund within **7 days** of purchase if:
@@ -77,11 +77,18 @@ Contact [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com) with you
 
 ### 7.2 Legacy Platforms
 
-Refunds for purchases made through Figma or Lemon Squeezy are governed by those platforms' respective refund policies. UI Color Palette does not process these refunds.
+Refunds for purchases made through Figma are governed by Figma's refund policy. UI Color Palette does not process these refunds.
 
-### 7.3 EU Consumers
+For purchases made through **Lemon Squeezy**, refund requests can be handled directly by us as the merchant of record's designated seller. Contact [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com) with your order details, and we will process eligible refunds through the Lemon Squeezy dashboard.
 
-Under EU law, you lose your right to withdraw from a digital product once delivery has started (e.g., access granted). By purchasing, you explicitly agree to this term.
+### 7.3 EU Consumers — Right of Withdrawal
+
+If you are a consumer residing in the European Union, you benefit from a **14-day right of withdrawal** starting on the date of purchase, in accordance with EU consumer protection law.
+
+- During this period, you may cancel your purchase and request a full refund without providing a reason.
+- To exercise this right, contact [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com) within 14 days of your purchase date, stating your intent to withdraw.
+- If you explicitly request immediate access to the digital product before the end of the 14-day period and acknowledge that this may affect your withdrawal right for the portion of the service already used, we may prorate or deny the refund accordingly, as permitted by applicable law.
+- This 14-day right of withdrawal applies in place of, not in addition to, the 7-day exception policy described in Section 7.1.
 
 ## 8. License and Subscription Usage
 
