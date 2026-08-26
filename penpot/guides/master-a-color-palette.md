@@ -68,6 +68,20 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
+### Choose a distribution curve
+
+`Chroma` and `Hue` each follow their own `Distribution` curve, which controls how the shift spreads across the stops instead of applying the exact same amount everywhere:
+
+* `Linear`: a single global value is applied evenly to every stop
+* `Hyperbola`: a single threshold is applied symmetrically to both ends of the scale, concentrating the shift at the extremities
+* `Free`: independent left (`L`) and right (`R`) thresholds, for asymmetric control over shades and tints
+
+The curve applies to the whole palette by default. Overriding `Chroma` or `Hue` on an individual source color keeps that color on its own curve until it's reset, which restores the global value.
+
+{% hint style="info" %}
+Palettes created before this feature are migrated automatically to the `Linear` curve, so their existing shift keeps behaving exactly as before.
+{% endhint %}
+
 ### Distribute the stops
 
 The `Distribution easing` drives how the stops are distributed in the range. `Linear` is the default option and allows you to bring an equivalent gap between the stops, but you can select:

@@ -71,8 +71,23 @@ The export file follows this model:
 You can switch the [`RGB`](../glossary.md#rgb) values into [`OKLCH`](../glossary.md#oklch) values.
 {% endhint %}
 
-The export file follows this model (that can be used for [Terrazzo](https://terrazzo.app/) or [Style Dictionary v4](https://styledictionary.com/)):
+{% hint style="info" %}
+As of version 5.2.4, WCAG and APCA contrast ratios are included in the `$extensions` property of each shade.
+{% endhint %}
 
+{% hint style="info" %}
+As of version 5.3.5, the export follows the [DTCG resolver spec](https://www.designtokens.org/schemas/2025.10/resolver.json). `Color modes` are no longer nested inside a shade's `$extensions` — each mode gets its own complete token set, tied together by a resolver file.
+{% endhint %}
+
+{% hint style="warning" %}
+As of version 5.3.5, `DTCG tokens` only export primitives. Semantic tokens aren't included yet in this format, unlike the other export formats on this page.
+{% endhint %}
+
+If your palette has a single `Color mode`, the export produces one file (that can be used for [Terrazzo](https://terrazzo.app/) or [Style Dictionary v4](https://styledictionary.com/)):
+
+* `primitives.tokens.json`: every color shade/tint
+
+{% code overflow="wrap" %}
 ```json
 {
   "Source Color Name": {
@@ -88,30 +103,58 @@ The export file follows this model (that can be used for [Terrazzo](https://terr
         "hex": "#f4f1b1"
       },
       "$description": "Shade/Tint color with 96.0% of lightness",
-      // If there is any color mode
-      "$extentions": {
-        "mode": {
-          "Color Mode Name": {
-            "$value": {
-              "colorSpace": "srgb",
-              "components": [
-                0.91,
-                0.886,
-                0.243
-              ],
-              "hex": "#e8e23e"
-            },
-            "$description": "Shade/Tint color with 88.0% of lightness"
-          },
-          ...
+      "$extensions": {
+        "com.uicp.wcag": {
+          "Color Theme Name": {
+            "light": { "score": "AAA", "ratio": 7.13 },
+            "dark": { "score": "AAA", "ratio": 8.02 }
+          }
         },
-      },
+        "com.uicp.apca": {
+          "Color Theme Name": {
+            "light": { "score": 79.5, "recommendation": "CONTENT_TEXT" },
+            "dark": { "score": 82.63, "recommendation": "CONTENT_TEXT" }
+          }
+        }
+      }
     },
     ...
   },
   ...
 }
 ```
+{% endcode %}
+
+If your palette has several `Color modes`, each mode is exported as its own `color-mode-name.primitives.tokens.json` file, packaged in a zip alongside a `tokens.resolver.json` file:
+
+{% code overflow="wrap" %}
+```json
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "version": "2025.10",
+  "name": "Palette Name",
+  "description": "Palette description",
+  "modifiers": {
+    "color-mode": {
+      "contexts": {
+        "color-mode-name-1": [
+          { "$ref": "./color-mode-name-1.primitives.tokens.json" }
+        ],
+        "color-mode-name-2": [
+          { "$ref": "./color-mode-name-2.primitives.tokens.json" }
+        ]
+      },
+      "default": "color-mode-name-1"
+    }
+  },
+  "resolutionOrder": [{ "$ref": "#/modifiers/color-mode" }]
+}
+```
+{% endcode %}
+
+{% hint style="info" %}
+The `default` mode is the first `Color mode` of the palette. A resolver-aware tool (such as [Terrazzo](https://terrazzo.app/)) reads `tokens.resolver.json` to merge the right primitives file for the active mode.
+{% endhint %}
 {% endtab %}
 
 {% tab title="Style Dictionary v3" %}
