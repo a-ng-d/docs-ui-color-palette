@@ -1,0 +1,69 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+
+site:
+  title: UI Color Palette Docs
+  structure:
+    - type: space
+      key: space-general
+      title: General
+      path: general
+      default: true
+      content:
+        directory: ./general
+
+    - type: space
+      key: space-figma
+      title: UI Color Palette for Figma
+      path: figma
+      content:
+        directory: ./figma
+
+    - type: space
+      key: space-penpot
+      title: UI Color Palette for Penpot
+      path: penpot
+      content:
+        directory: ./penpot
+
+    - type: space
+      key: space-sketch
+      title: UI Color Palette for Sketch
+      path: sketch
+      content:
+        directory: ./sketch
+
+    - type: space
+      key: space-framer
+      title: UI Color Palette for Framer
+      path: framer
+      content:
+        directory: ./framer
+
+    - type: space
+      key: space-claude
+      title: UI Color Palette for Claude
+      path: claude
+      content:
+        directory: ./claude
+
+    - type: space
+      key: space-mcp
+      title: UI Color Palette MCP
+      path: mcp
+      content:
+        directory: ./mcp
+
+    - type: space
+      key: space-api
+      title: API reference
+      path: api
+      content:
+        directory: ./api
+
+    - type: space
+      key: space-legal
+      title: Legal
+      path: legal
+      content:
+        directory: ./legal
