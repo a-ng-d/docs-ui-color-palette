@@ -11,7 +11,7 @@ icon: sparkles
 Adjust the lightness/contrast scale, the color space, vision simulation, chroma velocity, and contrast configuration (`/pro`) on an already-created palette.
 
 {% hint style="info" %}
-This is documented once, for every UI Color Palette platform — see **[Master a color palette](../../general/guides/master-a-color-palette.md)**.
+This is documented once, for every UI Color Palette platform — see **[Master a color palette](https://docs.ui-color-palette.com/general/guides/master-a-color-palette)**.
 {% endhint %}
 
 ## Color spaces on Penpot

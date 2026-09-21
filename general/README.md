@@ -5,17 +5,17 @@ icon: layer-group
 
 # General
 
-`UI Color Palette` creates, manages, deploys, and publishes consistent and accessible color palettes, across five surfaces: the **Web App**, and a plugin for [`Figma`](../figma/), [`Penpot`](../penpot/), [`Sketch`](../sketch/), and [`Framer`](../framer/). The vast majority of what it does is identical everywhere.
+`UI Color Palette` creates, manages, deploys, and publishes consistent and accessible color palettes, across five surfaces: the **Web App**, and a plugin for [`Figma`](https://docs.ui-color-palette.com/figma), [`Penpot`](https://docs.ui-color-palette.com/penpot), [`Sketch`](https://docs.ui-color-palette.com/sketch), and [`Framer`](https://docs.ui-color-palette.com/framer). The vast majority of what it does is identical everywhere.
 
 This space documents that shared functional spectrum once — for all five surfaces alike: how the color science works, how a palette moves through its lifecycle, how to create, master, manage, document, export, sync, publish, and share a palette, and how licensing and preferences work.
 
 {% hint style="info" %}
 **The Web App's own specifics live here too**, not in a separate space — there isn't one. Only the four design-tool plugins get their own dedicated space, for the narrower set of mechanics that are genuinely specific to running inside that tool (the exact buttons and menus, and a handful of real capability differences, like Penpot's native design tokens or Figma's Dev mode and FigJam nuances):
 
-* [Figma](../figma/)
-* [Penpot](../penpot/)
-* [Sketch](../sketch/)
-* [Framer](../framer/)
+* [Figma](https://docs.ui-color-palette.com/figma)
+* [Penpot](https://docs.ui-color-palette.com/penpot)
+* [Sketch](https://docs.ui-color-palette.com/sketch)
+* [Framer](https://docs.ui-color-palette.com/framer)
 
 Where a capability differs by platform — Web App included — this space calls it out inline or points you to the [platform capabilities](introduction/platform-capabilities.md) matrix.
 {% endhint %}

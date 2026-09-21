@@ -38,7 +38,7 @@ UI Color Palette shares the same features everywhere, but Pro access can be unlo
 * **`/team`** — a license-based system designed for purchasing and distributing several licenses at once, for example one per team member. A license owner activates and assigns license keys to individual members, and can reassign or revoke a seat at any time without touching anyone else's account. Licenses are managed by the third-party system Lemon Squeezy, with oversight from the UI Color Palette team.
 
 {% hint style="warning" %}
-`/team` is specific to Figma for now — it is not yet available on Penpot, Sketch, or Framer. If that changes, this page should be updated (and the Figma-specific `/team` page can then be folded in here instead of staying Figma-only). See [Manage your license・/team](../../figma/user-management/manage-your-license-team.md).
+`/team` is specific to Figma for now — it is not yet available on Penpot, Sketch, or Framer. If that changes, this page should be updated (and the Figma-specific `/team` page can then be folded in here instead of staying Figma-only). See [Manage your license・/team](https://docs.ui-color-palette.com/figma/user-management/manage-your-license-team).
 {% endhint %}
 
 For team-key activation specifically:
@@ -55,7 +55,7 @@ New license key sales are suspended for new team plans as well. Existing keys re
 
 ## In-app purchase (Figma only)
 
-On Figma specifically, Pro access can also be activated via a Figma in-app purchase directly from the Figma Community — no license key or account sign-in required. This purchase path is unique to Figma; the other platforms don't have an equivalent in-app marketplace purchase flow. See [Manage your license・/one](../../figma/user-management/manage-your-license-one.md).
+On Figma specifically, Pro access can also be activated via a Figma in-app purchase directly from the Figma Community — no license key or account sign-in required. This purchase path is unique to Figma; the other platforms don't have an equivalent in-app marketplace purchase flow.
 
 ***
 

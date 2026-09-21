@@ -29,7 +29,7 @@ The synchronization with the local styles is not deep by default, so the styles 
 
 Once the palette is ready, click the `Sync with the local variables` button to add every color shade/tint into the document's local variable. These variables can be published as Team Library.
 
-A new collection with the palette's name and a default mode named `Value` is created, and the shades/tints are pushed from the darkest to the lightest and grouped by source colors. If any `Color modes` have been created, they are pushed as variable modes, and the empty cells are filled with shade/tint [`RGB`](../glossary.md#rgb) values.
+A new collection with the palette's name and a default mode named `Value` is created, and the shades/tints are pushed from the darkest to the lightest and grouped by source colors. If any `Color modes` have been created, they are pushed as variable modes, and the empty cells are filled with shade/tint [`RGB`](https://docs.ui-color-palette.com/general/glossary#rgb) values.
 
 The description of the `Source colors` is reworked and added to the description of the local variables.
 

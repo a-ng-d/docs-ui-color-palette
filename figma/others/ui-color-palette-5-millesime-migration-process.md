@@ -12,7 +12,7 @@ The UI Color Palette has been significantly enhanced to operate effectively unde
 
 When opening the plugin, a migration script will be executed to get each palette on the current page and turn them into a simple gateway to the palettes stored on the page. While selecting a palette, the changes are not automatically replicated on the generated palette, but you can update it on demand. The synchronization with the local styles and variables is preserved.
 
-In version 5 (aka Millésime), the palette documentation is only permitted on demand. To learn more, see [Generate a color palette documentation](../guides/generate-a-color-palette-documentation.md).
+In version 5 (aka Millésime), the palette documentation is only permitted on demand. To learn more, see [Generate a color palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation).
 
 {% hint style="info" %}
 * The migration script is executed on the selected page of your document after running the plugin and after changing the page

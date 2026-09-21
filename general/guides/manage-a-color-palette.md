@@ -84,7 +84,7 @@ On Figma specifically: you can create as many color modes as you need in the pal
 * In Figma Starter, you cannot add more than 1 variable mode
 * In Figma Professional and Organization, you cannot add more than 10 variable modes
 
-Learn more by consulting [Figma pricing](https://www.figma.com/pricing/). This limit is specific to Figma's variables system — see [Sync a color palette to the local library](sync-a-color-palette-to-the-local-library.md) and [Manage a color palette on Figma](../../figma/guides/manage-a-color-palette.md).
+Learn more by consulting [Figma pricing](https://www.figma.com/pricing/). This limit is specific to Figma's variables system — see [Sync a color palette to the local library](sync-a-color-palette-to-the-local-library.md) and [Manage a color palette on Figma](https://docs.ui-color-palette.com/figma/guides/manage-a-color-palette).
 {% endhint %}
 
 ### Change a mode's parameters

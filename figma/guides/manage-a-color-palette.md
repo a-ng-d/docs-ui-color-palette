@@ -8,7 +8,7 @@ icon: sliders-up
 # Manage a color palette
 
 {% hint style="info" %}
-Adjusting the color scale, changing source colors, creating color modes, and adjusting colors/contrast are documented once, for every UI Color Palette platform — see **[Manage a color palette](../../general/guides/manage-a-color-palette.md)**.
+Adjusting the color scale, changing source colors, creating color modes, and adjusting colors/contrast are documented once, for every UI Color Palette platform — see **[Manage a color palette](https://docs.ui-color-palette.com/general/guides/manage-a-color-palette)**.
 {% endhint %}
 
 ## Color modes and Figma's variable mode limit

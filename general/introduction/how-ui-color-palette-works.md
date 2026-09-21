@@ -11,7 +11,7 @@ UI Color Palette stores your color palettes locally in your design tool (or, on 
 The palette stored locally — on the selected document or page in Figma, Penpot, and Sketch — acts as the `Local Master`. This setup provides real-time updates to the color scheme, ensuring any modifications are immediately reflected.
 
 {% hint style="warning" %}
-On Framer, palettes are stored in your browser's local storage rather than inside a document. They're strictly linked to that browser and can't be shared with teammates unless you publish the palette to the cloud. Framer's `Local Master` is otherwise the same concept — just stored differently. See [How UI Color Palette on Framer works](../../framer/introduction/how-ui-color-palette-on-framer-works.md).
+On Framer, palettes are stored in your browser's local storage rather than inside a document. They're strictly linked to that browser and can't be shared with teammates unless you publish the palette to the cloud. Framer's `Local Master` is otherwise the same concept — just stored differently. See [How UI Color Palette on Framer works](https://docs.ui-color-palette.com/framer/introduction/how-ui-color-palette-on-framer-works).
 {% endhint %}
 
 ## Local Instance

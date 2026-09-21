@@ -5,7 +5,7 @@ icon: unlock
 # Understanding free and Pro
 
 {% hint style="info" %}
-The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](../../general/introduction/free-and-pro.md)**. The volume limits and synchronization targets below are Figma's own.
+The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](https://docs.ui-color-palette.com/general/introduction/free-and-pro)**. The volume limits and synchronization targets below are Figma's own.
 {% endhint %}
 
 ## Volume — capped on the free plan
@@ -26,5 +26,5 @@ Palettes are scoped **per page** on Figma — switching page gives you a differe
 On Figma, synchronization applies to:
 
 * [sync with the local variables and styles](../guides/sync-a-color-palette-to-the-local-library.md);
-* [generate the palette documentation](../guides/generate-a-color-palette-documentation.md) as frames in the document;
-* [export to code](../guides/export-a-color-palette-to-code.md) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…).
+* [generate the palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation) as frames in the document;
+* [export to code](https://docs.ui-color-palette.com/general/guides/export-a-color-palette-to-code) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…).

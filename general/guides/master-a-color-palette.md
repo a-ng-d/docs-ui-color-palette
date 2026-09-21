@@ -129,7 +129,7 @@ You can change the global color space of your whole palette, which will be affec
 * `CMYK`
 
 {% hint style="warning" %}
-`HSV` and `CMYK` are not available on Penpot. All other color spaces are available on every platform. See [Master a color palette on Penpot](../../penpot/guides/master-a-color-palette.md).
+`HSV` and `CMYK` are not available on Penpot. All other color spaces are available on every platform. See [Master a color palette on Penpot](https://docs.ui-color-palette.com/penpot/guides/master-a-color-palette).
 {% endhint %}
 
 ### Select a vision simulation

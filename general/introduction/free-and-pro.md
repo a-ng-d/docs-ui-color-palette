@@ -34,8 +34,8 @@ Free palettes are limited by volume. Upgrade to `/pro` to lift every cap.
 {% hint style="info" %}
 The cap is the same everywhere (3 on `/basic`, unlimited on `/pro`), but what it's scoped *to* is a genuine structural difference, not just naming:
 
-* On [Figma](../../figma/introduction/free-and-pro.md) and [Penpot](../../penpot/introduction/free-and-pro.md): palettes are scoped **per page** — switching page gives you a different palette set.
-* On [Sketch](../../sketch/introduction/free-and-pro.md) and [Framer](../../framer/introduction/free-and-pro.md): palettes are scoped **per document** — the whole file/project shares one set, with no page-level partitioning.
+* On [Figma](https://docs.ui-color-palette.com/figma/introduction/free-and-pro) and [Penpot](https://docs.ui-color-palette.com/penpot/introduction/free-and-pro): palettes are scoped **per page** — switching page gives you a different palette set.
+* On [Sketch](https://docs.ui-color-palette.com/sketch/introduction/free-and-pro) and [Framer](https://docs.ui-color-palette.com/framer/introduction/free-and-pro): palettes are scoped **per document** — the whole file/project shares one set, with no page-level partitioning.
 
 This follows each platform's own document model rather than being an arbitrary choice — see [platform capabilities](platform-capabilities.md).
 {% endhint %}

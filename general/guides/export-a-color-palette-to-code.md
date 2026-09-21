@@ -8,7 +8,7 @@ icon: code
 # Export a color palette to code
 
 {% hint style="info" %}
-Export to code is available on every platform, but the format list differs: Figma, Penpot, and Sketch get the full set documented on this page. **Framer** gets a narrower set — CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) only, no SCSS, Apple, Android, or spreadsheet export — see [Export a color palette to code on Framer](../../framer/guides/export-a-color-palette-to-code.md). See [platform capabilities](../introduction/platform-capabilities.md) for the full matrix.
+Export to code is available on every platform, but the format list differs: Figma, Penpot, and Sketch get the full set documented on this page. **Framer** gets a narrower set — CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) only, no SCSS, Apple, Android, or spreadsheet export — see [Export a color palette to code on Framer](https://docs.ui-color-palette.com/framer/guides/export-a-color-palette-to-code). See [platform capabilities](../introduction/platform-capabilities.md) for the full matrix.
 {% endhint %}
 
 {% stepper %}
