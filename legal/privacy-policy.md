@@ -30,6 +30,14 @@ This same account is also linked to **Polar** ([polar.sh](https://polar.sh)) for
 
 We use Google Analytics to collect and analyze usage data. Google Analytics collects personal information only with your explicit consent.
 
+### 2.5. Local Browser Storage (Web App)
+
+On the Web App, a palette you have not published or shared is stored locally on your own device (in your browser's storage) and does not require an account. No personal information about that palette leaves your device unless and until you choose to publish it, share it with the community, or generate a shareable link.
+
+### 2.6. Palette Sharing and Publication
+
+If you publish a palette to the community, or generate a shareable link for it, your display name and avatar (as provided by your account) become visible to anyone who views that palette, opens that link, or browses the community. A shareable link carries the palette's data directly within it; once generated and shared, that link does not expire and cannot be revoked or recalled by us — anyone who has received it can continue to open it. Keep this in mind before sharing a link or publishing a palette that includes information you'd rather not make available indefinitely.
+
 ## 3. Use of Information
 
 We use the collected information to:
@@ -55,7 +63,7 @@ In accordance with data protection regulations, you have the following rights:
 
 - **Right of Access**: You may request access to your personal information.
 - **Right to Rectification**: You may request the correction of any inaccurate personal information.
-- **Right to Erasure**: You may request the deletion of your personal information.
+- **Right to Erasure**: You may request the deletion of your personal information. Note that if you have shared a palette via a link or published it to the community (see §2.6), we cannot recall or erase copies of that link or data already held by third parties who received it — erasure applies to what we hold on our own systems.
 - **Right to Portability**: You may request to receive your personal information in a structured, machine-readable format.
 - **Right to Object**: You may object to the processing of your personal information for legitimate reasons.
 

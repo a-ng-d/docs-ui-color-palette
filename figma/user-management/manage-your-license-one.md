@@ -4,36 +4,8 @@ icon: key
 
 # Manage your license・/one
 
-UI Color Palette /one supports two ways to activate Pro access.
-
-## Account-based subscription
-
-The recommended way to unlock Pro features is through an **account-based subscription**, linked to your UI Color Palette account.
-
-1. Open the `User menu` <i class="fa-user">:user:</i> and select **Sign in**.
-2. Sign in with your UI Color Palette account credentials.
-3. Once authenticated, your subscription is automatically detected and Pro features are unlocked — no additional steps required.
+Activate `/one` Pro access on Figma via an account-based subscription (recommended), a legacy license key, or — Figma-only — an in-app purchase from the Figma Community.
 
 {% hint style="info" %}
-Your subscription is tied to your UI Color Palette account and syncs automatically across sessions.
+The account-based subscription and license-key steps are documented once, for every UI Color Palette platform — see **[Manage your license](../../general/user-management/manage-your-license.md)**, which also covers Figma's in-app purchase option.
 {% endhint %}
-
-## License key (legacy)
-
-If you previously purchased a license key, you can still use it to activate Pro access.
-
-1. Open `Manage license` in the `User menu` <i class="fa-user">:user:</i>.
-2. Paste your license key in the **Instance key** field and enter a name to identify your seat.
-3. Click **Activate**.
-
-{% hint style="warning" %}
-License keys are no longer sold. New subscriptions are account-based. Existing keys remain fully supported.
-{% endhint %}
-
-## In-app purchase (Figma)
-
-Pro access can also be activated via a Figma in-app purchase directly from the Figma Community — no license key or account sign-in required.
-
-We can manage license keys for each of our customers, and if you need any assistance, please let us know!
-
-<a href="https://uicp.ylb.lt/support" class="button primary" data-icon="bell-concierge">Contact support</a>

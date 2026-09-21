@@ -4,6 +4,10 @@ icon: key
 
 # Manage your license・/team
 
+{% hint style="info" %}
+For the general `/one` vs `/team` concept, see **[Manage your license](../../general/user-management/manage-your-license.md)**. `/team` is currently Figma-only.
+{% endhint %}
+
 UI Color Palette /team supports activation through **license keys**, designed for team-wide deployments and seat management.
 
 ## Activate with a license key

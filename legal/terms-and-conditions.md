@@ -8,7 +8,7 @@ layout: editorial
 
 ## 1. Introduction
 
-Welcome to **UI Color Palette**. These Terms and Conditions ("Terms") govern your access to and use of the UI Color Palette plugin — available for Figma, Framer, Penpot, and Sketch — including any content, functionality, and services offered on or through the plugin (collectively, the "Service").
+Welcome to **UI Color Palette**. These Terms and Conditions ("Terms") govern your access to and use of UI Color Palette — available as a plugin for Figma, Framer, Penpot, and Sketch, and as a standalone Web App — including any content, functionality, and services offered on or through any of these surfaces (collectively, the "Service").
 
 By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, please do not access or use the Service.
 
@@ -41,6 +41,8 @@ You are responsible for any content you submit, post, or display on or through t
 
 Your palette data and account information are stored and managed on **Supabase**. **UI Color Palette** takes reasonable measures to protect your data but cannot guarantee its absolute security. You are responsible for maintaining copies of your data. For more information, visit [Supabase's website](https://supabase.com).
 
+On the **Web App** specifically, a palette you have not published stays local to your own browser (stored on your device, not on Supabase) and does not require an account. Publishing or sharing a palette — including generating a shareable link — moves or exposes that data beyond your device; see the Privacy Policy for what that involves.
+
 ## 6. Analytics
 
 Analytics for the Service are managed by **Mixpanel**. By using the Service, you consent to the collection and use of your data by Mixpanel in accordance with their privacy policy. For more information, visit [Mixpanel's website](https://mixpanel.com).
@@ -54,6 +56,7 @@ The distribution model of the Service depends on the platform:
 - **Penpot**: Distributed as a plugin hosted on **GitHub** ([github.com/a-ng-d](https://github.com/a-ng-d)). By using the Service, you agree to comply with GitHub's terms of service and privacy policy. For more information, visit [GitHub's website](https://github.com).
 - **Sketch**: A local plugin that runs directly on the user's machine. It is installed via Sketch and does not rely on any external hosting provider. No plugin data is transmitted to or stored on a remote server by the plugin itself.
 - **Claude**: Distributed as a plugin through **Anthropic's Claude** platform ([claude.ai](https://claude.ai)). By installing and using the plugin, you agree to comply with Anthropic's terms of service and usage policy. For more information, visit [Anthropic's website](https://anthropic.com).
+- **Web App**: Hosted and operated directly by UI Color Palette at [app.ui-color-palette.com](https://app.ui-color-palette.com), accessible from any modern browser. Unlike the plugin distributions above, there is no third-party platform marketplace layered between you and the Service — these Terms apply directly to your use of the Web App.
 
 ## 8. Open Source and MIT License
 

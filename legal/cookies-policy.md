@@ -32,6 +32,10 @@ These cookies allow our website to remember choices you make (such as your usern
 
 These cookies are used to deliver advertisements more relevant to you and your interests. They also limit the number of times you see an advertisement and help measure the effectiveness of advertising campaigns. They are usually placed by advertising networks with the website operator's permission. They remember that you have visited a website and share this information with other organizations, such as advertisers.
 
+### 3.5. Local Storage (Web App)
+
+The Web App also uses your browser's built-in local storage (IndexedDB) to keep a palette you haven't published or shared saved on your own device between visits, without requiring an account. This is not a cookie and is not used for tracking or advertising — it holds only your own palette data, stays on your device, and is essential for the Web App to function without an account. It is cleared if you clear your browser's site data.
+
 ## 4. Managing Cookies
 
 You can control and/or delete cookies as you wish. For more information, visit [aboutcookies.org](http://aboutcookies.org). You can delete all cookies that are already on your device and set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit a site, and some services and functionalities may not work.

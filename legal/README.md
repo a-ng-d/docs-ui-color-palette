@@ -4,7 +4,7 @@ icon: scale-balanced
 
 # Legal
 
-This section contains all legal documents governing the use of **UI Color Palette** across all supported platforms — Figma, Framer, Penpot, and Sketch.
+This section contains all legal documents governing the use of **UI Color Palette** across all supported platforms — Figma, Framer, Penpot, Sketch, and the standalone Web App.
 
 ## Documents
 

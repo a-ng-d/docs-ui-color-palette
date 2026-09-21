@@ -4,20 +4,10 @@ icon: bolt-lightning
 
 # How UI Color Palette on Figma works
 
-Figma's UI Color Palette stores color palettes on a Figma document page. These palettes are strictly linked to the selected page, ensuring that the entire document does not load unnecessarily when retrieving them.
+{% hint style="info" %}
+The `Local Master` / `Local Instance` / `Remote Master` model is documented once, for every UI Color Palette platform — see **[How UI Color Palette works](../../general/introduction/how-ui-color-palette-works.md)**.
+{% endhint %}
 
-## Local Master
-
-The palettes stored on the selected page act as `Local Masters`. This setup provides real-time updates to the color scheme, ensuring any modifications are immediately reflected.
-
-## Local Instance
-
-Palettes can generate documents within a Figma document as `Local Instances`. This offers a quick view of the color shades and tints, complete with their properties. Note that these documents are shortcuts to the `Local Master` that can be updated. Changes must be manually replicated to the generated document on demand as they are not automatically updated.
-
-## Remote Master
-
-Palettes can be saved in the cloud for use across different Figma documents and supported platforms like [Penpot](https://penpot.app/) and [Sketch](https://www.sketch.com/). A saved palette acts as the `Remote Master`. To update a saved palette, it must be added to the local selected page, and any changes must be published.
-
-In summary, a saved palette is the `Remote Master`, a local palette is a `Local Master`, and a generated document is a `Local Instance`.
+On Figma, palettes are stored on the selected document page (the `Local Master`), and can be saved to the cloud (the `Remote Master`) for reuse across Penpot, Sketch, Framer, and the Web App.
 
 To learn more, see [Palette publication lifecycle](palette-publication-lifecycle.md).

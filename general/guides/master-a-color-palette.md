@@ -1,0 +1,190 @@
+---
+description: >-
+  Learn how to master a color palette to adjust every parameter to create the
+  best color palette that suits your organisation's culture and brand's
+  language.
+icon: sparkles
+---
+
+# Master a color palette
+
+{% stepper %}
+{% step %}
+## <i class="fa-lock">:lock:</i> Adjust the scale
+
+{% hint style="danger" %}
+Adjusting the `Lightness` and `Contrast` are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
+{% hint style="info" %}
+Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
+
+* Adjust the view's height by grabbing the top edge
+* Expand and collapse the view
+{% endhint %}
+
+### <i class="fa-lock">:lock:</i> Adjust the lightness
+Update a stop by sliding its knob on the range. You can slide every knob by using these shortcuts:
+
+* <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
+* <kbd>Shift ⇪</kbd> while sliding the first or the last stop to distribute each of them equally on the range
+* <i class="fa-arrow-right-arrow-left">:arrow-right-arrow-left:</i> button to reverse the stops
+* <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> button to reset to the default scale
+
+{% hint style="info" %}
+You can tweak a stop with more accuracy:
+
+* Select the stop and press the arrow keys. The default nudge amount is 1%, decreased to 0.1% if the <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux)
+* Double-click the stop and change the value
+{% endhint %}
+
+### <i class="fa-lock">:lock:</i> Use the contrast mode
+
+This `Contrast mode` specifically adjusts the lightness scale more precisely. Instead of adjusting just the lightness, you adjust the contrast ratio score of every color source's shade or tint. The adjustment works like the lightness scale; however, it recalculates the other stops to prevent any disharmonious scaling.
+
+{% hint style="info" %}
+The `Contrast mode` works very well with the [`HSLuv`](../glossary.md#hsluv) color space.
+{% endhint %}
+
+### Adjust the chroma
+
+You can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
+
+{% hint style="info" %}
+You can tweak a stop with more accuracy:
+
+* Select the stop and press the arrow keys. The default nudge amount is 1%, increased to 10% if the <kbd>Shift ⇧</kbd> is pressed
+* Double-click the stop and change the value
+{% endhint %}
+
+### Adjust the hue
+
+You can adjust the `Hue` of every scaled color from -180° to 180°.
+
+{% hint style="info" %}
+You can tweak a stop with more accuracy:
+
+* Select the stop and press the arrow keys. The default nudge amount is 1%, increased to 10% if the <kbd>Shift ⇧</kbd> is pressed
+* Double-click the stop and change the value
+{% endhint %}
+
+### Choose a distribution curve
+
+`Chroma` and `Hue` each follow their own `Distribution` curve, which controls how the shift spreads across the stops instead of applying the exact same amount everywhere:
+
+* `Linear`: a single global value is applied evenly to every stop
+* `Hyperbola`: a single threshold is applied symmetrically to both ends of the scale, concentrating the shift at the extremities
+* `Free`: independent left (`L`) and right (`R`) thresholds, for asymmetric control over shades and tints
+
+The curve applies to the whole palette by default. Overriding `Chroma` or `Hue` on an individual source color keeps that color on its own curve until it's reset, which restores the global value.
+
+{% hint style="info" %}
+Palettes created before this feature are migrated automatically to the `Linear` curve, so their existing shift keeps behaving exactly as before.
+{% endhint %}
+
+### Distribute the stops
+
+The `Distribution easing` drives how the stops are distributed in the range. `Linear` is the default option and allows you to bring an equivalent gap between the stops, but you can select:
+
+* `Ease in` for a quick acceleration at the end
+* `Ease out` for a quick acceleration at the start
+* `Ease in and out` for quick acceleration at the start and the end
+
+The easings are varied in three ways:
+
+* `Sine`
+* `Regular`
+* `Cubic`
+
+{% hint style="info" %}
+You can apply the distribution directly on the current scale by clicking the <i class="fa-arrow-rotate-right">:arrow-rotate-right:</i> button.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+## Adjust the colors configuration
+
+{% hint style="info" %}
+Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
+
+* Adjust the view's height by grabbing the top edge
+* Expand and collapse the view
+{% endhint %}
+
+### Select a color space
+
+{% hint style="info" %}
+The HSL color space is not recommended for good lightness and contrast consistency. This color space allows you to include the source color within the shades/tints.
+{% endhint %}
+
+You can change the global color space of your whole palette, which will be affected. Fortunately, you can browse the available color spaces without impacting the configuration (scale, source colors). Here are the color spaces:
+
+* [`LCH`](../glossary.md#lch) (default color space)
+* [`OKLCH`](../glossary.md#oklch)
+* [`CIELAB`](../glossary.md#cielab)
+* [`OKLAB`](../glossary.md#oklab)
+* [`HSL`](../glossary.md#hsl)
+* [`HSLuv`](../glossary.md#hsluv)
+* `HSV`
+* `CMYK`
+
+{% hint style="warning" %}
+`HSV` and `CMYK` are not available on Penpot. All other color spaces are available on every platform. See [Master a color palette on Penpot](../../penpot/guides/master-a-color-palette.md).
+{% endhint %}
+
+### Select a vision simulation
+
+You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Light foreground color`/`Dark foreground color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
+
+* [`Protanomal`](../glossary.md#protanomaly)
+* [`Protanopia`](../glossary.md#protanopia)
+* [`Deuteranomaly`](../glossary.md#deuteranomaly)
+* [`Deuteranopia`](../glossary.md#deuteranopia)
+* [`Tritanomaly`](../glossary.md#tritanomaly)
+* [`Tritanopia`](../glossary.md#tritanopia)
+* [`Achromatomaly`](../glossary.md#achromatomaly)
+* [`Achromatopsia`](../glossary.md#achromatopsia)
+
+### Select a velocity
+
+You can select how the chroma is calculated through the color scaling. Chroma defines the saturation of color within a specific color gamut ([`P3`](../glossary.md#p3), [`sRGB`](../glossary.md#srgb), [`D65`](../glossary.md#d65)). The ultimate purpose is to simulate a consistent and smooth chroma variation to avoid shades/tints from overshifting in lightness.
+
+Here are the velocities:
+
+* `Linear`: lighter shades/tints appear more saturated
+* `Sinusoidal`: shades/tints appear less saturated at both ends
+* `Sinusoidal and hyperbolic`: shades/tints maintain consistent saturation
+
+### Lock the source colors
+
+The color scaling can include every source color instead of the closest shade/tint to this one. It will preserve the brand language despite a weaker contrast consistency.
+{% endstep %}
+
+{% step %}
+## Adjust the contrast configuration
+
+{% hint style="info" %}
+Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
+
+* Show the contrast score and interval ([`WCAG 2.1`](../glossary.md#wcag-2.1) and [`APCA`](../glossary.md#apca))
+* Filter the shades/tints that pass or fail according to their ([`WCAG 2.1`](../glossary.md#wcag-2.1) or [`APCA`](../glossary.md#apca))
+* Consult a complete contrast report per shade/tint
+{% endhint %}
+
+You can customize the foreground colors to simulate contrast between the color shade/tint and accompanying foreground element. This allows you to compare differences using colors more relevant to your brand guidelines. While pure black `#000` and white `#FFF` are the default colors, you can now tailor them to suit your needs better.
+
+The contrast scores will help you achieve sufficient readability of the information on the foreground. [`APCA`](../glossary.md#apca) is a powerful tool that indicates the minimum typographic contrast needed for effective readability.
+
+{% hint style="danger" %}
+Showing intervals, filtering and consulting contrast report are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
+The interval calculates the difference between the minimum and maximum scores in a given stop. This allows you to adjust the color scale to achieve a perfectly harmonious color palette.
+
+You can filter the passing and failing shades/tints using their foreground color (light and/or dark).
+
+The contrast report emphasizes the contrast score and the recommendations. [`WCAG 2.1`](../glossary.md#wcag-2.1) gives an A, AA, or AAA score, whereas [`APCA`](../glossary.md#apca) gives a semantic type. A playground allows you to type specific text and choose a specific font weight to check the readability of the foreground content. Additionally, a readability score measures the performance of the contrast using the APCA algorithm.
+{% endstep %}
+{% endstepper %}
+
+Click the `Save the UI Color Palette` button to save your palette! You can retrieve it in the `Local` section on the current document/page.
