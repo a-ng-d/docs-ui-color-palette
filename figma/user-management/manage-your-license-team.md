@@ -8,6 +8,19 @@ icon: key
 For the general `/one` vs `/team` concept, see **[Manage your license](https://docs.ui-color-palette.com/general/user-management/manage-your-license)**. `/team` is currently Figma-only.
 {% endhint %}
 
+## Two plugins on Figma
+
+On Figma, UI Color Palette is split into **two separate plugins**. On other platforms, everything lives in a single plugin. Figma's licensing rules are stricter, which is why the two access models cannot be combined in one plugin.
+
+| Plugin | Access model | License key activation |
+| --- | --- | --- |
+| **UI Color Palette /one** | Subscription | Not used |
+| **UI Color Palette /team** | License | Required, and the only supported model |
+
+Both plugins are available on the Figma Community marketplace under their own identifier: search for **/one** or **/team**.
+
+## What /team supports
+
 UI Color Palette /team supports activation through **license keys**, designed for team-wide deployments and seat management.
 
 ## Activate with a license key
