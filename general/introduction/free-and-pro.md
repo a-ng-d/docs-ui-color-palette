@@ -15,8 +15,11 @@ There are no more credits and no per-action costs. On the free `/basic` plan, yo
 * create palettes, generate colors with AI, extract colors from an image, and build color harmonies;
 * preview the color modes — light, dark, and color-blindness variants — with a call to action to create one;
 * preview the full palette (six steps, five source colors) from the AI, Image Palette, color wheel, and exploration tools before creating it;
-* use the color spaces, chroma velocity, vision simulation, and foreground colors;
-* fine-tune with chroma and hue shifting, the source colors lock, and the alpha mode;
+* use the LCH, OKLCH, and HSL color spaces, chroma velocity, the protanomaly vision simulation, and foreground colors;
+* adjust the lightness and the contrast ratio of the scale, and use the alpha mode;
+* start from the Material 3 and Tailwind presets;
+* sync the palette with your tokens, variables, and styles;
+* copy the hexadecimal code of a shade or tint;
 * publish palettes to the community;
 * export to CSS.
 
@@ -26,13 +29,13 @@ Free palettes are limited by volume. Upgrade to `/pro` to lift every cap.
 
 | Item              | `/basic` | `/pro`    |
 | ------------------ | -------- | --------- |
-| Palettes per page or document (see below) | 3        | Unlimited |
+| Palettes per page or document (see below) | 1        | Unlimited |
 | Source colors      | 5        | Unlimited |
 | Steps               | 6        | Unlimited |
 | Color modes         | 2        | Unlimited |
 
 {% hint style="info" %}
-The cap is the same everywhere (3 on `/basic`, unlimited on `/pro`), but what it's scoped *to* is a genuine structural difference, not just naming:
+The cap is the same everywhere (1 on `/basic`, unlimited on `/pro`), but what it's scoped *to* is a genuine structural difference, not just naming:
 
 * On [Figma](https://docs.ui-color-palette.com/figma/introduction/free-and-pro) and [Penpot](https://docs.ui-color-palette.com/penpot/introduction/free-and-pro): palettes are scoped **per page** — switching page gives you a different palette set.
 * On [Sketch](https://docs.ui-color-palette.com/sketch/introduction/free-and-pro) and [Framer](https://docs.ui-color-palette.com/framer/introduction/free-and-pro): palettes are scoped **per document** — the whole file/project shares one set, with no page-level partitioning.
@@ -42,9 +45,10 @@ This follows each platform's own document model rather than being an arbitrary c
 
 ## Synchronization — reserved for Pro
 
-Applying a palette to your workspace and shipping it as assets requires `/pro`. The exact mechanism and vocabulary vary per platform — see the [platform capabilities](platform-capabilities.md) page for the full matrix:
+Syncing a palette with your design tool's own tokens, variables, and styles is **free** — see [Sync a color palette to the local library](../guides/sync-a-color-palette-to-the-local-library.md) for what this means on each platform (local variables and styles on Figma and Sketch, tokens and styles on Penpot, color styles on Framer).
 
-* sync with your design tool's own tokens/styles/variables system — see [Sync a color palette to the local library](../guides/sync-a-color-palette-to-the-local-library.md) for what this means on each platform (local variables and styles on Figma and Sketch, tokens and styles on Penpot, color styles on Framer);
+Generating documentation and shipping the palette as assets still requires `/pro`. The exact mechanism and vocabulary vary per platform — see the [platform capabilities](platform-capabilities.md) page for the full matrix:
+
 * generate the palette documentation (see [Generate a color palette documentation](../guides/generate-a-color-palette-documentation.md)) — inserted as frames on Figma, boards on Penpot, artboards on Sketch, or directly in the document on Framer;
 * [export to code](../guides/export-a-color-palette-to-code.md) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…) on Figma, Penpot, and Sketch.
 
@@ -56,5 +60,8 @@ Framer supports export to code too, but a narrower format set: CSS, Less, Tailwi
 
 Advanced fine-tuning that isn't about volume also stays on `/pro`:
 
-* the accessibility tools — contrast report, contrast intervals, and the color-blindness filter;
-* the lightness and contrast presets.
+* the accessibility tools — contrast report, contrast intervals, and every vision simulation except protanomaly;
+* the color spaces other than LCH, OKLCH, and HSL — LAB, OKLAB, HSV, HSLUV, and CMYK;
+* hue and chroma on the scale, and hue and chroma shifting per color, including their distribution curves;
+* the source colors lock;
+* the named lightness scale presets other than Material 3 and Tailwind (Material, Radix, Spectrum…) — the `Custom` sets stay free, up to 6 stops (24 on `/pro`).

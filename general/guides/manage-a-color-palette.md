@@ -27,7 +27,7 @@ An acknowledgment is appointed if the color shade/tint is close to the source co
 Click on the range to add a new stop. Select a stop, then press `Backspace ⌫` to remove it. The stops are renamed to keep a consistent order.
 
 {% hint style="info" %}
-Adding or removing only works in the `Custom` preset.
+Adding or removing only works in the `Custom` preset, up to 6 stops on the <mark style="color:yellow;">`/basic`</mark> plan and 24 on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 {% endstep %}
 
@@ -38,13 +38,23 @@ Adding or removing only works in the `Custom` preset.
 
 Click on the <i class="fa-plus">:plus:</i> icon to add a new color to the `Source colors`. There is a <i class="fa-minus">:minus:</i> icon at each color to remove it definitively from the palette.
 
+{% hint style="warning" %}
+You can add up to 5 source colors on the <mark style="color:yellow;">`/basic`</mark> plan. Upgrade to <mark style="color:yellow;">`/pro`</mark> for unlimited source colors.
+{% endhint %}
+
 {% hint style="info" %}
 The default name of a new color is `New UI Color`.
 {% endhint %}
 
 ### Change a color's parameters
 
-You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input). The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of the palette cannot override this value. If reset, the global `Chroma` value is restored. The `Hue` range can also be shifted to adjust the hue of the shades/tints' scale and works the same way as the `Chroma`.
+You can change in real-time the name of the color and its hexadecimal code (via the color picker or the text input).
+
+{% hint style="danger" %}
+Shifting the `Chroma` and the `Hue` of an individual color is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
+The `Chroma` range can also be shifted to adjust the saturation of the shades/tints' scale. If adjusted, the global `Chroma` of the palette cannot override this value. If reset, the global `Chroma` value is restored. The `Hue` range can also be shifted to adjust the hue of the shades/tints' scale and works the same way as the `Chroma`.
 
 There are more advanced options (expand first by clicking the <i class="fa-ellipsis">:ellipsis:</i> icon):
 
@@ -59,10 +69,10 @@ You can reorder the colors list by dragging an item and dropping it above or bel
 {% endstep %}
 
 {% step %}
-## <i class="fa-lock">:lock:</i> Create color modes
+## Create color modes
 
-{% hint style="danger" %}
-Managing `Color modes` is only available in the <mark style="color:yellow;">`/pro`</mark> plan.
+{% hint style="warning" %}
+You can manage up to 2 color modes on the <mark style="color:yellow;">`/basic`</mark> plan. Upgrade to <mark style="color:yellow;">`/pro`</mark> for unlimited color modes.
 {% endhint %}
 
 {% hint style="info" %}

@@ -10,20 +10,18 @@ icon: sparkles
 
 {% stepper %}
 {% step %}
-## <i class="fa-lock">:lock:</i> Adjust the scale
-
-{% hint style="danger" %}
-Adjusting the `Lightness` and `Contrast` are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
-{% endhint %}
+## Adjust the scale
 
 {% hint style="info" %}
 Use the `Preview` to observe and manage the color scaling in real-time. You can:&#x20;
 
 * Adjust the view's height by grabbing the top edge
 * Expand and collapse the view
+* Copy the hexadecimal code of a shade/tint
 {% endhint %}
 
-### <i class="fa-lock">:lock:</i> Adjust the lightness
+### Adjust the lightness
+
 Update a stop by sliding its knob on the range. You can slide every knob by using these shortcuts:
 
 * <kbd>Cmd ⌘</kbd> (macOS) or <kbd>Ctrl ⌃</kbd> (Windows/Linux) while sliding any knob to move each of them in the desired direction
@@ -38,15 +36,21 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### <i class="fa-lock">:lock:</i> Use the contrast mode
+### Adjust the contrast ratio
 
-This `Contrast mode` specifically adjusts the lightness scale more precisely. Instead of adjusting just the lightness, you adjust the contrast ratio score of every color source's shade or tint. The adjustment works like the lightness scale; however, it recalculates the other stops to prevent any disharmonious scaling.
+Instead of setting the lightness of each stop, you can set its target `Contrast ratio` (from 1 to 21) against the light or dark foreground color. The lightness of the stop is then recomputed until the ratio is met, and the other stops are adjusted to prevent any disharmonious scaling.
+
+Both views edit the exact same scale: switch between `Lightness` and `Contrast ratio` at any time.
 
 {% hint style="info" %}
-The `Contrast mode` works very well with the [`HSLuv`](../glossary.md#hsluv) color space.
+The `Contrast ratio` works very well with the [`HSLuv`](../glossary.md#hsluv) color space.
 {% endhint %}
 
-### Adjust the chroma
+### <i class="fa-lock">:lock:</i> Adjust the chroma
+
+{% hint style="danger" %}
+Adjusting the `Chroma` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 You can adjust the `Chroma` of every scaled color from 0% (unsaturated) to 200% (oversaturated).
 
@@ -57,7 +61,11 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### Adjust the hue
+### <i class="fa-lock">:lock:</i> Adjust the hue
+
+{% hint style="danger" %}
+Adjusting the `Hue` is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 You can adjust the `Hue` of every scaled color from -180° to 180°.
 
@@ -68,13 +76,13 @@ You can tweak a stop with more accuracy:
 * Double-click the stop and change the value
 {% endhint %}
 
-### Choose a distribution curve
+### <i class="fa-lock">:lock:</i> Choose a distribution curve
 
-`Chroma` and `Hue` each follow their own `Distribution` curve, which controls how the shift spreads across the stops instead of applying the exact same amount everywhere:
+`Chroma` and `Hue` each follow their own `Distribution` curve, which controls how the shift spreads across the stops. Pick it independently for each:
 
 * `Linear`: a single global value is applied evenly to every stop
-* `Hyperbola`: a single threshold is applied symmetrically to both ends of the scale, concentrating the shift at the extremities
-* `Free`: independent left (`L`) and right (`R`) thresholds, for asymmetric control over shades and tints
+* `Hyperbola`: a single value is applied to both extremities of the scale (the darkest shades and the lightest tints), fading to neutral toward the middle
+* `Free`: like `Hyperbola`, but with two independent values — left (`L`) and right (`R`) — so you can shift the shades and the tints in different directions
 
 The curve applies to the whole palette by default. Overriding `Chroma` or `Hue` on an individual source color keeps that color on its own curve until it's reset, which restores the global value.
 
@@ -121,14 +129,16 @@ You can change the global color space of your whole palette, which will be affec
 
 * [`LCH`](../glossary.md#lch) (default color space)
 * [`OKLCH`](../glossary.md#oklch)
-* [`CIELAB`](../glossary.md#cielab)
-* [`OKLAB`](../glossary.md#oklab)
+* [`CIELAB`](../glossary.md#cielab)・<mark style="color:yellow;">`/pro`</mark>
+* [`OKLAB`](../glossary.md#oklab)・<mark style="color:yellow;">`/pro`</mark>
 * [`HSL`](../glossary.md#hsl)
-* [`HSLuv`](../glossary.md#hsluv)
-* `HSV`
-* `CMYK`
+* [`HSLuv`](../glossary.md#hsluv)・<mark style="color:yellow;">`/pro`</mark>
+* [`HSV`](../glossary.md#hsv)・<mark style="color:yellow;">`/pro`</mark>
+* [`CMYK`](../glossary.md#cmyk)・<mark style="color:yellow;">`/pro`</mark>
 
 {% hint style="warning" %}
+`LCH`, `OKLCH`, and `HSL` are available on every plan; the other color spaces and every vision simulation except `Protanomaly` are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+
 `HSV` and `CMYK` are not available on Penpot. All other color spaces are available on every platform. See [Master a color palette on Penpot](https://docs.ui-color-palette.com/penpot/guides/master-a-color-palette).
 {% endhint %}
 
@@ -136,14 +146,14 @@ You can change the global color space of your whole palette, which will be affec
 
 You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Light foreground color`/`Dark foreground color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
 
-* [`Protanomal`](../glossary.md#protanomaly)
-* [`Protanopia`](../glossary.md#protanopia)
-* [`Deuteranomaly`](../glossary.md#deuteranomaly)
-* [`Deuteranopia`](../glossary.md#deuteranopia)
-* [`Tritanomaly`](../glossary.md#tritanomaly)
-* [`Tritanopia`](../glossary.md#tritanopia)
-* [`Achromatomaly`](../glossary.md#achromatomaly)
-* [`Achromatopsia`](../glossary.md#achromatopsia)
+* [`Protanomaly`](../glossary.md#protanomaly)
+* [`Protanopia`](../glossary.md#protanopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Deuteranomaly`](../glossary.md#deuteranomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Deuteranopia`](../glossary.md#deuteranopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Tritanomaly`](../glossary.md#tritanomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Tritanopia`](../glossary.md#tritanopia)・<mark style="color:yellow;">`/pro`</mark>
+* [`Achromatomaly`](../glossary.md#achromatomaly)・<mark style="color:yellow;">`/pro`</mark>
+* [`Achromatopsia`](../glossary.md#achromatopsia)・<mark style="color:yellow;">`/pro`</mark>
 
 ### Select a velocity
 
@@ -155,7 +165,11 @@ Here are the velocities:
 * `Sinusoidal`: shades/tints appear less saturated at both ends
 * `Sinusoidal and hyperbolic`: shades/tints maintain consistent saturation
 
-### Lock the source colors
+### <i class="fa-lock">:lock:</i> Lock the source colors
+
+{% hint style="danger" %}
+Locking the source colors is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
 
 The color scaling can include every source color instead of the closest shade/tint to this one. It will preserve the brand language despite a weaker contrast consistency.
 {% endstep %}
@@ -187,4 +201,4 @@ The contrast report emphasizes the contrast score and the recommendations. [`WCA
 {% endstep %}
 {% endstepper %}
 
-Click the `Save the UI Color Palette` button to save your palette! You can retrieve it in the `Local` section on the current document/page.
+Every change is applied to your palette in real time — there is no separate save step. You can retrieve it in the `Palettes manager` on the current page/document.

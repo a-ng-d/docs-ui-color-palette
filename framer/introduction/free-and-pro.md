@@ -12,7 +12,7 @@ The `/basic` vs `/pro` split — what's free, what needs a subscription, and why
 
 | Item                       | `/basic` | `/pro`    |
 | -------------------------- | -------- | --------- |
-| Palettes per document      | 3        | Unlimited |
+| Palettes per document      | 1        | Unlimited |
 | Source colors              | 5        | Unlimited |
 | Steps                      | 6        | Unlimited |
 | Color modes                | 2        | Unlimited |
@@ -21,10 +21,13 @@ The `/basic` vs `/pro` split — what's free, what needs a subscription, and why
 Unlike Figma and Penpot (which scope palettes **per page**), Framer scopes palettes **per document** — the whole project shares the same set, there's no page-level partitioning. Sketch works the same way, per document.
 {% endhint %}
 
-## Synchronization — reserved for Pro
+## Synchronization
 
-On Framer, synchronization applies to:
+Syncing with your Framer library is free: [sync with the color styles](../guides/sync-a-color-palette-to-the-local-library.md).
 
-* [sync with the color styles](../guides/sync-a-color-palette-to-the-local-library.md);
+The rest of the synchronization is reserved for Pro. On Framer, it covers:
+
 * [generate the palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation) in the document;
 * [export to code](../guides/export-a-color-palette-to-code.md), limited to CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — Framer doesn't support the SCSS, Apple, Android, or spreadsheet formats available on Figma, Penpot, and Sketch.
+
+[Simulating the palette on a selection](../guides/simulate-a-color-palette-on-a-selection.md) is also reserved for Pro.

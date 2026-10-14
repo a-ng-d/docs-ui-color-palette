@@ -7,6 +7,10 @@ icon: arrows-rotate-reverse
 
 # Sync a color palette to the local library
 
+{% hint style="success" %}
+Synchronizing a palette with your design tool's local library (styles, variables, or tokens) is free on every plan.
+{% endhint %}
+
 Once a palette is finished, it's still just data living inside `UI Color Palette` until it becomes something your design tool's components can actually reference — a style, a variable, or a design token. Syncing pushes every shade/tint from the palette into your design tool's own local library, so the rest of your design system (and, on some platforms, your whole team via a published library) can use them like any other native color asset.
 
 Two things are true everywhere:

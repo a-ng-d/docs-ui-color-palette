@@ -7,6 +7,10 @@ icon: coins
 
 # Sync a color palette to tokens
 
+{% hint style="success" %}
+Synchronizing with styles and tokens is free on every plan.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 ## Sync to tokens

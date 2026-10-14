@@ -12,6 +12,7 @@
 ## Guides
 
 * [Manage a color palette](guides/manage-a-color-palette.md)
+* [Simulate a color palette on a selection](guides/simulate-a-color-palette-on-a-selection.md)
 * [Sync a color palette to the local library](guides/sync-a-color-palette-to-the-local-library.md)
 
 ## User management

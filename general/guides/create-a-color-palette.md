@@ -1,96 +1,91 @@
 ---
 description: >-
   Learn how to create a color palette and start managing it right away.
-  Use generation tools to define source colors, or start from scratch.
+  Start from a blank palette, or use the Colors combinator to get a ready-made
+  palette from AI, an image, a color harmony, or Color Hunt.
 icon: palette
 ---
 
 # Create a color palette
 
 {% hint style="info" %}
-As of version 5.3.0, the UI has been reorganized around a sidebar. Palette management and generation tools (AI, image extraction, color wheel, Color Lovers) are now accessible as first-class navigation items from the sidebar.
+Creating a palette is a single step: whichever path you choose, you immediately get a complete palette (source colors, lightness scale, and color modes), opened and ready to be refined. There is no separate "generate the source colors, then build the palette" step anymore.
 {% endhint %}
 
 ## Create a blank palette
 
-Click the `+` button in the palette management section of the sidebar. You will be taken directly to the Management service, where you can configure your colors.
+Click the `+` button in the `Palettes manager`. A new palette is created right away with default source colors (or with the colors of the filled layers selected on your canvas) and opened, so you can refine it immediately.
 
-Creating a palette is free — there is no credit cost. On the `/basic` plan, you can keep up to **3 palettes** per document/page (per document on Figma, Penpot, and Sketch; per page on Framer); upgrade to `/pro` for unlimited palettes.
+Creating a palette is free. On the <mark style="color:yellow;">`/basic`</mark> plan, you can keep **1 palette** per page (Figma, Penpot) or per document (Sketch, Framer); upgrade to <mark style="color:yellow;">`/pro`</mark> for unlimited palettes. See [Understanding free and Pro](../introduction/free-and-pro.md).
 
 {% hint style="info" %}
-Once in the Management service, you can:
+Once the palette is open, you can:
 
 * Add colors from your canvas by selecting filled layers and importing them
 * Import color combinations from [`Coolors`](https://coolors.co/) and [`Realtime Colors`](https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff\&fonts=Inter-Inter)
 {% endhint %}
 
-## Create from source colors
+## Create from the Colors combinator
 
-Four tools let you generate source colors before creating your palette. Once you confirm your selection, a new palette is created and you are taken to the Management service.
+The `Colors combinator` gathers four tools to find a color combination. Each one previews the full palette it will produce; click `Use this palette` to create it and open it directly — the palette is created and opened in one action.
 
 {% stepper %}
 {% step %}
 ### Generate colors with AI
 
-On `AI`, generate a color combination by entering a prompt or choosing a preset theme (Cyberpunk, Minimalist, Pastel, Corporate, Nature, and more). The AI will propose five colors, each assigned a role: `Primary`, `Text`, `Success`, `Warning`, or `Alert`.
+On `AI Colors`, generate a color combination by entering a prompt or choosing a preset theme (Cyberpunk, Minimalist, Pastel, Corporate, Nature, and more). The AI will propose five colors, each assigned a role: `Primary`, `Text`, `Success`, `Warning`, or `Alert`.
 
 {% hint style="info" %}
 Colors are adapted to their role — an `Alert` color will always be reddish. Generated colors are automatically named based on their appearance (e.g., Crimson Red).
 {% endhint %}
-
-Confirm your selection to create the palette and be taken to the Management service.
 {% endstep %}
 
 {% step %}
 ### Extract colors from an image
 
-On `Image`, upload a `PNG` image to extract its 5 dominant colors. Ensure that you upload a `PNG`, as a `JPEG` will result in an error.
-
-Confirm your selection to create the palette and be taken to the Management service.
+On `Image palette`, upload a `PNG` image to extract its 5 dominant colors. Ensure that you upload a `PNG`, as a `JPEG` will result in an error.
 {% endstep %}
 
 {% step %}
 ### Create a color harmony
 
-On `Wheel`, generate a color combination from a base color using several color wheel theories:
+On `Color harmony`, generate a color combination from a base color using several color wheel theories:
 
 * `Analogous` — 3 colors that are close
 * `Complementary` — 2 colors that are opposite
 * `Compound` — 3 colors that are opposite
 * `Triadic` — 3 colors that are equally separated
 * `Tetradic` — 4 colors that are equally separated
-
-Confirm your selection to create the palette and be taken to the Management service.
 {% endstep %}
 
 {% step %}
-### Browse community palettes
+### Explore Color Hunt palettes
 
-On `Colour Lovers`, browse 1M+ community palettes directly from the sidebar. Each palette is linked to its original source and credits the author.
+On `Explorer`, browse the palettes from [`Color Hunt`](https://colorhunt.co/), a community feed with new palettes published every day. Palettes are sorted from the most recent, and you can filter them by one dominant color at a time (yellow, orange, red, green, violet, or blue).
 
-Confirm your selection to create the palette and be taken to the Management service.
+Each palette links to its original page on Color Hunt, and is automatically named from its dominant colors.
 {% endstep %}
 {% endstepper %}
 
 ## Choose a lightness scale preset
 
 {% hint style="warning" %}
-* You can add up to 8 stops in the `Custom` set on the <mark style="color:yellow;">`/basic`</mark> plan.
-* Some presets are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+* Named presets (Google, Frameworks, Atlassian, Adobe, and more) are only available on the <mark style="color:yellow;">`/pro`</mark> plan, except `Material 3` and `Tailwind`, which are free. The `Custom` sets are available on every plan.
+* You can add up to 6 stops in a `Custom` set on the <mark style="color:yellow;">`/basic`</mark> plan, and up to 24 on the <mark style="color:yellow;">`/pro`</mark> plan.
 {% endhint %}
 
 A preset contains a list of stops named from an established nomenclature. These presets are frameworks that can help you build a color scaling:
 
-* Google・<mark style="color:yellow;">`/pro`</mark>:
-  * `Material Design`, 10 stops, from 50 to 900
+* Google:
+  * `Material Design`, 10 stops, from 50 to 900・<mark style="color:yellow;">`/pro`</mark>
   * `Material 3`, 13 stops, from 0 to 100
 * Frameworks:
-  * `Tailwind`, 11 stops, from 50 to 950・<mark style="color:yellow;">`/pro`</mark>
-  * `Ant Design`, 10 stops, from 1 to 10
-  * `Bootstrap`, 9 stops, from 100 to 900
+  * `Tailwind`, 11 stops, from 50 to 950
+  * `Ant Design`, 10 stops, from 1 to 10・<mark style="color:yellow;">`/pro`</mark>
+  * `Bootstrap`, 9 stops, from 100 to 900・<mark style="color:yellow;">`/pro`</mark>
   * `Radix`, 12 stops, from 1 to 12・<mark style="color:yellow;">`/pro`</mark>
   * `Untitled UI`, 12 stops, from 25 to 950・<mark style="color:yellow;">`/pro`</mark>
-  * `Open Color`, 10 stops, from 0 to 9
+  * `Open Color`, 10 stops, from 0 to 9・<mark style="color:yellow;">`/pro`</mark>
 * Atlassian・<mark style="color:yellow;">`/pro`</mark>:
   * `ADS Foundations`, 7 stops, from 50 to 500
   * `ADS Foundations Neutral`, 19 stops, from 0 to 900
@@ -103,15 +98,11 @@ A preset contains a list of stops named from an established nomenclature. These 
   * `Polaris`, 16 stops, from 1 to 16 (Shopify)
   * `Fluent`, 16 stops, from 10 to 160 (Microsoft)
 
-Or make your own from 2 to 8 (24 in <mark style="color:yellow;">`/pro`</mark>) stops via the `Custom` set, through those scales:
+Or make your own from 2 to 6 stops (24 in <mark style="color:yellow;">`/pro`</mark>) via the `Custom` set, through those naming conventions:
 
-* `1 - 24`, the default option, increasing by 1
-* `10 - 240`, increasing by 10
-* `100 - 2400`, increasing by 100
-
-{% hint style="warning" %}
-Managing more than 15 stops could complicate the color scaling. It also depends on the number of the `Source colors`.
-{% endhint %}
+* `1 - 10`, the default option, increasing by 1
+* `10 - 100`, increasing by 10
+* `100 - 1000`, increasing by 100
 
 ## Rename your palette
 

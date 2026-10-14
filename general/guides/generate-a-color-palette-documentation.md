@@ -7,9 +7,13 @@ icon: file-lines
 
 # Generate a color palette documentation
 
+{% hint style="danger" %}
+Generating the palette documentation — and everything around it (updating, opening, and restoring a palette from a document) — is only available on the <mark style="color:yellow;">`/pro`</mark> plan.
+{% endhint %}
+
 {% stepper %}
 {% step %}
-## Generate a document of the palette
+## <i class="fa-lock">:lock:</i> Generate a document of the palette
 
 Once the palette is finished, you can generate complete documentation of every shade and tint. Click the <i class="fa-ellipsis">:ellipsis:</i> icon in the bottom bar, then select `Generate a document` to access the available document types.
 
@@ -52,7 +56,7 @@ The palette will be named as referred:
 {% endstep %}
 
 {% step %}
-## Update a document if the palette has been too
+## <i class="fa-lock">:lock:</i> Update a document if the palette has been too
 
 Once you update your palette, click the <i class="fa-ellipsis">:ellipsis:</i> icon in the bottom bar, then `Push updates to the document`. The document will receive the updated metadata, shades, and tints.
 
@@ -62,13 +66,7 @@ Each time you update, each time you store an updated backup.
 {% endstep %}
 
 {% step %}
-## Update the document layout
-
-When a document is selected on the canvas and recognized as a "UI Color Palette", you can choose another layout of the list of 3 types (see [Generate a document of the palette](generate-a-color-palette-documentation.md#generate-a-document-of-the-palette)). Once selected, the document will transform its layout.&#x20;
-{% endstep %}
-
-{% step %}
-## Open a palette from a select document
+## <i class="fa-lock">:lock:</i> Open a palette from a select document
 
 When a document is selected on the canvas and recognized as a "UI Color Palette", the controller allows you to access the related palette by clicking the `Open document` button.
 
@@ -78,7 +76,7 @@ Keep in mind, this is a shortcut because a document is an instance of the palett
 {% endstep %}
 
 {% step %}
-## Restore a palette
+## <i class="fa-lock">:lock:</i> Restore a palette
 
 When a document is selected on the canvas and recognized as a "UI Color Palette", but the `Local Master` palette has not been found on the current page, you can store the palette from a backup stored in the document by clicking the `Restore palette` button.
 {% endstep %}

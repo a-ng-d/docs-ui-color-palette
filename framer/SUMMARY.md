@@ -11,6 +11,7 @@
 ## Guides
 
 * [Export a color palette to code](guides/export-a-color-palette-to-code.md)
+* [Simulate a color palette on a selection](guides/simulate-a-color-palette-on-a-selection.md)
 * [Sync a color palette to the local library](guides/sync-a-color-palette-to-the-local-library.md)
 
 ## User management

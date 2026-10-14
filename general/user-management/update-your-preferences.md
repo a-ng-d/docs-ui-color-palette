@@ -6,6 +6,10 @@ icon: ballot-check
 
 You can configure your `Preferences` in the <i class="fa-user">:user:</i> `User menu`.
 
+{% hint style="danger" %}
+The synchronization behavior preferences (deep sync of styles, variables, and tokens) are only available on the <mark style="color:yellow;">`/pro`</mark> plan, like the synchronization itself.
+{% endhint %}
+
 The preferences available depend on which local library mechanisms your platform supports (see [Sync a color palette to the local library](../guides/sync-a-color-palette-to-the-local-library.md)):
 
 * **The synchronization behavior between the palette and local styles** (all platforms).\

@@ -12,7 +12,7 @@ The `/basic` vs `/pro` split — what's free, what needs a subscription, and why
 
 | Item                       | `/basic` | `/pro`    |
 | -------------------------- | -------- | --------- |
-| Palettes per page          | 3        | Unlimited |
+| Palettes per page          | 1        | Unlimited |
 | Source colors              | 5        | Unlimited |
 | Steps                      | 6        | Unlimited |
 | Color modes                | 2        | Unlimited |
@@ -21,10 +21,13 @@ The `/basic` vs `/pro` split — what's free, what needs a subscription, and why
 Palettes are scoped **per page** on Figma — switching page gives you a different palette set. Penpot works the same way, per page; Framer and Sketch scope palettes per document instead.
 {% endhint %}
 
-## Synchronization — reserved for Pro
+## Synchronization
 
-On Figma, synchronization applies to:
+Syncing with your Figma library is free: [sync with the local variables and styles](../guides/sync-a-color-palette-to-the-local-library.md).
 
-* [sync with the local variables and styles](../guides/sync-a-color-palette-to-the-local-library.md);
+The rest of the synchronization is reserved for Pro. On Figma, it covers:
+
 * [generate the palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation) as frames in the document;
 * [export to code](https://docs.ui-color-palette.com/general/guides/export-a-color-palette-to-code) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…).
+
+[Simulating the palette on a selection](../guides/simulate-a-color-palette-on-a-selection.md) is also reserved for Pro.
