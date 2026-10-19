@@ -16,6 +16,10 @@ This section contains all legal documents governing the use of **UI Color Palett
 | [Terms of Sale](terms-of-sale.md)               | Conditions applying to all purchases, subscriptions, refunds, and educational licenses.                                                         |
 | [License](license.md)                           | The MIT License under which the UI Color Palette project is distributed.                                                                        |
 
+## Publisher
+
+**UI Color Palette** is a brand of **Yelbolt**, itself a brand owned by **Aurélien Grimaud**, *entreprise individuelle* (SIREN 910 398 957), 114 boulevard du Maréchal Joffre, 92340 Bourg-la-Reine, France. Neither brand is a separate legal entity; Aurélien Grimaud is the publisher and the legally responsible party for all documents in this section.
+
 ## Contact
 
 For any legal question, please reach out at [hello@ui-color-palette.com](mailto:hello@ui-color-palette.com).

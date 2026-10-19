@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: August 14, 2025'
+description: 'Last updated: October 20, 2026'
 icon: cookie
 layout: editorial
 ---
@@ -9,6 +9,8 @@ layout: editorial
 ## 1. Introduction
 
 At UI Color Palette, we use cookies and similar technologies to enhance your experience on our website. This Cookie Policy explains what cookies are, how we use them, and what choices you have regarding their use.
+
+The website and the Service are published by **Aurélien Grimaud**, *entreprise individuelle* (SIREN 910 398 957), 114 boulevard du Maréchal Joffre, 92340 Bourg-la-Reine, France, under the **UI Color Palette** brand, a brand of **Yelbolt**. References to "we", "us" or "our" designate Aurélien Grimaud acting under these brands.
 
 ## 2. What is a Cookie?
 

@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: May 15, 2026'
+description: 'Last updated: October 20, 2026'
 icon: file-lock
 layout: editorial
 ---
@@ -9,6 +9,12 @@ layout: editorial
 ## 1. Introduction
 
 At UI Color Palette, we are committed to protecting the privacy of our users. This Privacy Policy explains how we collect, use, disclose, and protect your personal information in accordance with international regulations, including the General Data Protection Regulation (GDPR), Law 25, the California Consumer Privacy Act (CCPA), the Consumer Privacy Act (CPA), and the new Federal Act on Data Protection (nFADP).
+
+### 1.1. Data Controller
+
+The data controller for the processing described in this Privacy Policy is **Aurélien Grimaud**, *entreprise individuelle* (SIREN 910 398 957), 114 boulevard du Maréchal Joffre, 92340 Bourg-la-Reine, France, publisher of **UI Color Palette**, a brand of **Yelbolt**. UI Color Palette and Yelbolt are brands, not separate legal entities; references to "we", "us" or "our" in this policy designate Aurélien Grimaud acting under these brands.
+
+Contact: [privacy@ui-color-palette.com](mailto:privacy@ui-color-palette.com).
 
 ## 2. Collection of Information
 
