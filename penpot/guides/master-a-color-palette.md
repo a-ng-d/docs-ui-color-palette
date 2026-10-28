@@ -16,4 +16,4 @@ This is documented once, for every UI Color Palette platform — see **[Master a
 
 ## Color spaces on Penpot
 
-`HSV` and `CMYK` are not available as color spaces on Penpot. Every other color space (`LCH`, `OKLCH`, `CIELAB`, `OKLAB`, `HSL`, `HSLuv`) works the same as on every other platform.
+Every color space (`OKLCH`, `LCH`, `CIELAB`, `OKLAB`, `HSL`, `HSLuv`, `HSV`, `CMYK`) works the same on Penpot as on every other platform.

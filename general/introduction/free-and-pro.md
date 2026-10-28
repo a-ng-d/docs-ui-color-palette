@@ -53,7 +53,7 @@ Generating documentation and shipping the palette as assets still requires `/pro
 * [export to code](../guides/export-a-color-palette-to-code.md) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…) on Figma, Penpot, and Sketch.
 
 {% hint style="warning" %}
-Framer supports export to code too, but a narrower format set: CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — no SCSS, Apple, Android, or spreadsheet export. See [Export a color palette to code](../guides/export-a-color-palette-to-code.md) and [platform capabilities](platform-capabilities.md).
+Framer supports export to code too, but a narrower format set: CSS, SCSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — no Apple, Android, or spreadsheet export. See [Export a color palette to code](../guides/export-a-color-palette-to-code.md) and [platform capabilities](platform-capabilities.md).
 {% endhint %}
 
 ## Refinement — reserved for Pro

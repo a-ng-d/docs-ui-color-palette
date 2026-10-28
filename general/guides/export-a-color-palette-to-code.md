@@ -8,7 +8,7 @@ icon: code
 # Export a color palette to code (CSS, Tailwind, tokens, Swift)
 
 {% hint style="info" %}
-Export to code is available on every platform, but the format list differs: Figma, Penpot, and Sketch get the full set documented on this page. **Framer** gets a narrower set — CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) only, no SCSS, Apple, Android, or spreadsheet export — see [Export a color palette to code on Framer](https://docs.ui-color-palette.com/framer/guides/export-a-color-palette-to-code). See [platform capabilities](../introduction/platform-capabilities.md) for the full matrix.
+Export to code is available on every platform, but the format list differs: Figma, Penpot, and Sketch get the full set documented on this page. **Framer** gets a narrower set — CSS, SCSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) only, no Apple, Android, or spreadsheet export — see [Export a color palette to code on Framer](https://docs.ui-color-palette.com/framer/guides/export-a-color-palette-to-code). See [platform capabilities](../introduction/platform-capabilities.md) for the full matrix.
 {% endhint %}
 
 {% stepper %}
@@ -274,7 +274,7 @@ CSS is the default export and the only format available for free. Every other fo
 You can export every color shade/tint to a **CSS** file on your computer. The modes can be applied via the `:root` selector. Learn more about CSS4 Custom Properties on the [Mozilla documentation.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties)
 
 {% hint style="info" %}
-You can switch the [`RGB`](../glossary.md#rgb) values into `HEX`, [`HSL`](../glossary.md#hsl), [`LCH`](../glossary.md#lch), or [`P3`](../glossary.md#p3) values.
+You can switch the [`RGB`](../glossary.md#rgb) values into `HEX`, [`HSL`](../glossary.md#hsl), [`LCH`](../glossary.md#lch), [`OKLCH`](../glossary.md#oklch), or [`P3`](../glossary.md#p3) values.
 {% endhint %}
 
 The export file follows this model:

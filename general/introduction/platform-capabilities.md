@@ -13,12 +13,12 @@ UI Color Palette ships the same core product everywhere, but not every surface s
 | Create / manage / master a palette | Yes | Yes | Yes | Yes | Yes |
 | Publish & synchronize / hunt community palettes | Yes | Yes | Yes | Yes | ⚠️ Unconfirmed |
 | Generate a palette documentation | Yes (as frames) | Yes (as boards) | Yes (as artboards) | Yes (in the document) | ⚠️ Unconfirmed |
-| Export to code | Yes (full format set) | Yes (full format set) | Yes (full format set) | **Yes — limited** (CSS, Less, Tailwind v3/v4, JSON tokens only) | ⚠️ Unconfirmed |
+| Export to code | Yes (full format set) | Yes (full format set) | Yes (full format set) | **Yes — limited** (CSS, SCSS, Less, Tailwind v3/v4, JSON tokens only) | ⚠️ Unconfirmed |
 | Palette scope | Per page | Per page | Per document | Per document | N/A (no page/document concept) |
 | Sync to local styles | Yes | Yes | Yes | Yes (styles only) | N/A |
 | Sync to local variables | Yes | **No** (see tokens) | Yes | **No** | N/A |
 | Sync to design tokens | **No** | Yes (native Penpot tokens) | **No** | **No** | N/A |
-| `HSV` / `CMYK` color spaces | Yes | **No** | Yes | Yes | ⚠️ Unconfirmed |
+| `HSV` / `CMYK` color spaces | Yes | Yes | Yes | Yes | ⚠️ Unconfirmed |
 | `/one` account-based Pro subscription | Yes | Yes | Yes | Yes | ⚠️ Unconfirmed |
 | `/team` license-based seats | Yes | **No, Figma-only for now** | **No** | **No** | **No** |
 | In-app purchase of Pro (via platform marketplace) | Yes (Figma Community) | **No** | **No** | **No** | N/A |

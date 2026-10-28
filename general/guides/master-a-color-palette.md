@@ -127,8 +127,8 @@ The HSL color space is not recommended for good lightness and contrast consisten
 
 You can change the global color space of your whole palette, which will be affected. Fortunately, you can browse the available color spaces without impacting the configuration (scale, source colors). Here are the color spaces:
 
-* [`LCH`](../glossary.md#lch) (default color space)
-* [`OKLCH`](../glossary.md#oklch)
+* [`OKLCH`](../glossary.md#oklch) (default color space)
+* [`LCH`](../glossary.md#lch)
 * [`CIELAB`](../glossary.md#cielab)・<mark style="color:yellow;">`/pro`</mark>
 * [`OKLAB`](../glossary.md#oklab)・<mark style="color:yellow;">`/pro`</mark>
 * [`HSL`](../glossary.md#hsl)
@@ -139,7 +139,7 @@ You can change the global color space of your whole palette, which will be affec
 {% hint style="warning" %}
 `LCH`, `OKLCH`, and `HSL` are available on every plan; the other color spaces and every vision simulation except `Protanomaly` are only available on the <mark style="color:yellow;">`/pro`</mark> plan.
 
-`HSV` and `CMYK` are not available on Penpot. All other color spaces are available on every platform. See [Master a color palette on Penpot](https://docs.ui-color-palette.com/penpot/guides/master-a-color-palette).
+Every color space is available on every platform: Figma, Penpot, Sketch, and Framer.
 {% endhint %}
 
 ### Select a vision simulation

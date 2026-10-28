@@ -28,6 +28,6 @@ Syncing with your Framer library is free: [sync with the color styles](../guides
 The rest of the synchronization is reserved for Pro. On Framer, it covers:
 
 * [generate the palette documentation](https://docs.ui-color-palette.com/guides/generate-a-color-palette-documentation) in the document;
-* [export to code](../guides/export-a-color-palette-to-code.md), limited to CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — Framer doesn't support the SCSS, Apple, Android, or spreadsheet formats available on Figma, Penpot, and Sketch.
+* [export to code](../guides/export-a-color-palette-to-code.md), limited to CSS, SCSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — Framer doesn't support the Apple, Android, or spreadsheet formats available on Figma, Penpot, and Sketch.
 
 [Simulating the palette on a selection](../guides/simulate-a-color-palette-on-a-selection.md) is also reserved for Pro.
