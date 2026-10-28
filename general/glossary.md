@@ -194,7 +194,7 @@ Achromatopsia, also known as total color blindness, is a rare, non-progressive v
 
 <summary>WCAG 2.1</summary>
 
-The WCAG 2.1 defines contrast ratio as the luminance difference between colors, ensuring text readability. It mandates a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text,
+The WCAG 2.1 defines contrast ratio as the luminance difference between colors, ensuring text readability. It mandates a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text at level AA, and 7:1 and 4.5:1 at level AAA.
 
 </details>
 
@@ -202,6 +202,6 @@ The WCAG 2.1 defines contrast ratio as the luminance difference between colors, 
 
 <summary>APCA</summary>
 
-The Advanced Perceptual Contrast Algorithm (APCA) calculates contrast ratios based on human visual perception, focusing on text readability by considering font weight and viewing conditions. This method aims to improve accessibility and visual comfort.
+The Accessible Perceptual Contrast Algorithm (APCA) calculates contrast ratios based on human visual perception, focusing on text readability by considering font weight and viewing conditions. This method aims to improve accessibility and visual comfort.
 
 </details>

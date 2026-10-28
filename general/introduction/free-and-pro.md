@@ -60,7 +60,7 @@ Framer supports export to code too, but a narrower format set: CSS, SCSS, Less, 
 
 Advanced fine-tuning that isn't about volume also stays on `/pro`:
 
-* the accessibility tools — contrast report, contrast intervals, and every vision simulation except protanomaly;
+* the accessibility tools — contrast report, contrast intervals, pass/fail filters, and every vision simulation except protanomaly;
 * the color spaces other than LCH, OKLCH, and HSL — LAB, OKLAB, HSV, HSLUV, and CMYK;
 * hue and chroma on the scale, and hue and chroma shifting per color, including their distribution curves;
 * the source colors lock;
