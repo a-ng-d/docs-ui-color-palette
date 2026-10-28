@@ -9,6 +9,8 @@ icon: hand-wave
 
 **UI Color Palette for Claude** is a [Claude Code](https://code.claude.com) plugin that brings the full color system workflow into your AI-assisted development environment — from generating source colors to pushing tokens to Figma, Penpot, Framer, or Sketch.
 
+New to the plugin? See what it does on [ui-color-palette.com/claude](https://ui-color-palette.com/claude). This page covers setup and usage.
+
 ## The 4-phase workflow
 
 ```
