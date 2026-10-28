@@ -5,7 +5,7 @@ icon: unlock
 # Understanding free and Pro
 
 {% hint style="info" %}
-The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](https://docs.ui-color-palette.com/general/introduction/free-and-pro)**. The volume limits and synchronization targets below are Framer's own.
+The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](https://docs.ui-color-palette.com/introduction/free-and-pro)**. The volume limits and synchronization targets below are Framer's own.
 {% endhint %}
 
 ## Volume — capped on the free plan
@@ -27,7 +27,7 @@ Syncing with your Framer library is free: [sync with the color styles](../guides
 
 The rest of the synchronization is reserved for Pro. On Framer, it covers:
 
-* [generate the palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation) in the document;
+* [generate the palette documentation](https://docs.ui-color-palette.com/guides/generate-a-color-palette-documentation) in the document;
 * [export to code](../guides/export-a-color-palette-to-code.md), limited to CSS, Less, Tailwind (v3 and v4), and JSON tokens (native and DTCG) — Framer doesn't support the SCSS, Apple, Android, or spreadsheet formats available on Figma, Penpot, and Sketch.
 
 [Simulating the palette on a selection](../guides/simulate-a-color-palette-on-a-selection.md) is also reserved for Pro.

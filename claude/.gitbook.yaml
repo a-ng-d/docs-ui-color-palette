@@ -1,0 +1,9 @@
+# Redirects: old URL (relative to this space) -> current page. See ../redirects/README.md.
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  changelog: README.md

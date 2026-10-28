@@ -8,23 +8,23 @@ The palette-editing experience itself — creation, mastering, management, docum
 
 ## Introduction
 
-* [Why should you avoid RGB and HSL color spaces?](https://docs.ui-color-palette.com/general/introduction/what-is-the-lch-model)
-* [Palette publication lifecycle](https://docs.ui-color-palette.com/general/introduction/palette-publication-lifecycle)
+* [Why should you avoid RGB and HSL color spaces?](https://docs.ui-color-palette.com/introduction/what-is-the-lch-model)
+* [Palette publication lifecycle](https://docs.ui-color-palette.com/introduction/palette-publication-lifecycle)
 
 ## Guides
 
-* [Create a color palette](https://docs.ui-color-palette.com/general/guides/create-a-color-palette)
-* [Master a color palette](https://docs.ui-color-palette.com/general/guides/master-a-color-palette)
-* [Generate a color palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation)
-* [Export a color palette to code](https://docs.ui-color-palette.com/general/guides/export-a-color-palette-to-code)
-* [Publish and synchronize a color palette](https://docs.ui-color-palette.com/general/guides/publish-and-synchronize-a-color-palette)
+* [Create a color palette](https://docs.ui-color-palette.com/guides/create-a-color-palette)
+* [Master a color palette](https://docs.ui-color-palette.com/guides/master-a-color-palette)
+* [Generate a color palette documentation](https://docs.ui-color-palette.com/guides/generate-a-color-palette-documentation)
+* [Export a color palette to code](https://docs.ui-color-palette.com/guides/export-a-color-palette-to-code)
+* [Publish and synchronize a color palette](https://docs.ui-color-palette.com/guides/publish-and-synchronize-a-color-palette)
 
 ## User management
 
-* [Manage your license](https://docs.ui-color-palette.com/general/user-management/manage-your-license) — also covers the `/one` vs. `/team` distinction and Figma's in-app purchase option
-* [Plans](https://docs.ui-color-palette.com/general/user-management/plans)
+* [Manage your license](https://docs.ui-color-palette.com/user-management/manage-your-license) — also covers the `/one` vs. `/team` distinction and Figma's in-app purchase option
+* [Plans](https://docs.ui-color-palette.com/user-management/plans)
 
 ## Other surfaces
 
-* [Glossary](https://docs.ui-color-palette.com/general/glossary)
-* [General](https://docs.ui-color-palette.com/general) — the space itself
+* [Glossary](https://docs.ui-color-palette.com/glossary)
+* [General](https://docs.ui-color-palette.com) — the space itself

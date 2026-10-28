@@ -5,7 +5,7 @@ icon: unlock
 # Understanding free and Pro
 
 {% hint style="info" %}
-The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](https://docs.ui-color-palette.com/general/introduction/free-and-pro)**. The volume limits and synchronization targets below are Sketch's own.
+The `/basic` vs `/pro` split — what's free, what needs a subscription, and why — is documented once for every UI Color Palette platform: see **[Understanding free and Pro](https://docs.ui-color-palette.com/introduction/free-and-pro)**. The volume limits and synchronization targets below are Sketch's own.
 {% endhint %}
 
 ## Volume — capped on the free plan
@@ -27,7 +27,7 @@ Syncing with your Sketch library is free: [sync with the local variables and sty
 
 The rest of the synchronization is reserved for Pro. On Sketch, it covers:
 
-* [generate the palette documentation](https://docs.ui-color-palette.com/general/guides/generate-a-color-palette-documentation) as artboards in the document;
-* [export to code](https://docs.ui-color-palette.com/general/guides/export-a-color-palette-to-code) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…).
+* [generate the palette documentation](https://docs.ui-color-palette.com/guides/generate-a-color-palette-documentation) as artboards in the document;
+* [export to code](https://docs.ui-color-palette.com/guides/export-a-color-palette-to-code) in every format except CSS (native and DTCG tokens, Tailwind, SCSS, Less, Apple, Android, spreadsheets…).
 
 [Simulating the palette on a selection](../guides/simulate-a-color-palette-on-a-selection.md) is also reserved for Pro.

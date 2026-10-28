@@ -5,7 +5,7 @@ icon: key
 # Manage your license・/team
 
 {% hint style="info" %}
-For the general `/one` vs `/team` concept, see **[Manage your license](https://docs.ui-color-palette.com/general/user-management/manage-your-license)**. `/team` is currently Figma-only.
+For the general `/one` vs `/team` concept, see **[Manage your license](https://docs.ui-color-palette.com/user-management/manage-your-license)**. `/team` is currently Figma-only.
 {% endhint %}
 
 ## Two plugins on Figma
