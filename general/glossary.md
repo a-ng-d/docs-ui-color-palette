@@ -176,7 +176,7 @@ Tritanopia is a type of color blindness characterized by the inability to percei
 
 <summary>Achromatomaly</summary>
 
-Achromatomaly is a type of color vision deficiency characterized by a reduced sensitivity to light in the red and green parts of the spectrum. This condition makes it difficult to distinguish between certain colors, particularly red and green.
+Achromatomaly is a partial form of total color blindness: the perception of every color is reduced, not only red and green. Colors look washed out, close to grey, without disappearing entirely as in [achromatopsia](glossary.md#achromatopsia).
 
 </details>
 
