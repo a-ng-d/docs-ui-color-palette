@@ -29,7 +29,7 @@ The synchronization with the local styles is not deep by default, so the styles 
 {% endstep %}
 
 {% step %}
-## <i class="fa-lock">:lock:</i> Sync to the local variables
+## Sync to the local variables
 
 Once the palette is ready, click the `Sync with the local variables` button to add every color shade/tint into the document's local variable. These variables can be published as Team Library.
 

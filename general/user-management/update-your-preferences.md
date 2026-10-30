@@ -20,7 +20,7 @@ The preferences available depend on which local library mechanisms your platform
   If disabled, every variable that does not match a shade/tint is preserved.
 
   {% hint style="warning" %}
-  On Sketch specifically, the current behavior cannot replace previous variables with the new ones. So, the new variables will lose the link with the previously published ones. See [Update your preferences on Sketch](https://docs.ui-color-palette.com/sketch/user-management/update-your-preferences).
+  On Sketch specifically, variables are matched by their name, not by an identifier: after renaming a source color, the next sync creates new variables, which lose the link with the published ones. See [Update your preferences on Sketch](https://docs.ui-color-palette.com/sketch/user-management/update-your-preferences).
   {% endhint %}
 * The language of the UI:
   * English (US)

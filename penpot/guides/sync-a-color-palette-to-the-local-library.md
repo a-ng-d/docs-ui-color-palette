@@ -9,7 +9,7 @@ icon: arrows-rotate-reverse
 
 {% stepper %}
 {% step %}
-## <i class="fa-lock">:lock:</i> Sync to the local styles
+## Sync to the local styles
 
 The shades/tints are grouped by source colors, from the darkest to the lightest. If any `Color mode` have been created, the groups will be gathered and named with their related color mode. In addition, if the palette has a custom name, every group is gathered into one with the palette name.
 
