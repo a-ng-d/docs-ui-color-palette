@@ -6,8 +6,8 @@ icon: ballot-check
 
 You can configure your `Preferences` in the <i class="fa-user">:user:</i> `User menu`.
 
-{% hint style="danger" %}
-The synchronization behavior preferences (deep sync of styles, variables, and tokens) are only available on the <mark style="color:yellow;">`/pro`</mark> plan, like the synchronization itself.
+{% hint style="success" %}
+The synchronization behavior preferences (deep sync of styles, variables, and tokens) are free on every plan, like the synchronization itself.
 {% endhint %}
 
 The preferences available depend on which local library mechanisms your platform supports (see [Sync a color palette to the local library](../guides/sync-a-color-palette-to-the-local-library.md)):
@@ -22,6 +22,9 @@ The preferences available depend on which local library mechanisms your platform
   {% hint style="warning" %}
   On Sketch specifically, variables are matched by their name, not by an identifier: after renaming a source color, the next sync creates new variables, which lose the link with the published ones. See [Update your preferences on Sketch](https://docs.ui-color-palette.com/sketch/user-management/update-your-preferences).
   {% endhint %}
+* **The synchronization behavior between the palette and tokens** ([Penpot](https://docs.ui-color-palette.com/penpot/user-management/update-your-preferences) only — the only platform with native design tokens).\
+  If enabled, the tokens in the sets matching the shades/tints in the palette are updated, and every token of those sets that does not match a shade/tint is deleted, including tokens you added by hand.\
+  If disabled, every token that does not match a shade/tint is preserved.
 * The language of the UI:
   * English (US)
   * French (France)

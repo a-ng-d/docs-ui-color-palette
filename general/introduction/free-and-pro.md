@@ -18,7 +18,7 @@ There are no more credits and no per-action costs. On the free `/basic` plan, yo
 * use the LCH, OKLCH, and HSL color spaces, chroma velocity, the protanomaly vision simulation, and foreground colors;
 * adjust the lightness and the contrast ratio of the scale, and use the alpha mode;
 * start from the Material 3 and Tailwind presets;
-* sync the palette with your tokens, variables, and styles;
+* sync the palette with your tokens, variables, and styles, and choose whether a sync deletes the items no longer in the palette (deep sync);
 * copy the hexadecimal code of a shade or tint;
 * publish palettes to the community;
 * export to CSS.
