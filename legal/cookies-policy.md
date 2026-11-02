@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: October 20, 2026'
+description: 'Last updated: November 2, 2026'
 icon: cookie
 layout: editorial
 ---
@@ -21,6 +21,8 @@ A cookie is a small text file stored on your device (computer, tablet, smartphon
 ### 3.1. Essential Cookies
 
 These cookies are necessary for the operation of our website. They enable you to navigate the site and use its essential features. Without these cookies, certain services cannot be provided.
+
+This includes the session storage used by **Supabase** to keep you signed in when you authenticate (see §6.4). It is strictly necessary to provide the authentication you request and therefore does not require your consent.
 
 ### 3.2. Performance Cookies
 
@@ -57,23 +59,29 @@ To exercise these rights, please contact us at: [hello@ui-color-palette.com](mai
 
 ## 6. Third-Party Services
 
-### 6.1. Analytics & Performance
+### 6.1. Cookies Subject to Consent
+
+The following services are treated as cookies on our corporate website and are only activated once you have given your consent. You can accept, refuse or change your choice at any time through the consent manager on the website.
 
 - **Google Analytics**: Collects website usage data (IP, browser, OS)
-- **Mixpanel**: Analyzes application usage patterns
+- **Mixpanel**: Analyzes application usage patterns. Although not a cookie in the strict technical sense, it is handled as one and subject to your consent.
+- **Tawk.to**: Customer support chat. It may set cookies to remember your conversation and identify your session.
 
 ### 6.2. Error Monitoring
 
-- **Sentry**: Collects technical error data (stack traces, browser info) to improve stability. No persistent cookies are used.
+- **Sentry**: Collects technical error data (stack traces, browser info) to improve stability. It does not collect IP addresses, does not place persistent cookies, and does not rely on personal data, so it is not subject to consent. See our [Privacy Policy](privacy-policy.md).
 
 ### 6.3. Payment Processing
 
-- **Lemon Squeezy**: Handles payments without placing cookies on our domain
+- **Polar**: Handles payments and subscriptions without placing cookies on our domain
 
-### 6.4. Consent Management
+### 6.4. Authentication
 
-- **Axeptio**: Manages cookie consent preferences
-- **In-House Solution**: Handles consent for our production application
+- **Supabase**: Handles account authentication and keeps your session active. This storage is strictly necessary and does not require consent.
+
+### 6.5. Consent Management
+
+- **In-House Solution**: Handles your consent choices for Google Analytics, Mixpanel and Tawk.to on our corporate website, and for our production application. We no longer use a third-party consent management platform.
 
 ## 7. Changes to the Cookie Policy
 

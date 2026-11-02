@@ -1,5 +1,5 @@
 ---
-description: 'Last updated: October 20, 2026'
+description: 'Last updated: November 2, 2026'
 icon: file-lock
 layout: editorial
 ---
@@ -44,6 +44,14 @@ On the Web App, a palette you have not published or shared is stored locally on 
 
 If you publish a palette to the community, or generate a shareable link for it, your display name and avatar (as provided by your account) become visible to anyone who views that palette, opens that link, or browses the community. A shareable link carries the palette's data directly within it; once generated and shared, that link does not expire and cannot be revoked or recalled by us — anyone who has received it can continue to open it. Keep this in mind before sharing a link or publishing a palette that includes information you'd rather not make available indefinitely.
 
+### 2.7. Technical Monitoring and Error Reporting
+
+We use **Sentry** for technical monitoring and error reporting, in order to detect and fix bugs and keep the service stable. The data collected is technical (such as stack traces, browser and device information). Sentry is configured so that it does not collect IP addresses and does not rely on personal data. For this reason, it is not subject to consent.
+
+### 2.8. Customer Support
+
+Our website provides a support chat powered by **Tawk.to**. It is handled as a cookie and only activated with your consent. Messages you send through it, and any contact details you provide, are used to answer your request. See our [Cookie Policy](cookies-policy.md).
+
 ## 3. Use of Information
 
 We use the collected information to:
@@ -52,6 +60,7 @@ We use the collected information to:
 - Communicate with you regarding our services, updates, and promotions.
 - Analyze the usage of our service to enhance the user experience.
 - Ensure the security of our service and protect against fraudulent activities.
+- Monitor technical performance and fix errors.
 - Store and synchronize your palette data.
 - Manage your subscription and verify your access rights.
 
@@ -59,7 +68,7 @@ We use the collected information to:
 
 We do not sell, trade, or rent your personal information to third parties without your explicit consent, except in the following cases:
 
-- With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), **Google Analytics** (web analytics), and **Anthropic** (Claude plugin distribution and AI-powered features).
+- With third-party service providers who assist us in providing our services, such as **Supabase** (account creation and palette data storage), **Polar** (subscription management and payment processing), **Mixpanel** (usage analytics), **Google Analytics** (web analytics), **Sentry** (technical monitoring and error reporting), **Tawk.to** (customer support), and **Anthropic** (Claude plugin distribution and AI-powered features).
 - To comply with legal obligations or respond to legitimate requests from public authorities.
 - To protect our rights, property, or safety, as well as that of our users or the public.
 
