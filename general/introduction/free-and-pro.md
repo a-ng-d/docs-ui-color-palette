@@ -16,6 +16,7 @@ There are no more credits and no per-action costs. On the free `/basic` plan, yo
 * preview the color modes — light, dark, and color-blindness variants — with a call to action to create one;
 * preview the full palette (six steps, five source colors) from the AI, Image Palette, color wheel, and exploration tools before creating it;
 * use the LCH, OKLCH, and HSL color spaces, chroma velocity, the protanomaly vision simulation, and foreground colors;
+* see the WCAG 2.1 and APCA score of every shade;
 * adjust the lightness and the contrast ratio of the scale, and use the alpha mode;
 * start from the Material 3 and Tailwind presets;
 * sync the palette with your tokens, variables, and styles, and choose whether a sync deletes the items no longer in the palette (deep sync);

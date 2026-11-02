@@ -87,11 +87,11 @@ A preset contains a list of stops named from an established nomenclature. These 
   * `Untitled UI`, 12 stops, from 25 to 950・<mark style="color:yellow;">`/pro`</mark>
   * `Open Color`, 10 stops, from 0 to 9・<mark style="color:yellow;">`/pro`</mark>
 * Atlassian・<mark style="color:yellow;">`/pro`</mark>:
-  * `ADS Foundations`, 7 stops, from 50 to 500
-  * `ADS Foundations Neutral`, 19 stops, from 0 to 900
+  * `ADS Foundations`, 10 stops, from 100 to 1000
+  * `ADS Foundations Neutral`, 12 stops, from 0 to 1100
 * Adobe・<mark style="color:yellow;">`/pro`</mark>:
   * `Spectrum`, 13 stops, from 100 to 1300
-  * `Spectrum Neutral`, 11 stops, from 25 to 900
+  * `Spectrum Neutral`, 11 stops, from 50 to 900
 * More・<mark style="color:yellow;">`/pro`</mark>:
   * `Carbon`, 10 stops, from 10 to 100 (IBM)
   * `Base`, 8 stops, from 50 to 700 (Uber)
