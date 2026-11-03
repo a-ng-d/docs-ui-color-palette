@@ -32,7 +32,7 @@ Free palettes are limited by volume. Upgrade to `/pro` to lift every cap.
 | ------------------ | -------- | --------- |
 | Palettes per page or document (see below) | 1        | Unlimited |
 | Source colors      | 5        | Unlimited |
-| Steps               | 6        | Unlimited |
+| Stops in a `Custom` set | 6     | 24        |
 | Color modes         | 2        | Unlimited |
 
 {% hint style="info" %}
