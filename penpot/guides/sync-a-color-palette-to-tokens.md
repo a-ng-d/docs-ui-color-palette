@@ -15,9 +15,9 @@ Synchronizing with styles and tokens is free on every plan.
 {% step %}
 ## Sync to tokens
 
-Once the palette is ready, click the `Synchronize` button, then select `Synchronize with tokens`. This creates or updates design tokens directly in Penpot using the plugin API — no manual export or import required.
+Once the palette is ready, click the `Synchronize palette` button, then select `Sync with local tokens`. This creates or updates design tokens directly in Penpot using the plugin API — no manual export or import required.
 
-Tokens are organized by source color and, if color modes have been defined, by theme. They are fully decoupled from the palette: updating the palette does not automatically update the tokens; you need to click `Synchronize with tokens` again to propagate changes.
+Tokens are organized by source color and, if color modes have been defined, by theme. They are fully decoupled from the palette: updating the palette does not automatically update the tokens; you need to click `Sync with local tokens` again to propagate changes.
 
 {% hint style="info" %}
 Unlike local styles synchronization, token synchronization uses Penpot's native token API and can be used across any project.
@@ -27,9 +27,13 @@ Unlike local styles synchronization, token synchronization uses Penpot's native 
 {% step %}
 ## Sync with themes
 
-If your palette includes `Color modes`, each mode is reflected as a separate theme in the token set. Click `Synchronize with tokens` to generate or update the token sets for each theme.
+If your palette includes `Color modes`, each mode is reflected as a separate theme in the token set. Click `Sync with local tokens` to generate or update the token sets for each theme.
 
 Tokens without themes are placed in a single default set. Tokens with themes are placed in separate sets, one per color mode.
+
+{% hint style="info" %}
+The synchronization creates a theme for each mode but does not link it to its token set. In Penpot, open `Edit themes` and turn on the matching set for each theme.
+{% endhint %}
 {% endstep %}
 
 {% step %}

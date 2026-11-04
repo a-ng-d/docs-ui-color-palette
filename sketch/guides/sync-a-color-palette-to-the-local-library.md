@@ -19,7 +19,7 @@ The shades/tints are grouped by source colors, from the darkest to the lightest.
 
 Once the palette is ready, click the `Sync with the local styles` button to add every color shade/tint to the document's local styles. These styles can be published in the Team Library.
 
-If you update the palette after adding its shades/tints to the local styles, you can click the `Sync with the local styles` button to update the styles that have been edited. The synchronization is not on both sides because you cannot update your palette from the local styles.
+If you update the palette after adding its shades/tints to the local styles, you can click the `Sync with local styles` button to update the styles that have been edited. The synchronization is not on both sides because you cannot update your palette from the local styles.
 
 {% hint style="info" %}
 The synchronization with the local styles is not deep by default, so the styles that do not match the shade/tint of your palette will remain. Read more about the [`Preferences`](../user-management/update-your-preferences.md).
@@ -33,7 +33,7 @@ The shades/tints are grouped by source colors, from the darkest to the lightest.
 
 Once the palette is ready, click the `Sync with the local variables` button to add every color shade/tint to the document's local variables. These variables can be published as Team Library.
 
-If you update the palette after adding its shades/tints to the local variables, you can click the `Sync with the local variables` button to update the variables that have been edited. The synchronization is not on both sides because you cannot update your palette from the local variables.
+If you update the palette after adding its shades/tints to the local variables, you can click the `Sync with local variables` button to update the variables that have been edited. The synchronization is not on both sides because you cannot update your palette from the local variables.
 
 {% hint style="warning" %}
 Sketch matches variables by their name, not by an identifier. If you rename a source color, the next sync cannot find the variables created under the old name: it creates new ones, which lose the link with the published ones.

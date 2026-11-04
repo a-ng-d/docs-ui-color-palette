@@ -144,6 +144,8 @@ Every color space is available on every platform: Figma, Penpot, Sketch, and Fra
 
 ### Select a vision simulation
 
+The vision simulation is always tied to a color mode. Pick it in the palette settings, where it applies to the active color mode, or in the parameters of a color mode.
+
 You can simulate a specific vision disability to gain insight into how people living with those troubles perceive the world. The contrast between the `Light foreground color`/`Dark foreground color` and the color shades/tints are also simulated. In that way, the contrast might be managed for every perception of colors. Here are the vision simulations:
 
 * [`Protanomaly`](../glossary.md#protanomaly)

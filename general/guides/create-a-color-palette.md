@@ -27,7 +27,7 @@ Once the palette is open, you can:
 
 ## Create from the Colors combinator
 
-The `Colors combinator` gathers four tools to find a color combination. Each one previews the full palette it will produce; click `Use this palette` to create it and open it directly — the palette is created and opened in one action.
+The `Colors combinator` gathers four tools to find a color combination. Each one previews the full palette it will produce; click `New UI Color Palette` to create it and open it directly — the palette is created and opened in one action.
 
 {% stepper %}
 {% step %}

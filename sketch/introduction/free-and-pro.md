@@ -14,7 +14,7 @@ The `/basic` vs `/pro` split — what's free, what needs a subscription, and why
 | -------------------------- | -------- | --------- |
 | Palettes per document      | 1        | Unlimited |
 | Source colors              | 5        | Unlimited |
-| Steps                      | 6        | Unlimited |
+| Stops in a `Custom` set    | 6        | 24        |
 | Color modes                | 2        | Unlimited |
 
 {% hint style="info" %}

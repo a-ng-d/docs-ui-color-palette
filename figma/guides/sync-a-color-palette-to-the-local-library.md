@@ -21,7 +21,7 @@ Once the palette is ready, click the `Sync with the local styles` button to ad
 
 The description of the `Source colors` is reworked and added to the description of the local styles.
 
-If you update the palette after adding its shades/tints to the local styles, you can click the `Sync with the local styles` button to update the styles that have been edited. The synchronization is not on both sides because you cannot update your palette from the local styles.
+If you update the palette after adding its shades/tints to the local styles, you can click the `Sync with local styles` button to update the styles that have been edited. The synchronization is not on both sides because you cannot update your palette from the local styles.
 
 {% hint style="info" %}
 The synchronization with the local styles is not deep by default, so the styles that do not match the shade/tint of your palette will remain. Read more about the [`Preferences`](../user-management/update-your-preferences.md).
